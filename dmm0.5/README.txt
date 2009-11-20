@@ -1,0 +1,1 @@
+Dita Maturity Model 0.5 ignores converting xkbml metadata into dita metadata while converting xkbml documents generic dita topics. No cross-referencing or reuse mechanisms such as conrefs are used either

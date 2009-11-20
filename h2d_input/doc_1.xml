@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE document [
+<!ENTITY nbsp "&#160;">
+<!ENTITY copy "&#169;">
+<!ENTITY reg "&#174;">
+]>
+
+<document>
+  <kbml version="-//Indiana University//DTD KBML 0.9//EN">
+    <kbq>Oncourse CL training and support</kbq>
+    <body>
+<a name="top"/>
+
+<kba docid="aitz" access="allowed">
+<title>Knowledge Base search help</title>
+<domain>oncoursecl</domain>
+<visibility>visible</visibility>
+</kba>
+
+
+</body>
+    <xtra>
+      <term weight="2">oncoursecl</term>
+      <term weight="50">learning</term>
+      <term weight="50">oncourse</term>
+      <term weight="50">manual</term>
+
+      <term weight="50">learn</term>
+      <term weight="50">train</term>
+      <term weight="50">training</term>
+      <term weight="0">cl</term>
+      <term weight="0">help</term>
+      <term weight="0">pedagogy</term>
+
+      <term weight="0">faculty</term>
+      <term weight="0">teacher</term>
+      <term weight="0">staff</term>
+      <term weight="0">member</term>
+    </xtra>
+  </kbml>
+  <metadata>
+
+    <docid>atjv</docid>
+    <owner firstname="" lastname="OncourseCL">oncourse-cl</owner>
+    <author firstname="Paul" lastname="Brown">padbrown</author>
+    <birthdate day="24" month="01" year="2006"/>
+    <lastmodified day="24" month="01" year="2008"/>
+    <approved day="04" month="01" year="2008"/>
+    <size>4711</size>
+
+    <importance>standard</importance>
+    <visibility>visible</visibility>
+    <volatility>stable</volatility>
+    <status>approved</status>
+    <domain>all</domain>
+    <domain>oncoursecl</domain>
+
+  </metadata>
+</document>

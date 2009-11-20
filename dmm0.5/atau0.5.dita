@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+
+<topic id="atau0.5">
+  <title>Managing your IU Guest account</title>
+  <body/>
+  <topic id="atau0.5-subtopic1">
+    <title>Getting your IU Guest account</title>
+    <body>
+      <p>If you have no formal relationship with Indiana University, you can use the <xref
+          href="alfm0.5.dita">Account Management Service</xref> (AMS) to create a <xref
+          href="alqt0.5.dita">Guest account</xref>, which will give you limited access to certain
+        online applications and services of the university. The amount of access is determined by
+        the particular application. For more, see <xref href="alqt0.5.dita">At IU, what is a Guest
+          account?</xref></p>
+      <p>To create your IU Guest account:</p>
+      <ol>
+        <li>Go to the Account Management Service at: <xref href="https://itaccounts.iu.edu/"/></li>
+        <li>Select <uicontrol>IU Guest Accounts</uicontrol>. </li>
+        <li>Click <uicontrol>create IU Guest account</uicontrol>. </li>
+        <li>Enter your email address in the appropriate field. <note>Note: For all Guest accounts,
+            the full email address provided (e.g., <codeph>foo@hotmail.com</codeph>) is the
+            account's username. You must enter the <b>full</b> address when asked for a username to
+            successfully <xref href="alqk0.5.dita">authenticate</xref> to the online applications
+            and services of the university. </note>
+        </li>
+        <li>Enter your name in the appropriate fields; enter and verify your IU Guest account
+          password. Click <uicontrol>Create Account</uicontrol>. </li>
+        <li>The AMS will send an activation message to the email address you provided. To open the
+          page that will activate your account, click the link in the message. </li>
+        <li>On the <wintitle>Activate your IU Guest Account</wintitle> page, enter your username
+          (i.e., the entire email address you provided) and password. </li>
+        <li>Click <uicontrol>Activate Account</uicontrol>. </li>
+      </ol>
+    </body>
+  </topic>
+  <topic id="atau0.5-subtopic2">
+    <title>Managing your IU Guest account password</title>
+    <body>
+      <p>You can manage the password for your IU Guest account with the Account Management Service.
+        From that service, you can change your password; additionally, if you forget your password,
+        you can use the AMS to reset it.</p>
+      <p>To change or synchronize your IU Guest account password:</p>
+
+      <ol>
+        <li>Go to the Account Management Service at: <xref href="https://itaccounts.iu.edu/"/>
+        </li>
+        <li>Click <uicontrol>IU Guest Accounts</uicontrol>. </li>
+        <li>Click <uicontrol>change your Guest password</uicontrol>. </li>
+        <li>Enter the email address associated with your Guest account and your current password in
+          the appropriate fields; enter and re-enter the new password in the last two fields. If you
+          want to synchronize your password, enter your old password in the fields for the new
+          password. </li>
+        <li>Click <uicontrol>Change Password</uicontrol>. </li>
+      </ol>
+      <p>To reset your IU Guest account password:</p>
+
+      <ol>
+        <li>Go to the Account Management Service at: <xref href="https://itaccounts.iu.edu/"/>
+        </li>
+        <li>Click <uicontrol>IU Guest Accounts</uicontrol>. </li>
+        <li>Click <uicontrol>forgot your Guest password</uicontrol>. </li>
+        <li>Enter the email address associated with your Guest account. Click
+            <uicontrol>Continue</uicontrol>. </li>
+        <li>The AMS will send a message to the email address you provided. In the message, click the
+          link to reset your password. </li>
+        <li>On the <wintitle>Create IU Guest Password</wintitle> page, enter your username (i.e.,
+          the entire email address you provided). Enter and re-enter the new password in the last
+          two fields. </li>
+        <li>Click <uicontrol>Change Password</uicontrol>. </li>
+      </ol>
+
+      <p> For help, contact your campus <xref href="abxl0.5.dita">Support Center</xref>
+      </p>
+    </body>
+  </topic>
+</topic>

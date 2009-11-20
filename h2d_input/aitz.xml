@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE document [
+<!ENTITY nbsp "&#160;">
+<!ENTITY copy "&#169;">
+<!ENTITY reg "&#174;">
+]>
+
+<document>
+  <kbml version="-//Indiana University//DTD KBML 0.9//EN">
+    <kbq>How do I contact the teaching and learning centers at each IU
+campus?</kbq>
+    <body>
+<boiler src="servdir-teachlearnsupport"><kbfrag version="-//Indiana University//DTD KBFRAG//EN">Pedagogical and technology assistance is available for faculty
+on every Indiana University campus through partnerships across the
+university between the Learning Technology division of UITS and relevant
+campus units.</kbfrag></boiler>
+
+<p>Following is a list of the teaching and learning centers on the IU
+campuses:</p>
+
+<table border="0" cellpadding="5"><col width="17%"/><col width="30%"/><col width="21%"/><col width="30%"/><tr valign="top"><l><a href="http://www.indiana.edu/~tltc/index.html">IU
+Bloomington Teaching &amp; Learning Technologies Centers</a></l><l>812-855-7829 </l><l><code>tltc@indiana.edu</code>
+</l></tr><tr valign="top"><l><a href="http://www.iub.edu/~teaching/">IUB Campus
+Instructional Consulting</a> </l><l>812-855-9023</l><l><code>teaching@indiana.edu</code>
+</l></tr><tr valign="top"><l><a href="http://ctl.iupui.edu/">IUPUI Center for Teaching and
+Learning</a> </l><l>317-274-1300 </l><l><code>thectl@iupui.edu</code>
+</l></tr><tr valign="top"><l><a href="http://www.columbusctl.com/">IUPU Center for Teaching
+and Learning</a> </l><l>812-314-8715 </l><l><code>dsorrells@columbusctl.com</code>
+</l></tr><tr valign="top"><l><a href="http://www.iue.edu/ctl/">IU East Center
+for Teaching &amp; Learning</a> </l><l>765-973-8561</l><l><code>iuectl@iue.edu</code>
+</l></tr><tr valign="top"><l><a href="http://ipfw.edu/celt/">IPFW Center for the Enhancement of
+Learning and Teaching</a> </l><l>260-481-6354</l><l><code>rathbun@ipfw.edu</code>
+</l></tr><tr valign="top"><l><a href="http://www.iuk.edu/ctla/">IU Kokomo Center for
+Teaching, Learning, and Assessment</a> </l><l>765-455-9534</l><l><code>ctla@iuk.edu</code> 
+</l></tr><tr valign="top"><l><a href=" http://www.iun.edu/~cetl/">IU Northwest Center for
+Excellence in Teaching and Learning</a> </l><l>219-980-6755</l><l><code>cetl@iun.edu</code>
+</l></tr><tr valign="top"><l><a href="http://www.iusb.edu/~ucet/">IU South Bend University
+Center for Excellence in Teaching</a> </l><l>574-520-4894</l><l><code>ucet@iusb.edu</code>
+</l></tr><tr valign="top"><l><a href="http://ilte.ius.edu/">IU Southeast Institute for
+Learning and Teaching Excellence</a> </l><l>812-941-2506</l><l><code>web-ilte@ius.edu</code>
+</l></tr></table>
+</body>
+    <xtra>
+      <term weight="1">gary</term>
+      <term weight="1">presentation</term>
+      <term weight="1">iupui</term>
+      <term weight="1">new</term>
+      <term weight="1">richmond</term>
+      <term weight="1">iub</term>
+      <term weight="1">iue</term>
+      <term weight="1">iuk</term>
+      <term weight="1">ius</term>
+      <term weight="1">iunw</term>
+      <term weight="1">albany</term>
+      <term weight="1">multimedia</term>
+      <term weight="1">classes</term>
+      <term weight="1">iusb</term>
+      <term weight="1">iuse</term>
+      <term weight="1">cdrom</term>
+      <term weight="1">learn</term>
+      <term weight="1">iufw</term>
+      <term weight="1">technologies</term>
+    </xtra>
+  </kbml>
+  <metadata>
+    <docid>aitz</docid>
+    <owner firstname="" lastname="Knowledge Management Team">sckb</owner>
+    <author firstname="Eve" lastname="Hermann">evmbrown</author>
+    <birthdate day="01" month="08" year="2000"/>
+    <lastmodified day="28" month="10" year="2009"/>
+    <approved day="24" month="09" year="2009"/>
+    <size>2283</size>
+    <importance>standard</importance>
+    <visibility>visible</visibility>
+    <volatility>stable</volatility>
+    <status>approved</status>
+    <domain>all</domain>
+    <domain>oncoursecl</domain>
+    <reference docid="adzx" access="allowed">
+      <title>At IUB, where can faculty and instructors find help developing web-based instructional resources?</title>
+      <domain>all</domain>
+      <visibility>visible</visibility>
+    </reference>
+    <reference docid="aimh" access="allowed">
+      <title>At IUPUI, what is the Center for Teaching and Learning (CTL)?</title>
+      <domain>all</domain>
+      <visibility>visible</visibility>
+    </reference>
+    <reference docid="ajwm" access="allowed">
+      <title>At IUB, where can I find information about funding for teaching and learning projects?</title>
+      <domain>all</domain>
+      <visibility>visible</visibility>
+    </reference>
+    <reference docid="ajwn" access="allowed">
+      <title>At IU, where can I find information about good practices in teaching and learning?</title>
+      <domain>all</domain>
+      <domain>oncoursecl</domain>
+      <visibility>visible</visibility>
+    </reference>
+    <reference docid="cabg" access="allowed">
+      <title>At IU, what instructional technology resources are available for faculty and instructors?</title>
+      <domain>all</domain>
+      <visibility>visible</visibility>
+    </reference>
+    <refby docid="adzx" access="allowed">
+      <title>At IUB, where can faculty and instructors find help developing web-based instructional resources?</title>
+      <domain>all</domain>
+      <visibility>visible</visibility>
+    </refby>
+    <refby docid="agkx" access="allowed">
+      <title>How can I get help or report problems with original Oncourse?</title>
+      <domain>all</domain>
+      <visibility>visible</visibility>
+    </refby>
+    <refby docid="ajdc" access="allowed">
+      <title>At IU, how can I send email to all the students in a class I'm teaching?</title>
+      <domain>all</domain>
+      <domain>oncourse-h</domain>
+      <visibility>archived</visibility>
+    </refby>
+    <refby docid="akfh" access="allowed">
+      <title>At IUPUI, what is the Consortium for Learning and Scholarship?</title>
+      <domain>all</domain>
+      <visibility>visible</visibility>
+    </refby>
+    <refby docid="ancf" access="allowed">
+      <title>At IU, what is the TAG Program?</title>
+      <domain>all</domain>
+      <visibility>archived</visibility>
+    </refby>
+    <refby docid="asap" access="allowed">
+      <title>Where can I get help integrating the Principles of Undergraduate Learning into my course?</title>
+      <domain>all</domain>
+      <domain>oncoursecl</domain>
+      <visibility>visible</visibility>
+    </refby>
+    <refby docid="atqv" access="allowed">
+      <title>What is the Oncourse CL Readiness Survey, and where can I find it?</title>
+      <domain>all</domain>
+      <domain>oncoursecl</domain>
+      <visibility>archived</visibility>
+    </refby>
+    <refby docid="caeh" access="allowed">
+      <title>At IUB, where can I print a poster or overhead transparency?</title>
+      <domain>all</domain>
+      <visibility>visible</visibility>
+    </refby>
+  </metadata>
+</document>
