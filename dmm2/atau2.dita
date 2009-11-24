@@ -1,106 +1,30 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE task [
-<!ENTITY nbsp "&#160;">
-<!ENTITY copy "&#169;">
-<!ENTITY reg "&#174;">
-]>
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 
-<task id="atau">
-    <title>Getting your IU Guest account</title>
-        <taskbody>
-            <context>            
-            <p>If you have no formal relationship with Indiana University, you can
-                use the <xref href="alfm.dita#alfm">Account Management Service</xref> (AMS) to create a                
-                <xref href="alqt.dita#alqt">Guest account</xref>, which will give you limited access to
-                certain online applications and services of the university. The amount
-                of access is determined by the particular application. 
-                
-                For more, see
-                <xref href="alqt.dita#alqt">At IU, what is a Guest account?</xref></p>
-            </context>
-            <steps>
-                <stepsection>
-                    <p>To create your IU Guest account:</p>
-                </stepsection>
-                <step>
-                    
-                </step>
-            </steps>
-            
-            
-            <boiler src="ims-guest-initial-directions"><kbfrag version="-//Indiana University//DTD KBFRAG//EN">
-                <ol><li>Go to the Account Management Service at: 
-                    
-                    <example>  <a href="https://itaccounts.iu.edu/">https://itaccounts.iu.edu/</a> </example>
-                    
-                </li><li>Select <mi>IU Guest Accounts</mi>.
-                    
-                    <br clear="none"/><br clear="none"/>
-                    
-                </li><li>Click <mi>create IU Guest account</mi>.
-                    
-                    <br clear="none"/><br clear="none"/>
-                    
-                </li><li>Enter your email address in the appropriate field.
-                    
-                    <boiler src="guest"><kbfrag version="-//Indiana University//DTD KBFRAG//EN"><p> <strong>Note:</strong> For all Guest accounts, the full
-                        email address provided (e.g.,
-                        
-                        <code>&nbsp;foo@hotmail.com&nbsp;</code>) is the account's username.
-                        You must enter the <strong>full</strong> address when asked for a
-                        username to successfully <kbh docid="alqk" access="allowed">authenticate<domain>all</domain><visibility>visible</visibility></kbh> to the online
-                        applications and services of the university.</p>
-                    </kbfrag></boiler>
-                    
-                </li><li>Enter your name in the appropriate fields; enter and verify your
-                    IU Guest account password.  Click <mi>Create Account</mi>.
-                    
-                    <br clear="none"/><br clear="none"/>
-                    
-                </li><li>The AMS will send an activation message to the email address you
-                    provided. To open the page that will activate your account, click
-                    the link in the message.
-                    
-                    <br clear="none"/><br clear="none"/>
-                    
-                </li><li>On the &quot;Activate your IU Guest Account&quot; page, enter your
-                    username (i.e., the entire email address you provided) and password.
-                    
-                    <br clear="none"/><br clear="none"/>
-                    
-                </li><li>Click <mi>Activate Account</mi>.
-                </li></ol>
-                
-            </kbfrag></boiler>
-            
-        </taskbody>
-        <xtra>
-            
-            <term weight="0">ims</term>
-            <term weight="0">ams</term>
-            <term weight="0">amsboiler</term>
-        </xtra>
-    </kbml>
+<topic id="atau-dmm2">
+  <title>Managing your IU Guest account</title>
+  <prolog>
+    <author>madalton</author>
+    <critdates>
+      <created date="2005-11-30"/>
+      <revised modified="2009-05-12"/>
+    </critdates>
     <metadata>
-        <docid>atau</docid>
-        
-        <owner firstname="" lastname="Identity Management Systems">ims</owner>
-        <author firstname="Michael" lastname="Dalton">madalton</author>
-        <birthdate day="30" month="11" year="2005"/>
-        <lastmodified day="12" month="05" year="2009"/>
-        <approved day="05" month="05" year="2009"/>
-        <size>1069</size>
-        <importance>standard</importance>
-        
-        <visibility>visible</visibility>
-        <volatility>stable</volatility>
-        <status>approved</status>
-        <domain>all</domain>
-        <refby docid="axvp" access="allowed">
-            <title>Why do I need to reset my IU Guest account password?</title>
-            
-            <domain>all</domain>
-            <visibility>visible</visibility>
-        </refby>
+      <keywords>
+        <indexterm>ims</indexterm>
+        <indexterm>ams</indexterm>
+        <indexterm>amsboiler</indexterm>
+      </keywords>
     </metadata>
-</task>
+    <data name="approveddate" value="2009-05-05"/>
+    <data name="owner" value="ims"/>
+    <data name="importance" value="standard"/>
+    <data name="visibility" value="visible"/>
+    <data name="volatility" value="stable"/>
+    <data name="status" value="approved"/>
+    <data name="domain" value="all"/>
+  </prolog>
+  <body></body>
+  <topic id="pull-ims-guest-initial-directions" conref="boilers2.dita#ims-guest-initial-directions"><title/></topic>
+  <topic id="pull-ims-guest-change" conref="boilers2.dita#ims-guest-change"><title/></topic>
+</topic>
