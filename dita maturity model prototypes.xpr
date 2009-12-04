@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="11.0">
+    <meta>
+        <filters directoryPatterns="" filePatterns=""
+            positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="dita%20maturity%20model%20prototypes.xpr">
+        <folder path="dmm0.5/"/>
+        <folder path="dmm1/"/>
+        <folder path="dmm2/"/>
+        <folder path="dmm3/"/>
+        <folder path="h2d_input/"/>
+        <folder path="output_h2d/"/>
+        <file name="atau.xkbml"/>
+        <file name="kb2dita.xsl"/>
+    </projectTree>
+</project>
