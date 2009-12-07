@@ -8,10 +8,10 @@
     <title>Getting your IU Guest account</title>
     <body>
       <p>If you have no formal relationship with Indiana University, you can use the <xref
-          href="alfm0.5.dita">Account Management Service</xref> (AMS) to create a <xref
-          href="alqt0.5.dita">Guest account</xref>, which will give you limited access to certain
+          href="alfm.dita">Account Management Service</xref> (AMS) to create a <xref
+          href="alqt.dita">Guest account</xref>, which will give you limited access to certain
         online applications and services of the university. The amount of access is determined by
-        the particular application. For more, see <xref href="alqt0.5.dita">At IU, what is a Guest
+        the particular application. For more, see <xref href="alqt.dita">At IU, what is a Guest
           account?</xref></p>
       <p>To create your IU Guest account:</p>
       <ol>
@@ -21,7 +21,7 @@
         <li>Enter your email address in the appropriate field. <note>Note: For all Guest accounts,
             the full email address provided (e.g., <codeph>foo@hotmail.com</codeph>) is the
             account's username. You must enter the <b>full</b> address when asked for a username to
-            successfully <xref href="alqk0.5.dita">authenticate</xref> to the online applications
+            successfully <xref href="alqk.dita">authenticate</xref> to the online applications
             and services of the university. </note>
         </li>
         <li>Enter your name in the appropriate fields; enter and verify your IU Guest account
@@ -70,7 +70,7 @@
         <li>Click <uicontrol>Change Password</uicontrol>. </li>
       </ol>
 
-      <p> For help, contact your campus <xref href="abxl0.5.dita">Support Center</xref>
+      <p> For help, contact your campus <xref href="abxl.dita">Support Center</xref>
       </p>
     </body>
   </topic>
