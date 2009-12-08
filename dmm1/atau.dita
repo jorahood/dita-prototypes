@@ -26,14 +26,14 @@
       <link href="axvp.dita"/>
     </linkpool>
   </related-links>
-  <topic id="atau1.0-subtopic1">
+  <topic id="atau-dmm1-subtopic1">
     <title>Getting your IU Guest account</title>
     <body>
       <p>If you have no formal relationship with Indiana University, you can use the <xref
-          href="alfm1.0.dita">Account Management Service</xref> (AMS) to create a <xref
-          href="alqt1.0.dita">Guest account</xref>, which will give you limited access to certain
+          href="alfm.dita">Account Management Service</xref> (AMS) to create a <xref
+          href="alqt.dita">Guest account</xref>, which will give you limited access to certain
         online applications and services of the university. The amount of access is determined by
-        the particular application. For more, see <xref href="alqt1.0.dita">At IU, what is a Guest
+        the particular application. For more, see <xref href="alqt.dita">At IU, what is a Guest
           account?</xref></p>
       <p>To create your IU Guest account:</p>
       <ol>
@@ -43,7 +43,7 @@
         <li>Enter your email address in the appropriate field. <note>Note: For all Guest accounts,
             the full email address provided (e.g., <codeph>foo@hotmail.com</codeph>) is the
             account's username. You must enter the <b>full</b> address when asked for a username to
-            successfully <xref href="alqk1.0.dita">authenticate</xref> to the online applications
+            successfully <xref href="alqk.dita">authenticate</xref> to the online applications
             and services of the university. </note></li>
         <li>Enter your name in the appropriate fields; enter and verify your IU Guest account
           password. Click <uicontrol>Create Account</uicontrol>. </li>
@@ -55,7 +55,7 @@
       </ol>
     </body>
   </topic>
-  <topic id="atau1.0-subtopic2">
+  <topic id="atau-dmm1-subtopic2">
     <title>Managing your IU Guest account password</title>
     <body>
       <p>You can manage the password for your IU Guest account with the Account Management Service.
@@ -88,7 +88,7 @@
           two fields. </li>
         <li>Click <uicontrol>Change Password</uicontrol>. </li>
       </ol>
-      <p> For help, contact your campus <xref href="abxl1.0.dita">Support Center</xref>
+      <p> For help, contact your campus <xref href="abxl.dita">Support Center</xref>
       </p>
     </body>
   </topic>
