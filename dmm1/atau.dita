@@ -1,19 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
-
 <topic id="atau-dmm1">
   <title>Managing your IU Guest account</title>
-  <prolog>
-    <author>madalton</author>
-    <critdates>
+  <prolog><author>madalton</author><critdates>
       <created date="2005-11-30"/>
       <revised modified="2009-05-12"/>
-    </critdates>
-    <metadata>
+    </critdates><metadata>
       <keywords>
-        <indexterm>ims</indexterm>
-        <indexterm>ams</indexterm>
-        <indexterm>amsboiler</indexterm>
+        <keyword>ims</keyword>
+        <keyword>ams</keyword>
+        <keyword>amsboiler</keyword>
       </keywords>
     </metadata>
     <data name="approveddate" value="2009-05-05"/>
@@ -27,9 +23,7 @@
   <body/>
   <related-links>
     <linkpool props="refby">
-      <link href="axvp1.0.dita">
-        <linktext>Why do I need to reset my IU Guest account password?</linktext>
-      </link>
+      <link href="axvp.dita"/>
     </linkpool>
   </related-links>
   <topic id="atau1.0-subtopic1">
@@ -50,8 +44,7 @@
             the full email address provided (e.g., <codeph>foo@hotmail.com</codeph>) is the
             account's username. You must enter the <b>full</b> address when asked for a username to
             successfully <xref href="alqk1.0.dita">authenticate</xref> to the online applications
-            and services of the university. </note>
-        </li>
+            and services of the university. </note></li>
         <li>Enter your name in the appropriate fields; enter and verify your IU Guest account
           password. Click <uicontrol>Create Account</uicontrol>. </li>
         <li>The AMS will send an activation message to the email address you provided. To open the
@@ -69,7 +62,6 @@
         From that service, you can change your password; additionally, if you forget your password,
         you can use the AMS to reset it.</p>
       <p>To change or synchronize your IU Guest account password:</p>
-
       <ol>
         <li>Go to the Account Management Service at: <xref href="https://itaccounts.iu.edu/"/>
         </li>
@@ -82,14 +74,13 @@
         <li>Click <uicontrol>Change Password</uicontrol>. </li>
       </ol>
       <p>To reset your IU Guest account password:</p>
-
       <ol>
         <li>Go to the Account Management Service at: <xref href="https://itaccounts.iu.edu/"/>
         </li>
         <li>Click <uicontrol>IU Guest Accounts</uicontrol>. </li>
         <li>Click <uicontrol>forgot your Guest password</uicontrol>. </li>
-        <li>Enter the email address associated with your Guest account. Click
-            <uicontrol>Continue</uicontrol>. </li>
+        <li>Enter the email address associated with your Guest account. Click <uicontrol
+            >Continue</uicontrol>. </li>
         <li>The AMS will send a message to the email address you provided. In the message, click the
           link to reset your password. </li>
         <li>On the <wintitle>Create IU Guest Password</wintitle> page, enter your username (i.e.,
@@ -97,9 +88,8 @@
           two fields. </li>
         <li>Click <uicontrol>Change Password</uicontrol>. </li>
       </ol>
-
       <p> For help, contact your campus <xref href="abxl1.0.dita">Support Center</xref>
       </p>
     </body>
   </topic>
- </topic>
+</topic>
