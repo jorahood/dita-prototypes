@@ -25,6 +25,6 @@
     <data name="domain" value="all"/>
   </prolog>
   <body></body>
-  <topic id="pull-ims-guest-initial-directions" conref="boilers2.dita#ims-guest-initial-directions"><title/></topic>
-  <topic id="pull-ims-guest-change" conref="boilers2.dita#ims-guest-change"><title/></topic>
+  <topic id="pull-ims-guest-initial-directions" conref="boilers.dita#ims-guest-initial-directions"><title/></topic>
+  <topic id="pull-ims-guest-change" conref="boilers.dita#ims-guest-change"><title/></topic>
 </topic>
