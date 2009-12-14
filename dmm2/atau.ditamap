@@ -3,8 +3,17 @@
 <map id="atau-dmm2-map">
   <topicref href="atau.dita" type="topic"/>
   <reltable>
-  <relrow>
-    <relcell><topicref href="axvp.dita" type="topic"/></relcell>    
-  </relrow>
-</reltable>
+    <relrow>
+      <relcell>
+        <topicref href="atau.dita"/>
+      </relcell>
+      <relcell>
+        <topicref href="axvp.dita" linking="sourceonly" props="refby"/>
+        <topicref href="alfm.dita" linking="targetonly" props="hotitem"/>
+        <topicref href="alqt.dita" linking="targetonly" props="hotitem"/>
+        <topicref href="alqk.dita" linking="targetonly" props="hotitem"/>
+        <topicref href="abxl.dita" linking="targetonly" props="hotitem"/>
+      </relcell>
+    </relrow>
+  </reltable>
 </map>
