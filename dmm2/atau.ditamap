@@ -3,6 +3,10 @@
 <map id="atau-dmm2-map">
   <topicref href="atau.dita" type="topic"/>
   <reltable>
+    <relheader>
+      <relcolspec></relcolspec>
+    </relheader>
+    
     <relrow>
       <relcell>
         <topicref href="atau.dita"/>

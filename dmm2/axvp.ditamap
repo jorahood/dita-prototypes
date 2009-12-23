@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
+<map title="axvp-dmm2-map">
+  <topicref href="axvp.dita" type="topic"/>
+  <reltable>
+    <relrow>
+      <relcell>
+        <topicref href="axvp.dita"/>
+      </relcell>
+      <relcell>
+        <topicgroup collection-type="sequence" role="other">
+          <topicref role></topicref>
+        </topicgroup>
+      </relcell>
+    </relrow>
+  </reltable>
+  
+  <reference docid="alwe" access="allowed">
+    <title>How can I help someone whose IU Guest account application did not trigger a confirmation request?</title>
+    <domain>sc</domain>
+    
+    <visibility>visible</visibility>
+  </reference>
+  <reference docid="angn" access="allowed">
+    <title>At IU, why does my Guest account no longer exist?</title>
+    <domain>all</domain>
+    <visibility>visible</visibility>
+  </reference>
+  
+  <reference docid="ataj" access="allowed">
+    <title>Managing your IU Guest account password</title>
+    <domain>all</domain>
+    <visibility>visible</visibility>
+  </reference>
+  <reference docid="atau" access="allowed">
+    <title>Managing your IU Guest account</title>
+    
+    <domain>all</domain>
+    <visibility>visible</visibility>
+  </reference>
+  
+  
+</map>

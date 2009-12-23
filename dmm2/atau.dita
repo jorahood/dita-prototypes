@@ -11,11 +11,12 @@
     </critdates>
     <metadata>
       <keywords>
-        <indexterm>ims</indexterm>
-        <indexterm>ams</indexterm>
-        <indexterm>amsboiler</indexterm>
+        <keyword>ims</keyword>
+        <keyword>ams</keyword>
+        <keyword>amsboiler</keyword>
       </keywords>
     </metadata>
+    <data name="docid" value="atau"/>
     <data name="approveddate" value="2009-05-05"/>
     <data name="owner" value="ims"/>
     <data name="importance" value="standard"/>
