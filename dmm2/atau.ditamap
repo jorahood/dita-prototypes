@@ -3,20 +3,20 @@
 <map id="atau-dmm2-map">
   <topicref href="atau.dita" type="topic"/>
   <reltable>
-    <relheader>
-      <relcolspec></relcolspec>
-    </relheader>
-    
     <relrow>
       <relcell>
         <topicref href="atau.dita"/>
       </relcell>
       <relcell>
-        <topicref href="axvp.dita" linking="sourceonly" props="refby"/>
-        <topicref href="alfm.dita" linking="targetonly" props="hotitem"/>
-        <topicref href="alqt.dita" linking="targetonly" props="hotitem"/>
-        <topicref href="alqk.dita" linking="targetonly" props="hotitem"/>
-        <topicref href="abxl.dita" linking="targetonly" props="hotitem"/>
+        <topicgroup linking="sourceonly" type="refby">
+          <topicref href="axvp.dita"/>
+        </topicgroup>
+        <topicgroup linking="targetonly" type="hotitem">
+          <topicref href="alfm.dita"/>
+          <topicref href="alqt.dita"/>
+          <topicref href="alqk.dita"/>
+          <topicref href="abxl.dita"/>
+        </topicgroup>
       </relcell>
     </relrow>
   </reltable>
