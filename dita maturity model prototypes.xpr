@@ -407,5 +407,6 @@
         <folder path="output_h2d/"/>
         <file name="atau.xkbml"/>
         <file name="kb2dita.xsl"/>
+        <file name="README.txt"/>
     </projectTree>
 </project>

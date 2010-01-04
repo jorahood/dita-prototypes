@@ -1,1 +1,1 @@
-Dita Maturity Model 1 converts xkbml metadata into dita metadata. Still converting xkbml documents into generic dita topics with no cross-referencing or reuse mechanisms such as conrefs
+See https://uisapp2.iu.edu/confluence-prd/display/Sage/Dita+Maturity+Model+Prototype+Project
