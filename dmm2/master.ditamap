@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
+<map title="Master Map">
+  <reltable>
+    <relheader>
+      <relcolspec type="origin" linking="sourceonly"/>
+      <relcolspec type="ref" linking="targetonly"/>
+      <relcolspec type="kbh" linking="targetonly"/>
+      <relcolspec type="kba" linking="targetonly"/>
+    </relheader>
+    <relrow>
+      <!-- origin -->
+      <relcell>
+        <topicref href="atau.dita"/>
+      </relcell>
+      <!-- refs -->
+      <relcell/>
+      <!-- kbhs -->
+      <relcell>
+        <topicref href="alfm.dita"/>
+        <topicref href="alqt.dita"/>
+        <topicref href="alqk.dita"/>
+        <topicref href="abxl.dita"/>
+      </relcell>
+      <!-- kbas -->
+      <relcell/>
+    </relrow>
+    <relrow>
+      <relcell>
+        <topicref href="axvp.dita"/>
+      </relcell>
+      <relcell>
+        <topicref href="alwe.dita"/>
+        <topicref href="angn.dita"/>
+        <topicref href="ataj.dita"/>
+        <topicref href="atau.dita"/>
+      </relcell>
+      <relcell/>
+      <relcell/>
+    </relrow>
+  </reltable>
+</map>
