@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
-
 <topic id="atau-dmm2">
   <title>Managing your IU Guest account</title>
-  <prolog>
-    <author>madalton</author>
-    <critdates>
-      <created date="2005-11-30"/>
-      <revised modified="2009-05-12"/>
-    </critdates>
-    <metadata>
-      <keywords>
+  <prolog><author>madalton</author><critdates><created date="2005-11-30"/><revised
+        modified="2009-05-12"/></critdates><metadata><keywords>
         <keyword>ims</keyword>
         <keyword>ams</keyword>
         <keyword>amsboiler</keyword>
-      </keywords>
-    </metadata>
+      </keywords></metadata>
     <data name="docid" value="atau"/>
     <data name="approveddate" value="2009-05-05"/>
     <data name="owner" value="ims"/>
@@ -25,7 +17,11 @@
     <data name="status" value="approved"/>
     <data name="domain" value="all"/>
   </prolog>
-  <body></body>
-  <topic id="pull-ims-guest-initial-directions" conref="boilers.dita#ims-guest-initial-directions"><title/></topic>
-  <topic id="pull-ims-guest-change" conref="boilers.dita#ims-guest-change"><title/></topic>
+  <body/>
+  <topic id="pull-ims-guest-initial-directions" conref="boilers.dita#ims-guest-initial-directions">
+    <title/>
+  </topic>
+  <topic id="pull-ims-guest-change" conref="boilers.dita#ims-guest-change">
+    <title/>
+  </topic>
 </topic>
