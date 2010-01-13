@@ -6,7 +6,6 @@
       <relcolspec type="origin" linking="sourceonly"/>
       <relcolspec type="ref" linking="targetonly"/>
       <relcolspec type="kbh" linking="targetonly"/>
-      <relcolspec type="kba" linking="targetonly"/>
     </relheader>
     <relrow>
       <!-- origin -->
@@ -22,8 +21,6 @@
         <topicref href="alqk.dita"/>
         <topicref href="abxl.dita"/>
       </relcell>
-      <!-- kbas -->
-      <relcell/>
     </relrow>
     <relrow>
       <relcell>
@@ -36,15 +33,21 @@
         <topicref href="atau.dita"/>
       </relcell>
       <relcell>
-        <topicref href="abxl.dita"/>
+        <topicref href="alqt.dita" class="Guest account"/>
+        <topicref href="ajpt.dita" class="OneStart"/>
+        <topicref href="apqd.dita" class="Oncourse CL"/>
+        <topicref href="alqk.dita" class="authenticate"/>
+        <topicref href="akui.dita" class="CAS"/> 
       </relcell>
-      <relcell/>
     </relrow>
     <relrow>
+      <relcell>
+        <topicref href="ataj.dita"/>
+      </relcell>
       <relcell/>
-      <relcell/>
-      <relcell/>
-      <relcell/>
+      <relcell>
+        <topicref href="alqt.dita" class="Guest account"/>
+      </relcell>      
     </relrow>
   </reltable>
 </map>

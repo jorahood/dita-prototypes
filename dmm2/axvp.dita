@@ -3,22 +3,22 @@
 
 <topic id="axvp-dmm2">
   <title>Why do I need to reset my IU Guest account password?</title>
-<prolog>
-  <author>madalton</author>
-  <critdates>
-    <created date="2008-09-12"/>
-    <revised modified="2009-05-05"/>
-  </critdates>
-  
-  <metadata>
-    <keywords>
-      <keyword>guest</keyword>
-      <keyword>quikpay</keyword>
-      <keyword>quik</keyword>
-      <keyword>quick</keyword>
-      <keyword>pay</keyword>
-    </keywords>
-  </metadata>
+  <prolog>
+    <author>madalton</author>
+    <critdates>
+      <created date="2008-09-12"/>
+      <revised modified="2009-05-05"/>
+    </critdates>
+
+    <metadata>
+      <keywords>
+        <keyword>guest</keyword>
+        <keyword>quikpay</keyword>
+        <keyword>quik</keyword>
+        <keyword>quick</keyword>
+        <keyword>pay</keyword>
+      </keywords>
+    </metadata>
     <data name="docid" value="axvp"/>
     <data name="approveddate" value="2009-05-05"/>
     <data name="owner" value="ims"/>
@@ -27,36 +27,29 @@
     <data name="volatility" value="stable"/>
     <data name="status" value="approved"/>
     <data name="domain" value="all"/>
-</prolog>
+  </prolog>
   <body>
-            <p>If you use a <kbh docid="alqt" access="allowed">Guest account<domain>all</domain><visibility>visible</visibility></kbh> to log into IU services (e.g.,
-            parents who use <kbh docid="ajpt" access="allowed">OneStart<domain>all</domain><visibility>visible</visibility></kbh> to pay bursar bills, non-IU
-            students accessing <kbh docid="apqd" access="allowed">Oncourse CL<domain>all</domain><domain>oncoursecl</domain><visibility>visible</visibility></kbh> sites for audited classes),
-            you may receive a message requesting that you reset your Guest account
-            password.  <strong>This is a legitimate request from UITS; it is not a
-              phishing attempt.</strong> This step is necessary because of
-            improvements made to the internal management of Guest accounts.</p>
-          
-          <p>You will need to reset your password before you can
-            <kbh docid="alqk" access="allowed">authenticate<domain>all</domain><visibility>visible</visibility></kbh> to <kbh docid="akui" access="allowed">CAS<domain>all</domain><visibility>visible</visibility></kbh>.  If you know your old Guest
-            password, you can reset your password at:</p>
-          
-          <example>  <a href="https://ams.iu.edu/guests/ChangeGuestPassword.aspx">https://ams.iu.edu/guests/ChangeGuestPassword.aspx</a></example>
-          
-          <p>Alternatively, or if you do not know your password, you can use the
-            &quot;Forgot My Password&quot; tool, which will send a one-time PIN to the email
-            address associated with your Guest account.  This tool is at:</p>
-          
-          <example>  <a href="https://ams.iu.edu/guests/ForgotGuestPassword.aspx">https://ams.iu.edu/guests/ForgotGuestPassword.aspx</a></example>
-          
-          <p>If you have problems changing or resetting your password, contact your
-            campus <kba docid="abxl" text="Support Center" access="allowed"><title>Support Center</title><domain>all</domain><domain>fp</domain><domain>oncoursecl</domain><visibility>visible</visibility></kba>.</p>
-          
-          <blockquote><p><strong>SC staff:</strong> SC can look up Guest information in AMS
-            Admin.  From there, you will be able to send or resend the Guest
-            activation PIN.</p></blockquote>
-        <xtra>
+    <p>If you use a Guest account to log into IU services (e.g., parents who use OneStart to pay
+      bursar bills, non-IU students accessing Oncourse CL sites for audited classes), you may
+      receive a message requesting that you reset your Guest account password. <b>This is a
+        legitimate request from UITS; it is not a phishing attempt.</b> This step is necessary
+      because of improvements made to the internal management of Guest accounts.</p>
 
-        </xtra>
+    <p>You will need to reset your password before you can authenticate to CAS. If you know your old
+      Guest password, you can reset your password at:</p>
+
+    <example><xref href="https://ams.iu.edu/guests/ChangeGuestPassword.aspx"/></example>
+
+    <p>Alternatively, or if you do not know your password, you can use the &quot;Forgot My
+      Password&quot; tool, which will send a one-time PIN to the email address associated with your
+      Guest account. This tool is at:</p>
+
+    <example><xref href="https://ams.iu.edu/guests/ForgotGuestPassword.aspx"/></example>
+
+    <p>If you have problems changing or resetting your password, contact your campus <xref
+        href="abxl.dita">Support Center</xref>.</p>
+
+    <p><note audience="SC Staff">SC can look up Guest information in AMS Admin. From there, you will
+        be able to send or resend the Guest activation PIN.</note></p>
   </body>
 </topic>
