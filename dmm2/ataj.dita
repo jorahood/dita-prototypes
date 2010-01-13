@@ -3,6 +3,11 @@
 <topic id="ataj-dmm2">
   <title>Managing your IU Guest account password</title>
   <body>
-    <p>Topic paragraph</p>
+    <p>You can manage the password for your Indiana University Guest account with the Account
+      Management Service. From that service, you can change your password; additionally, if you have
+      forgotten your password, you can use the AMS to reset it.</p>
   </body>
+  <topic id="pull-ims-guest-reset" conref="boilers.dita#ims-guest-reset">
+    <title/>
+  </topic>
 </topic>
