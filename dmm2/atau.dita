@@ -10,9 +10,9 @@
     </critdates>
     <metadata>
       <keywords>
-        <keyword>ims</keyword>
-        <keyword>ams</keyword>
-        <keyword>amsboiler</keyword>
+        <indexterm>ims</indexterm>
+        <indexterm>ams</indexterm>
+        <indexterm>amsboiler</indexterm>
       </keywords>
     </metadata>
     <data name="docid" value="atau"/>
@@ -24,11 +24,9 @@
     <data name="status" value="approved"/>
     <data name="domain" value="all"/>
   </prolog>
-  <body/>
-  <topic id="pull-ims-guest-initial-directions" conref="boilers.dita#ims-guest-initial-directions">
-    <title/>
-  </topic>
-  <topic id="pull-ims-guest-change" conref="boilers.dita#ims-guest-change">
-    <title/>
-  </topic>
+  <body>
+  <section id="pull-ims-guest-initial-directions"
+    conref="boilers.dita#ims-guest-initial-directions"/>
+  <section id="pull-ims-guest-change" conref="boilers.dita#ims-guest-change"/>
+  </body>
 </topic>

@@ -6,8 +6,6 @@
     <p>You can manage the password for your Indiana University Guest account with the Account
       Management Service. From that service, you can change your password; additionally, if you have
       forgotten your password, you can use the AMS to reset it.</p>
+    <section id="pull-ims-guest-reset" conref="boilers.dita#ims-guest-reset"/>
   </body>
-  <topic id="pull-ims-guest-reset" conref="boilers.dita#ims-guest-reset">
-    <title/>
-  </topic>
 </topic>

@@ -6,10 +6,8 @@
   <body>
     <p>These topics are nested here for retrieval via conref to be inserted into KB documents for
       delivery.</p>
-  </body>
-  <topic id="ims-guest-initial-directions">
-    <title>Getting your IU Guest account</title>
-    <body>
+    <section id="ims-guest-initial-directions">
+      <title>Getting your IU Guest account</title>
       <p>If you have no formal relationship with Indiana University, you can use the <xref
           href="alfm.dita">Account Management Service</xref> (AMS) to create a <xref
           href="alqt.dita">Guest account</xref>, which will give you limited access to certain
@@ -36,16 +34,13 @@
           (i.e., the entire email address you provided) and password. </li>
         <li>Click <uicontrol>Activate Account</uicontrol>. </li>
       </ol>
-    </body>
-  </topic>
-  <topic id="ims-guest-change">
-    <title>Managing your IU Guest account password</title>
-    <body>
+    </section>
+    <section id="ims-guest-change">
+      <title>Managing your IU Guest account password</title>
       <p>You can manage the password for your IU Guest account with the Account Management Service.
         From that service, you can change your password; additionally, if you forget your password,
         you can use the AMS to reset it.</p>
       <p>To change or synchronize your IU Guest account password:</p>
-
       <ol>
         <li>Go to the Account Management Service at: <xref href="https://itaccounts.iu.edu/"
             format="html"/>
@@ -59,7 +54,6 @@
         <li>Click <uicontrol>Change Password</uicontrol>. </li>
       </ol>
       <p>To reset your IU Guest account password:</p>
-
       <ol>
         <li>Go to the Account Management Service at: <xref href="https://itaccounts.iu.edu/"
             format="html"/>
@@ -75,14 +69,11 @@
           two fields. </li>
         <li>Click <uicontrol>Change Password</uicontrol>. </li>
       </ol>
-
       <p> For help, contact your campus <xref href="abxl.dita">Support Center</xref>
       </p>
-    </body>
-  </topic>
-  <topic id="ims-guest-reset">
-    <title>To reset your IU Guest account password</title>
-    <body>
+    </section>
+    <section id="ims-guest-reset">
+      <title>To reset your IU Guest account password</title>
       <ol>
         <li>Go to the Account Management Service at: <xref href="https://itaccounts.iu.edu/"/>
         </li>
@@ -97,6 +88,10 @@
           two fields. </li>
         <li>Click <uicontrol>Change Password</uicontrol>. </li>
       </ol>
-    </body>
-  </topic>
+    </section>
+    <section id="sc-userhowto">
+      <p>So that Support Center staff can efficiently assist you, be ready to provide details about
+        your problem or question. See <xref href="agcz.dita"/></p>
+    </section>
+  </body>
 </topic>
