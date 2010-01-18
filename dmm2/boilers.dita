@@ -93,5 +93,8 @@
       <p>So that Support Center staff can efficiently assist you, be ready to provide details about
         your problem or question. See <xref href="agcz.dita"/></p>
     </section>
+    <section id="SCBreak">
+      <note>For hours of <keyword>UITS</keyword> services over the holiday break, see <xref href="anaz.dita"/>.</note>
+    </section>
   </body>
 </topic>

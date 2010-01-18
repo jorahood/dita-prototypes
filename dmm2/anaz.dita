@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+<topic id="anaz-dmm2">
+  <title>UITS winter break support hours</title>
+  <body>
+    <draft-comment author="jthatche">When this is made visible, uncomment links in axvr and amgy, and add
+links to ascz and asdd. When it is made invisible, comment out links in axvr, amgy, ascz, and asdd.</draft-comment>
+
+    <note audience="kbstaff">KM staff: This doc is in the oncoursecl domain; don't add kbas to docs
+      that aren't in that domain also.</note>
+
+    <p> Following is information about support hours during winter break 2009-2010 at Indiana
+      University Bloomington and IUPUI. For normal Support Center hours, see <xref href="abxl.dita"/>
+      <!-- this xref is supposed to use the 'ose' title
+of abxl to make it short. How can we allow arbitrary selection of title from a cross-reference using DITA? -->. </p>
+
+    <ul>
+
+      <li><xref href="#iub">Bloomington</xref></li>
+
+      <li><xref href="#iupui">Indianapolis</xref></li>
+
+    </ul>
+    <section>
+      <title id="iub">Bloomington</title>
+      <dl>
+
+        <dlentry>
+          <dt>UITS Call Center (Campus Operator Services, 812-855-4848)</dt>
+          <dd>Open</dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>Support Center phone support (812-855-6789)</dt>
+          <dd>Closed Thursday, December 24, and Friday, December 25, and from 5pm Thursday, December
+            31, through Friday, January 1; calls will route to Campus Operator Services (above)</dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>Support Center walk-in and carry-in services in the Information Commons</dt>
+          <dd>Closed Thursday, December 24, and Friday, December 25, reopening at noon on Saturday,
+            December 26; closed Thursday, December 31, and Friday, January 1, reopening at noon on
+            Saturday, January 2</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Support Center email support (<tt>ithelp@iu.edu</tt>)</dt>
+
+          <dd><ul>
+
+              <li>Closed Thursday, December 24, and Friday, December 25</li>
+
+              <li>Closed from 5pm Thursday, December 31, through Friday, January 1</li>
+
+            </ul></dd>
+        </dlentry>
+        <dlentry>
+          <dt>Support Center chat support ( https://ithelplive.iu.edu/)</dt>
+
+          <dd>
+            <ul>
+
+              <li>Closed Thursday, December 24, and Friday, December 25</li>
+              <li>Closed from 5pm Thursday, December 31, through Friday, January 1</li>
+
+              <!-- IUB Support Center info updated for 2009-10 per Drew Hostetler
+-jt -->
+
+            </ul></dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>Technology Center Consulting (TCC) Office at the Information Commons, walk-in
+            services</dt>
+
+          <dd><ul>
+
+              <li>Closes at midnight Wednesday, December 23; opens at 8am Saturday, December 26</li>
+
+              <li>Closes at midnight Wednesday, December 30; opens at 8am Saturday, January 2</li>
+
+            </ul>
+          </dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>Residential Technology Centers (RTCs)</dt>
+          <dd>RTCs will be accessible in residences that remain open during winter break; however,
+            staffing for all IUB RTCs will end Thursday, December 17, at 4pm and resume Sunday,
+            January 10, at 6pm. <note audience="sc">SC staff: Open residences are Campus View,
+              Evermann, Tulip Tree, and University West. TCC will replenish the open sites with
+              paper and toner during the winter break. If there is an IUB site problem, the resident
+              should call the TCC office at 812-855-3802.</note>
+          </dd>
+        </dlentry>
+        <!-- TCC/RTC info updated for 2009 per Marsha Egan -jt -->
+
+        <dlentry>
+          <dt>Student Technology Centers (STCs)</dt>
+
+          <dd>
+            <ul>
+              <li>STCs located in IU Libraries will observe <xref
+                  href="http://www.libraries.iub.edu/index.php?pageId=11">library hours</xref>.
+                  <draft-comment author="erytting" time="2010-01-04">
+                  <note>Commenting out the following sublist because it looks like it didn't get
+                    updated for this year; date/day matchup is wrong. Info isn't needed now anyway,
+                    but as the doc's gonna be visible for another week, don't want our panties
+                    showing.</note> The hours for the Information Commons are: <ul>
+
+                    <li>Close at midnight Tuesday, December 23; open at 8am Friday, December 26</li>
+
+                    <li>Close at midnight Tuesday, December 30; open at 8am Friday, January 2</li>
+
+                  </ul>
+                </draft-comment>
+              </li>
+
+              <li>The Information Commons and Music Library will observe <xref
+                  href="http://www.indiana.edu/~stcdev/staffing/viewStaffing.pl">this
+                  schedule</xref> (from the drop-down menu at the bottom, select the week you are
+                interested in). </li>
+              <li>Unstaffed STCs will close on Saturday, December 19, and reopen on Sunday, January
+                10. </li>
+              <li>All STCs will be closed on December 24, 25, and 31, and January 1. Normal
+                operating hours will resume on Sunday, January 10. For more, see <xref
+                  href="http://stcweb.stc.indiana.edu/">IUB STCs</xref>. </li>
+            </ul>
+            <draft-comment author="slourain" time="2010-01-01"> STC info updated for 2009 per Marc
+              Wagner/Tim Spears</draft-comment>
+          </dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>IT Training</dt>
+          <dd>Closed Monday, December 21 through Tuesday, December 29 <draft-comment
+              author="slourain" time="2010-01-01">updated for 2009 per Chris Payne</draft-comment>
+          </dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>LSP Services</dt>
+          <dd>Closed Thursday, December 24, Friday, December 25, Thursday, December 31, and Friday,
+            January 1, with reduced staffing throughout both weeks <draft-comment author="jthatche"
+              time="2009-01-01">updated for 2009 per Chris England</draft-comment>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Classroom Technology Services</dt>
+          <dd>Closed December 24 through January 3 <draft-comment author="jthatche"
+              time="2009-01-01"> updated for 2009 per ctsin</draft-comment>
+          </dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>Stat/Math Center</dt>
+          <dd>Closes at 5pm Wednesday, December 23; reopens 9am Tuesday, January 5 <draft-comment
+              author="jthatche" time="2009-12-01">updated for 2009-10 per John
+              Samuel</draft-comment>
+          </dd>
+        </dlentry>
+        <!--<draft-comment author="erytting" time="2008-12-09">emailed Kirt Guinn to see if I could figure out who
+    to contact to verify the following; have not heard back as of
+    12/9/08; see IM655777</draft-comment>
+
+<li><strong>Network Operations Center:</strong> Open with 24x7
+staffing
+-->
+
+        <!-- emailed this group, but haven't heard back as of 12/9/08;
+see IM655777 -ejv
+<br><br>
+
+<li><strong>Computer Operations:</strong> Open with 24x7
+staffing
+-->
+      </dl>
+    </section>
+    <section>
+      <title id="iupui">Indianapolis</title>
+      <dl>
+        <dlentry>
+          <dt>UITS Call Center (Campus Operator Services, 317-274-5555)</dt>
+          <dd>Open</dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>Support Center phone support (317-274-4357)</dt>
+          <dd>Closed Thursday, December 24, and Friday, December 25, and from 5pm Thursday, December
+            31, through Friday, January 1; calls will route to Campus Operator Services (above)
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Support Center walk-in support (ICTC, IT 129)</dt>
+          <dd>
+            <ul>
+
+              <li>Monday, December 21: 8am-9pm</li>
+              <li>Tuesday, December 22-Wednesday, December 23: 8am-5pm</li>
+              <li>Thursday, December 24-Sunday, December 27: Closed</li>
+              <li>Monday, December 28-Wednesday, December 30: 8am-5pm</li>
+              <li>Thursday, December 31-Sunday, January 3: Closed</li>
+              <li>Monday, January 4: Resume normal business hours, 8am-9pm</li>
+            </ul>
+            <draft-comment author="jthatche" time="2009-01-01">IUPUI walk-in hours updated for 2009
+              per Nicole Lyon</draft-comment>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Support Center email support (<tt>ithelp@iu.edu</tt>)</dt>
+          <dd>
+            <ul>
+              <li>Closed Thursday, December 24, and Friday, December 25</li>
+
+              <li>Closed from 5pm Thursday, December 31, through Friday, January 1</li>
+
+            </ul>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Support Center chat support (<tt>https://ithelplive.iu.edu/</tt>)</dt>
+          <dd>
+            <ul>
+              <li>Closed Thursday, December 24, and Friday, December 25</li>
+              <li>Closed from 5pm Thursday, December 31, through Friday, January 1</li>
+            </ul>
+          </dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>Technology Center Consulting (TCC) for campus housing</dt>
+          <dd>Ball Residence Hall consulting hours end Friday, December 18, and resume Sunday,
+            January 10. </dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>Residential Technology Centers (RTCs)</dt>
+          <dd> Staffing for the IUPUI RTC will end Friday, December 18 at 10pm, and resume Sunday,
+            January 10 at 3pm.</dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>Reception services in ICTC lobby</dt>
+          <dd> Close at noon on Thursday, December 24, and reopen at 8am on Monday, January 4.
+              <draft-comment author="erytting" time="2008-01-01"> updated for 2008/verified by Tammy
+              Clifford</draft-comment>
+          </dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>Student Technology Centers:</dt>
+          <dd>
+            <dl>
+
+              <dlentry>
+                <dt>IT131</dt>
+                <dd>
+                  <ul>
+                    <li>Closes midnight Wednesday, December 23; opens 8am Saturday, December
+                      26.</li>
+
+                    <li>Closes midnight Wednesday, December 30; opens 8am Saturday, January 2.</li>
+                  </ul></dd>
+              </dlentry>
+
+              <dlentry>
+                <dt>BR163</dt>
+                <dd>Closed Saturday, December 19.</dd>
+              </dlentry>
+
+              <dlentry>
+                <dt>ES2116, 2119, 2121, and 2124</dt>
+                <dd>Closed Tuesday, December 22.</dd>
+              </dlentry>
+
+              <dlentry>
+                <dt>IH235</dt>
+                <dd>Open reduced hours starting Monday, December 21: <dl>
+                    <dlentry>
+                      <dt>Monday, December 21-Wednesday, December 23</dt>
+                      <dd>2pm-5pm</dd>
+                    </dlentry>
+
+                    <dlentry>
+                      <dt>Monday, December 28-Wednesday, December 30</dt>
+                      <dd>2pm-5pm</dd>
+                    </dlentry>
+
+                    <dlentry>
+                      <dt>Saturday, January 2</dt>
+                      <dd>2pm-5pm</dd>
+                    </dlentry>
+
+                    <dlentry>
+                      <dt>Sunday, January 3</dt>
+                      <dd>2pm-6pm</dd>
+                    </dlentry>
+
+                    <dlentry>
+                      <dt>Monday, January 4-Thursday, January 7</dt>
+                      <dd>2pm-7pm</dd>
+                    </dlentry>
+
+                    <dlentry>
+                      <dt>Friday, January 8-Saturday, January 9</dt>
+                      <dd>2pm-5pm</dd>
+                    </dlentry>
+
+                    <dlentry>
+                      <dt>Sunday, January 10</dt>
+                      <dd>1pm-9pm</dd>
+                    </dlentry>
+                  </dl>
+                </dd>
+              </dlentry>
+
+
+              <dlentry>
+                <dt>All other labs</dt>
+                <dd>Unstaffed starting December 20; normal staffing will resume January 10. For
+                  more, see <xref href="http://www.iupui.edu/~tcciupui/staffing/">Open Hours</xref>.
+                    <draft-comment author="slourain" time="2009-01-01">IUPUI STC info verified for
+                    2009 per Mark Russell</draft-comment>
+                </dd>
+
+              </dlentry>
+            </dl>
+          </dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>IT Training</dt>
+          <dd>Closes at 5pm Friday, December 18; reopens Wednesday, December 30 <draft-comment
+              author="slourain" time="2009-10-01"> Update for 2009 per Chris Payne</draft-comment>
+          </dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>Classroom Technology Services</dt>
+          <dd>Closed December 24 through January 3 <draft-comment author="jthatche"
+              time="2009-01-01">Updated for 2009 per CTSIN</draft-comment></dd>
+        </dlentry>
+
+        <dlentry>
+          <dt>LSP Services</dt>
+          <dd>Closed Thursday, December 24, Friday, December 25, Thursday, December 31, and Friday,
+            January 1, with reduced staffing throughout both weeks <draft-comment author="jthatche"
+              time="2009-01-01">updated for 2009 per Chris England</draft-comment>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+  </body>
+</topic>
