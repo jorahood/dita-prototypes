@@ -38,13 +38,13 @@
     <p>You will need to reset your password before you can authenticate to CAS. If you know your old
       Guest password, you can reset your password at:</p>
 
-    <example><xref href="https://ams.iu.edu/guests/ChangeGuestPassword.aspx"/></example>
+    <example><xref href="https://ams.iu.edu/guests/ChangeGuestPassword.aspx" format="html"/></example>
 
     <p>Alternatively, or if you do not know your password, you can use the &quot;Forgot My
       Password&quot; tool, which will send a one-time PIN to the email address associated with your
       Guest account. This tool is at:</p>
 
-    <example><xref href="https://ams.iu.edu/guests/ForgotGuestPassword.aspx"/></example>
+    <example><xref href="https://ams.iu.edu/guests/ForgotGuestPassword.aspx" format="html"/></example>
 
     <p>If you have problems changing or resetting your password, contact your campus <xref
         href="abxl.dita">Support Center</xref>.</p>

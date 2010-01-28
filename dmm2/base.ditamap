@@ -2,13 +2,14 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
 <map title="Base Map">
   <!-- set up key definitions -->
-  <topicref href="keydefs.ditamap" format="ditamap"/>
   <topicref href="abxl.dita"/>
+  <topicref href="arms.dita"/>
+  <topicref href="altqs/abxl-ose.dita" />
   <reltable>
     <relheader>
-      <relcolspec type="origin" linking="sourceonly"/>
-      <relcolspec type="ref" linking="targetonly"/>
-      <relcolspec type="kbh" linking="targetonly"/>
+      <relcolspec type="topic" linking="sourceonly"/>
+      <relcolspec type="topic" linking="targetonly"/><!-- ref -->
+      <relcolspec type="topic" linking="targetonly"/><!-- kbh -->
     </relheader>
     <relrow>
       <!-- origin -->

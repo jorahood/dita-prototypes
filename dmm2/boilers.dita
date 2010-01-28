@@ -16,8 +16,7 @@
           account?</xref></p>
       <p>To create your IU Guest account:</p>
       <ol>
-        <li>Go to the Account Management Service at: <xref href="https://itaccounts.iu.edu/"
-            format="html"/></li>
+        <li>Go to the Account Management Service at: <xref href="https://itaccounts.iu.edu/" format="html"/></li>
         <li>Select <uicontrol>IU Guest Accounts</uicontrol>. </li>
         <li>Click <uicontrol>create IU Guest account</uicontrol>. </li>
         <li>Enter your email address in the appropriate field. <note>For all Guest accounts, the
@@ -75,7 +74,8 @@
     <section id="ims-guest-reset">
       <title>To reset your IU Guest account password</title>
       <ol>
-        <li>Go to the Account Management Service at: <xref href="https://itaccounts.iu.edu/"/>
+        <li>Go to the Account Management Service at: <xref href="https://itaccounts.iu.edu/"
+          format="html"/>
         </li>
         <li>Click <uicontrol>IU Guest Accounts</uicontrol>. </li>
         <li>Click <uicontrol>forgot your Guest password</uicontrol>. </li>
@@ -94,7 +94,8 @@
         your problem or question. See <xref href="agcz.dita"/></p>
     </section>
     <section id="SCBreak">
-      <note>For hours of <keyword>UITS</keyword> services over the holiday break, see <xref href="anaz.dita"/>.</note>
+      <note>For hours of <keyword>UITS</keyword> services over the holiday break, see <xref
+        href="anaz.dita" type="topic"/>.</note>
     </section>
   </body>
 </topic>

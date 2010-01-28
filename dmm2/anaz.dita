@@ -100,7 +100,7 @@ of abxl to make it short. How can we allow arbitrary selection of title from a c
           <dd>
             <ul>
               <li>STCs located in IU Libraries will observe <xref
-                  href="http://www.libraries.iub.edu/index.php?pageId=11">library hours</xref>.
+                  href="http://www.libraries.iub.edu/index.php?pageId=11" format="html">library hours</xref>.
                   <draft-comment author="erytting" time="2010-01-04">
                   <note>Commenting out the following sublist because it looks like it didn't get
                     updated for this year; date/day matchup is wrong. Info isn't needed now anyway,
@@ -116,14 +116,14 @@ of abxl to make it short. How can we allow arbitrary selection of title from a c
               </li>
 
               <li>The Information Commons and Music Library will observe <xref
-                  href="http://www.indiana.edu/~stcdev/staffing/viewStaffing.pl">this
+                  href="http://www.indiana.edu/~stcdev/staffing/viewStaffing.pl" format="html">this
                   schedule</xref> (from the drop-down menu at the bottom, select the week you are
                 interested in). </li>
               <li>Unstaffed STCs will close on Saturday, December 19, and reopen on Sunday, January
                 10. </li>
               <li>All STCs will be closed on December 24, 25, and 31, and January 1. Normal
                 operating hours will resume on Sunday, January 10. For more, see <xref
-                  href="http://stcweb.stc.indiana.edu/">IUB STCs</xref>. </li>
+                  href="http://stcweb.stc.indiana.edu/" format="html">IUB STCs</xref>. </li>
             </ul>
             <draft-comment author="slourain" time="2010-01-01"> STC info updated for 2009 per Marc
               Wagner/Tim Spears</draft-comment>
@@ -317,7 +317,7 @@ staffing
               <dlentry>
                 <dt>All other labs</dt>
                 <dd>Unstaffed starting December 20; normal staffing will resume January 10. For
-                  more, see <xref href="http://www.iupui.edu/~tcciupui/staffing/">Open Hours</xref>.
+                  more, see <xref href="http://www.iupui.edu/~tcciupui/staffing/" format="html">Open Hours</xref>.
                     <draft-comment author="slourain" time="2009-01-01">IUPUI STC info verified for
                     2009 per Mark Russell</draft-comment>
                 </dd>
