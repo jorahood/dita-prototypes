@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
-<map title="Master Map">
+<map title="Base Map">
+  <!-- set up key definitions -->
+  <topicref href="keydefs.ditamap" format="ditamap"/>
   <topicref href="abxl.dita"/>
   <reltable>
     <relheader>
@@ -21,6 +23,7 @@
         <topicref href="alqt.dita"/>
         <topicref href="alqk.dita"/>
         <topicref href="abxl.dita"/>
+        <topicref href="abxq.dita"/>
       </relcell>
     </relrow>
     <relrow>
