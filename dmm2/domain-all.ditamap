@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
+<map title="Domain 'all'">
+  <!-- include reltable of all doc relationships -->
+  <mapref href="base.ditamap"/>
+    
+  <!-- docids available in this domain -->
+  <topicref keys="abxl" href="abxl.dita#abxl-dmm2"/>
+  <topicref keys="abxq" href="abxq.dita#abxq-dmm2"/>
+  <topicref keys="agcz" href="agcz.dita#agcz-dmm2"/>
+  <topicref keys="ajpt" href="ajpt.dita#ajpt-dmm2"/>
+  <topicref keys="akui" href="akui.dita#akui-dmm2"/>
+  <topicref keys="alfm" href="alfm.dita#alfm-dmm2"/>
+  <topicref keys="alqk" href="alqk.dita#alqk-dmm2"/>
+  <topicref keys="alqt" href="alqt.dita#alqt-dmm2"/>
+  <!-- alwe is in sc.ditamap -->
+  <topicref keys="anaz" href="anaz.dita#anaz-dmm2"/>
+  <topicref keys="angn" href="angn.dita#angn-dmm2"/>
+  <topicref keys="angn-file" href="angn.dita" processing-role="normal"/>
+  <topicref keys="apqd" href="apqd.dita#apqd-dmm2"/>
+  <topicref keys="arms" href="arms.dita#arms-dmm2"/>
+  <topicref keys="ataj" href="ataj.dita#ataj-dmm2"/>
+  <topicref keys="atau" href="atau.dita#atau-dmm2"/>
+  <topicref keys="axvp" href="axvp.dita#axvp-dmm2"/>
+
+  <!-- alternate q-lines -->
+  <!--  use ditaval file to filter this out and remove comment tags 
+    <topicref href="altqs-onestart.dita" audience="onestart" processing-role="resource-only"/>-->
+    <topicref href="altqs-ose.dita" audience="ose" processing-role="resource-only"/>
+
+  
+</map>
