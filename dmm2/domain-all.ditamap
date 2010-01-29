@@ -16,7 +16,6 @@
   <!-- alwe is in sc.ditamap -->
   <topicref keys="anaz" href="anaz.dita#anaz-dmm2"/>
   <topicref keys="angn" href="angn.dita#angn-dmm2"/>
-  <topicref keys="angn-file" href="angn.dita" processing-role="normal"/>
   <topicref keys="apqd" href="apqd.dita#apqd-dmm2"/>
   <topicref keys="arms" href="arms.dita#arms-dmm2"/>
   <topicref keys="ataj" href="ataj.dita#ataj-dmm2"/>
