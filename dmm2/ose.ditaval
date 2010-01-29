@@ -4,5 +4,5 @@
   <prop action="exclude" att="audience"/>
   
   <!-- include conditional elements for this audience only -->
-  <prop action="include" att="audience" val="all"/><!-- rename "all" to default? -->
+  <prop action="include" att="audience" val="ose"/>
 </val>

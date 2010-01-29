@@ -4,8 +4,6 @@
 <topic id="boilers-dmm2">
   <title>Boiler texts for conreffing</title>
   <body>
-    <p>These topics are nested here for retrieval via conref to be inserted into KB documents for
-      delivery.</p>
     <section id="ims-guest-initial-directions">
       <title>Getting your IU Guest account</title>
       <p>If you have no formal relationship with Indiana University, you can use the <xref

@@ -3,9 +3,13 @@
 <topic id="altqs-oncoursecl">
   <title>OncourseCL altqs</title>
   <topic id="arms">
-    <title conref="../arms.dita#default" conaction="pushreplace">When requesting assistance, what information should I provide?</title>
+    <title conkeyref="arms/default" conaction="pushreplace">When requesting assistance, what information should I provide?</title>
   </topic>
   <topic id="abxl">
-    <title conref="../abxl.dita#default" conaction="pushreplace">Campus Support Centers</title>
+    <title conkeyref="abxl/default" conaction="pushreplace">Campus Support Centers</title>
   </topic>
+  <topic id="apqd">
+    <title conkeyref="apqd/default" conaction="pushreplace">Introduction to Oncourse CL</title>
+  </topic>
+  
 </topic>

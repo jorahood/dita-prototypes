@@ -1,10 +1,10 @@
-#Fri Jan 29 09:50:20 EST 2010
+#Fri Jan 29 13:55:10 EST 2010
 copytosourcelist=
-hreftargetslist=agcz.xml,abxl.xml,boilers.xml,apqd.xml,atau.xml,angn.xml,altqs-ose.xml,arms.xml,akui.xml,abxq.xml,alwe.xml,anaz.xml,axvp.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,alfm.xml
+hreftargetslist=agcz.xml,abxl.xml,boilers.xml,apqd.xml,angn.xml,atau.xml,altqs-ose.xml,arms.xml,akui.xml,abxq.xml,alwe.xml,anaz.xml,axvp.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,alfm.xml
 fullditatopicfile=fullditatopic.list
 fullditamapandtopicfile=fullditamapandtopic.list
-fullditatopiclist=agcz.xml,abxl.xml,apqd.xml,angn.xml,atau.xml,altqs-ose.xml,arms.xml,akui.xml,abxq.xml,alwe.xml,anaz.xml,axvp.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,alfm.xml
-fullditamapandtopiclist=agcz.xml,abxl.xml,docids.ditamap,apqd.xml,angn.xml,atau.xml,altqs-ose.xml,base.ditamap,arms.xml,akui.xml,abxq.xml,alwe.xml,anaz.xml,axvp.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,alfm.xml
+fullditatopiclist=agcz.xml,abxl.xml,apqd.xml,atau.xml,angn.xml,altqs-ose.xml,arms.xml,akui.xml,abxq.xml,alwe.xml,anaz.xml,axvp.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,alfm.xml
+fullditamapandtopiclist=agcz.xml,abxl.xml,apqd.xml,atau.xml,angn.xml,altqs-ose.xml,base.ditamap,arms.xml,akui.xml,abxq.xml,alwe.xml,anaz.xml,axvp.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,alfm.xml
 hrefditatopicfile=hrefditatopic.list
 hrefditatopiclist=abxl.xml,boilers.xml,anaz.xml,axvp.xml
 user.input.file=base.ditamap
@@ -12,7 +12,7 @@ subtargetsfile=subtargets.list
 fullditamapfile=fullditamap.list
 copytotarget2sourcemapfile=copytotarget2sourcemap.list
 subtargetslist=
-fullditamaplist=docids.ditamap,base.ditamap
+fullditamaplist=base.ditamap
 copytotarget2sourcemaplist=
 outditafilesfile=outditafiles.list
 outditafileslist=
@@ -27,14 +27,14 @@ imagelist=
 htmlfile=html.list
 htmllist=
 canditopicsfile=canditopics.list
-canditopicslist=agcz.xml,abxl.xml,apqd.xml,atau.xml,angn.xml,altqs-ose.xml,arms.xml,akui.xml,abxq.xml,alwe.xml,anaz.xml,axvp.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,alfm.xml
+canditopicslist=agcz.xml,abxl.xml,apqd.xml,angn.xml,atau.xml,altqs-ose.xml,arms.xml,akui.xml,abxq.xml,alwe.xml,anaz.xml,axvp.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,alfm.xml
 keyreffile=keyref.list
 subjectschemefile=subjectscheme.list
-keyreflist=
+keyreflist=axvp.xml
 subjectschemelist=
 keyfile=key.list
 codereffile=coderef.list
-keylist=abxl\=abxl.dita\#abxl-dmm2(docids.ditamap),arms\=arms.dita(docids.ditamap)
+keylist=arms\=arms.dita\#arms-dmm2(base.ditamap),angn\=angn.dita\#angn-dmm2(base.ditamap),abxl\=abxl.dita\#abxl-dmm2(base.ditamap),alqt\=alqt.dita\#alqt-dmm2(base.ditamap),abxq\=abxq.dita\#abxq-dmm2(base.ditamap),ajpt\=ajpt.dita\#ajpt-dmm2(base.ditamap),atau\=atau.dita\#atau-dmm2(base.ditamap),alqk\=alqk.dita\#alqk-dmm2(base.ditamap),alfm\=alfm.dita\#alfm-dmm2(base.ditamap),akui\=akui.dita\#akui-dmm2(base.ditamap),axvp\=axvp.dita\#axvp-dmm2(base.ditamap),anaz\=anaz.dita\#anaz-dmm2(base.ditamap),apqd\=apqd.dita\#apqd-dmm2(base.ditamap),agcz\=agcz.dita\#agcz-dmm2(base.ditamap),ataj\=ataj.dita\#ataj-dmm2(base.ditamap)
 codereflist=
 user.input.file.listfile=usr.input.file.list
 user.input.dir=/Users/jorahood/git/dita-prototypes/dmm2

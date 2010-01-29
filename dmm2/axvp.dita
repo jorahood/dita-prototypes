@@ -47,9 +47,9 @@
     <example><xref href="https://ams.iu.edu/guests/ForgotGuestPassword.aspx" format="html"/></example>
 
     <p>If you have problems changing or resetting your password, contact your campus <xref
-        href="abxl.dita">Support Center</xref>.</p>
+        keyref="abxl">Support Center</xref>.</p>
 
-    <p><note audience="SC Staff">SC can look up Guest information in AMS Admin. From there, you will
+    <p><note audience="sc">SC can look up Guest information in AMS Admin. From there, you will
         be able to send or resend the Guest activation PIN.</note></p>
   </body>
 </topic>
