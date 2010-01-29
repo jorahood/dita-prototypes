@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="ose">
-  <title>ose altqs</title>
+  <title>OSE altqs</title>
   <topic id="abxl">
-    <title conref="../abxl.dita#abxl-dmm2/title" conaction="pushreplace">Campus Support
-      Centers</title>
+    <title conref="../abxl.dita#abxl-dmm2/default" conaction="pushreplace">Campus Support Centers</title>
   </topic>
 </topic>

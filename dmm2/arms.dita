@@ -1,9 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="arms-dmm2">
-  <title id="title">arms, title set in normal title element in topic</title>
-  <titlealts>
-    <searchtitle>searchtitle in titlealts in topic</searchtitle>
-  </titlealts>
+  <title id="default">When requesting Oncourse CL assistance, what information should I provide?</title>
   <body> </body>
 </topic>

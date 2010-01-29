@@ -6065,6 +6065,28 @@ Only "true" and "false" are valid values. The default is false. </String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="name">
+                                    <String xml:space="preserve">internal/DITA 1.2/DITA XHTML</String>
+                                </field>
+                                <field name="type">
+                                    <String xml:space="preserve">DITAMAP</String>
+                                </field>
+                                <field name="url">
+                                    <String xml:space="preserve">dmm2/altqs/ose.dita</String>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="name">
+                                    <String xml:space="preserve">DITA XHTML duplicate</String>
+                                </field>
+                                <field name="type">
+                                    <String xml:space="preserve">DITAMAP</String>
+                                </field>
+                                <field name="url">
+                                    <String xml:space="preserve">dmm2/arms.dita</String>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="name">
                                     <String xml:space="preserve">DITA Map 1.2 XHTML</String>
                                 </field>
                                 <field name="type">
@@ -6072,6 +6094,17 @@ Only "true" and "false" are valid values. The default is false. </String>
                                 </field>
                                 <field name="url">
                                     <String xml:space="preserve">dmm2/base.ditamap</String>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="name">
+                                    <String xml:space="preserve">dita/ditamap.framework/DITA Map/DITA Map XHTML</String>
+                                </field>
+                                <field name="type">
+                                    <String xml:space="preserve">DITAMAP</String>
+                                </field>
+                                <field name="url">
+                                    <String xml:space="preserve">dmm2/keydefs.ditamap</String>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -6171,28 +6204,6 @@ Only "true" and "false" are valid values. The default is false. </String>
                                 </field>
                                 <field name="url">
                                     <String xml:space="preserve">dmm2/anaz.dita</String>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="name">
-                                    <String xml:space="preserve">DITA XHTML duplicate</String>
-                                </field>
-                                <field name="type">
-                                    <String xml:space="preserve">DITAMAP</String>
-                                </field>
-                                <field name="url">
-                                    <String xml:space="preserve">dmm2/arms.dita</String>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="name">
-                                    <String xml:space="preserve">dita/ditamap.framework/DITA Map/DITA Map XHTML</String>
-                                </field>
-                                <field name="type">
-                                    <String xml:space="preserve">DITAMAP</String>
-                                </field>
-                                <field name="url">
-                                    <String xml:space="preserve">dmm2/keydefs.ditamap</String>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
