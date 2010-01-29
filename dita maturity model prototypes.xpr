@@ -5835,7 +5835,7 @@ Only "true" and "false" are valid values. The default is false. </String>
                                     <String xml:space="preserve">internal/DITA 1.2</String>
                                 </field>
                                 <field name="enable">
-                                    <Boolean xml:space="preserve">true</Boolean>
+                                    <Boolean xml:space="preserve">false</Boolean>
                                 </field>
                             </documentTypeEntry>
                             <documentTypeEntry>
@@ -5843,7 +5843,7 @@ Only "true" and "false" are valid values. The default is false. </String>
                                     <String xml:space="preserve">dita/dita.framework/DITA</String>
                                 </field>
                                 <field name="enable">
-                                    <Boolean xml:space="preserve">false</Boolean>
+                                    <Boolean xml:space="preserve">true</Boolean>
                                 </field>
                             </documentTypeEntry>
                             <documentTypeEntry>
