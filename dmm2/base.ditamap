@@ -21,22 +21,22 @@
         <topicref keyref="abxq"/>
       </relcell>
     </relrow>
-<!--    <relrow>
+    <relrow>
       <relcell>
-        <topicref href="axvp.dita"/>
+        <topicref keyref="axvp"/>
       </relcell>
       <relcell>
-        <topicref href="alwe.dita"/>
-        <topicref href="angn.dita"/>
-        <topicref href="ataj.dita"/>
-        <topicref href="atau.dita"/>
+        <topicref keyref="alwe"/>
+        <topicref keyref="angn"/>
+        <topicref keyref="ataj"/>
+        <topicref keyref="atau"/>
       </relcell>
       <relcell>
-        <topicref href="alqt.dita" class="Guest account"/>
-        <topicref href="ajpt.dita" class="OneStart"/>
-        <topicref href="apqd.dita" class="Oncourse CL"/>
-        <topicref href="alqk.dita" class="authenticate"/>
-        <topicref href="akui.dita" class="CAS"/>
+        <topicref keyref="alqt"/>
+        <topicref keyref="ajpt"/>
+        <topicref keyref="apqd"/>
+        <topicref keyref="alqk"/>
+        <topicref keyref="akui"/>
       </relcell>
     </relrow>
     <relrow>
@@ -45,8 +45,8 @@
       </relcell>
       <relcell/>
       <relcell>
-        <topicref href="alqt.dita" class="Guest account"/>
+        <topicref href="alqt.dita"/>
       </relcell>
-    </relrow>-->
+    </relrow>
   </reltable>
 </map>
