@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
 <map title="base KB map contains only the complete reltable of all doc relationships">
-
-  <!-- relations between docs -->
+ 
   <reltable>
     <relheader>
       <relcolspec type="topic" linking="sourceonly"/>
       <relcolspec type="topic" linking="targetonly"/>
-      <!-- ref -->
-      <relcolspec type="topic" linking="targetonly"/>
-      <!-- kbh -->
-    </relheader>
+       <relcolspec type="topic" linking="targetonly"/>
+     </relheader>
     <relrow>
-      <!-- origin -->
-      <relcell>
-        <topicref href="atau.dita"/>
+       <relcell>
+        <topicref keyref="atau"/>
       </relcell>
-      <!-- refs -->
       <relcell/>
-      <!-- kbhs -->
       <relcell>
-        <topicref href="alfm.dita"/>
-        <topicref href="alqt.dita"/>
-        <topicref href="alqk.dita"/>
-        <topicref href="abxl.dita"/>
-        <topicref href="abxq.dita"/>
+        <topicref keyref="alfm"/>
+        <topicref keyref="alqt"/>
+        <topicref keyref="alqk"/>
+        <topicref keyref="abxl"/>
+        <topicref keyref="abxq"/>
       </relcell>
     </relrow>
-    <relrow>
+<!--    <relrow>
       <relcell>
         <topicref href="axvp.dita"/>
       </relcell>
@@ -53,6 +47,6 @@
       <relcell>
         <topicref href="alqt.dita" class="Guest account"/>
       </relcell>
-    </relrow>
+    </relrow>-->
   </reltable>
 </map>
