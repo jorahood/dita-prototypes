@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <!-- set the default action to exclude audience-specific elements -->
+  <prop action="exclude" att="audience"/>
+  
+  <!-- include conditional elements for this audience only -->
+  <prop action="include" att="audience" val="default"/>
+</val>

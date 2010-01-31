@@ -3,7 +3,6 @@
 <map title="SC Domain">
   <!-- docids available in this domain -->
   <topicref keys="alwe" href="alwe.dita#alwe-dmm2"/>
-  <mapref href="base.ditamap"/>  
-  <!-- alternate q-lines -->
+  <mapref href="domain-all.ditamap"/>  
   
 </map>
