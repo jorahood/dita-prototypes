@@ -41,11 +41,11 @@
     </relrow>
     <relrow>
       <relcell>
-        <topicref href="ataj.dita"/>
+        <topicref keyref="ataj"/>
       </relcell>
       <relcell/>
       <relcell>
-        <topicref href="alqt.dita"/>
+        <topicref keyref="alqt"/>
       </relcell>
     </relrow>
   </reltable>

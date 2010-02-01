@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
 <map title="Domain 'all'">
-  <!-- include reltable of all doc relationships--> 
+  <!-- include reltable of all doc relationships-->
   <mapref href="base.ditamap"/>
 
   <!-- docids available in this domain -->
@@ -23,7 +23,5 @@
   <topicref keys="axvp" href="axvp.dita#axvp-dmm2"/>
 
   <!-- alternate q-lines -->
-  <!--  use ditaval file to filter this out and remove comment tags 
-    <topicref href="altqs-onestart.dita" audience="onestart" processing-role="resource-only"/>-->
-  <topicref href="altqs-ose.dita" audience="ose" processing-role="resource-only"/>
+  <topicref href="alt-qlines.dita" processing-role="resource-only"/>
 </map>
