@@ -5,7 +5,7 @@
 <!-- (c) Copyright IBM Corp. 2004, 2009 All Rights Reserved. -->
 
 <!-- 
-  | basedir can be specified to other places base on your need.
+  | basedir can be specified to other places based on your need.
   |
   | Note: input, output, and temp directories will base on the basedir if 
   | they are relative paths.
@@ -30,10 +30,10 @@
     <echo>This transforms a given domain with filtering for client "all" and audience "all"</echo>
 
     <ant antfile="${dita.dir}${file.separator}build.xml" target="init">
-      <!-- please refer to the toolkit's document for supported parameters, and 
-           specify them base on your needs -->
+      <!-- please refer to the toolkit's documentation for supported parameters, and 
+           specify them based on your needs -->
       <property name="args.input"
-        value="${dita.dir}${file.separator}samples${file.separator}hierarchy.ditamap"/>
+        value="${basedir}${file.separator}domain-all.ditamap"/>
       <property name="output.dir"
         value="${sample.output.dir}"/>
       <property name="transtype" value="xhtml"/>
