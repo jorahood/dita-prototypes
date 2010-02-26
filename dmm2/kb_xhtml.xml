@@ -19,8 +19,9 @@
   <property name="dita.dir" value="${env.DITA_HOME}"/>
   
   <property name="kb.domain" value="all"/>
+  <property name="kb.filters" value="client-all-title-default"/>
   <property name="kb.output.dir"
-    value="out/domain-${kb.domain}/client-all/audience-all"/>
+    value="out/domain-${kb.domain}/${kb.filters}"/>
 
   <property name="css.source.dir" value="${dita.dir}${file.separator}samples${file.separator}css"/>
 
@@ -39,7 +40,7 @@
       <property name="output.dir"
         value="${kb.output.dir}"/>
       <property name="transtype" value="xhtml"/>
-      <property name="dita.input.valfile" value="ditavals/client-all-title-default.ditaval"/>
+      <property name="dita.input.valfile" value="ditavals/${kb.filters}.ditaval"/>
 
       <!-- args.css = the name of the CSS file -->
       <property name="args.css"
