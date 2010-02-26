@@ -11,7 +11,7 @@
   | they are relative paths.
   * -->
 
-<project name="kb_xhtml" default="kb2xhtml" basedir=".">
+<project name="kb_xhtml" default="client-all-audience-all" basedir=".">
   <!-- Set a property for each environment variable -->
   <property environment="env"/>
   
@@ -27,9 +27,7 @@
   <import file="${dita.dir}${file.separator}integrator.xml"/>
   
   <target name="client-all-audience-all" depends="integrate">
-    <echo>This sample file uses a simple CSS file to create
-a new, more colorful look and feel for generated
-XHTML files.</echo>
+    <echo>This transforms a given domain with filtering for client "all" and audience "all"</echo>
 
     <ant antfile="${dita.dir}${file.separator}build.xml" target="init">
       <!-- please refer to the toolkit's document for supported parameters, and 
