@@ -18,7 +18,7 @@
   <!-- dita.dir should point to the toolkit's root directory -->
   <property name="dita.dir" value="${env.DITA_HOME}"/>
   
-  <property name="sample.output.dir"
+  <property name="kb.output.dir"
     value="out${file.separator}client-all${file.separator}audience-all"/>
   <property name="css.source.dir" value="${dita.dir}${file.separator}samples${file.separator}css"/>
 
@@ -35,7 +35,7 @@
       <property name="args.input"
         value="${basedir}${file.separator}domain-all.ditamap"/>
       <property name="output.dir"
-        value="${sample.output.dir}"/>
+        value="${kb.output.dir}"/>
       <property name="transtype" value="xhtml"/>
 
       <!-- args.css = the name of the CSS file -->
@@ -56,7 +56,7 @@
     <!-- The toolkit currently does not scan CSS files to retrieve
          related resources. The sample CSS above references two JPG files;
          copy those files to the output CSS directory (output.dir + csspath). -->
-    <copy todir="${sample.output.dir}${file.separator}css">
+    <copy todir="${kb.output.dir}${file.separator}css">
         <fileset dir="${css.source.dir}"
             includes="*.jpg"/>
     </copy>
