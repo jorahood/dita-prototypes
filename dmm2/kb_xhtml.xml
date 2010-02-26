@@ -18,8 +18,10 @@
   <!-- dita.dir should point to the toolkit's root directory -->
   <property name="dita.dir" value="${env.DITA_HOME}"/>
   
+  <property name="kb.domain" value="all"/>
   <property name="kb.output.dir"
-    value="out${file.separator}client-all${file.separator}audience-all"/>
+    value="out/domain-${kb.domain}/client-all/audience-all"/>
+
   <property name="css.source.dir" value="${dita.dir}${file.separator}samples${file.separator}css"/>
 
   <!-- if file is a relative file name, the file name will be resolved 
@@ -33,7 +35,7 @@
       <!-- please refer to the toolkit's documentation for supported parameters, and 
            specify them based on your needs -->
       <property name="args.input"
-        value="domain-all.ditamap"/>
+        value="domain-${kb.domain}.ditamap"/>
       <property name="output.dir"
         value="${kb.output.dir}"/>
       <property name="transtype" value="xhtml"/>
