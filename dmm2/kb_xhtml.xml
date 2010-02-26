@@ -11,10 +11,12 @@
   | they are relative paths.
   * -->
 
-<project name="sample_xhtml_plus_css" default="sample2xhtml_plus_css" basedir=".">
+<project name="kb_xhtml" default="kb2xhtml" basedir=".">
+  <!-- Set a property for each environment variable -->
+  <property environment="env"/>
   
   <!-- dita.dir should point to the toolkit's root directory -->
-  <property name="dita.dir" value="${basedir}${file.separator}..${file.separator}.."/>
+  <property name="dita.dir" value="${env.DITA_HOME}"/>
   
   <property name="sample.output.dir" value="out${file.separator}xhtml_plus_css"/>
   <property name="css.source.dir" value="${dita.dir}${file.separator}samples${file.separator}css"/>
@@ -23,7 +25,7 @@
        relative to the importing file -->
   <import file="${dita.dir}${file.separator}integrator.xml"/>
   
-  <target name="sample2xhtml_plus_css" depends="integrate">
+  <target name="kb2xhtml" depends="integrate">
     <echo>This sample file uses a simple CSS file to create
 a new, more colorful look and feel for generated
 XHTML files.</echo>
