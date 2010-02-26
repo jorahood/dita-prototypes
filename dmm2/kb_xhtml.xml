@@ -33,7 +33,7 @@
       <!-- please refer to the toolkit's documentation for supported parameters, and 
            specify them based on your needs -->
       <property name="args.input"
-        value="${basedir}${file.separator}domain-all.ditamap"/>
+        value="domain-all.ditamap"/>
       <property name="output.dir"
         value="${kb.output.dir}"/>
       <property name="transtype" value="xhtml"/>
