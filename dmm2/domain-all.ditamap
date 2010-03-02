@@ -22,6 +22,4 @@
   <topicref keys="atau" href="atau.dita#atau-dmm2"/>
   <topicref keys="axvp" href="axvp.dita#axvp-dmm2"/>
 
-  <!-- alternate q-lines -->
-  <topicref href="alt-qlines.dita" processing-role="resource-only"/>
 </map>
