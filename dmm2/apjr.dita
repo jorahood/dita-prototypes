@@ -28,20 +28,33 @@
         <dlentry>
           <dt>&lt;body&gt;</dt>
           <dd>The &lt;body&gt; tag contains the viewable contents of the DITA document. See <xref
-            scope="external"
-            href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/body.html"/> The
-            &lt;body&gt; element is only required insofar as if your document has any text nodes,
-            they have to be enclosed in a &lt;body&gt; element. The alt qline documents don't have
-            any text other than the titles so they don't need &lt;body&gt; tags.</dd>
+              scope="external"
+              href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/body.html"/> The
+            &lt;body&gt; element is only required insofar as it is a required container of any text
+            nodes. The alt qline documents don't have any text other than the titles so they don't
+            need &lt;body&gt; tags.</dd>
         </dlentry>
     </dl>
     </section>
 <section><title>Special purpose DITA tags</title>
-<p>These tags serve special purposes in DITA, usually related to reuse.</p>
+<p>These tags serve special purposes in DITA beyond semantic tagging of content.</p>
 <dl>
   <dlentry>
-    <dt></dt>
-    <dd></dd>
+    <dt>&lt;xref&gt;</dt>
+          <dd><p>The &lt;xref&gt; element is DITA's general purpose tag for creating cross-referencing
+              links. See <xref scope="external"
+                href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/xref.html"/>. The
+              DITA standard recommends using higher-level linking structures built into ditamaps
+              over using &lt;xref&gt; elements to hardcode links at the topic level.
+              For the KB, the &lt;xref&gt; element will take the place of the &lt;kba&gt; KBML
+              element, as well as the regular HTML &lt;a&gt; element.</p> 
+            <p>The &lt;xref&gt; element transcludes the text
+              of the title of the link target similarly to the way the &lt;kba&gt; tag does. The
+              &lt;xref&gt; element works differently in how to override the default title text:
+              the &lt;xref&gt; element has no way of selecting an alternate qline as you can do with
+              the <codeph>qline</codeph> attribute of the &lt;xref&gt; element. Instead, you can
+              specify alternate text for the link by enclosing it within the &lt;xref&gt; element,
+              as you would do with an HTML &lt;a&gt; element.</p></dd>
   </dlentry>
 </dl>
 </section>
