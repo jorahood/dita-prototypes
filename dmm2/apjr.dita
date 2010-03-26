@@ -3,5 +3,40 @@
 <topic id="apjr-dmm2">
   <title>DITA guide for KB editors</title>
   <body>
+    <p>On this page:</p>
+    <section id="Required">
+      <title>Required KBML tags</title>
+      <p>
+        These tags are required in a correctly formatted DITA topic document: 
+      </p>
+      <dl>
+        <dlentry>
+          <dt>&lt;topic&gt;</dt>
+          <dd>The &lt;topic&gt; tag is the top level element for DITA topic documents. The
+            &lt;topic&gt; tag has a required <codeph>id</codeph> attribute. See <xref
+            type="external" href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/topic.html"/></dd>
+        </dlentry>
+        <dlentry>
+          <dt>&lt;title&gt;</dt>
+          <dd>The &lt;title&gt; tag contains the title of a document and must appear as the first
+            element. See <xref type="external"
+              href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/title.html"/> You can
+            create alternate titles for a document by adding them to the <xref
+              href="alt-qlines.dita">alt qlines</xref> document. For instructions on working with
+            alternate a-lines, see <xref href="adding-alt-qlines.dita">Adding alternate
+            q-lines</xref>.
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>&lt;body&gt;</dt>
+          <dd></dd>
+        </dlentry>
+        <dlentry>
+          <dt></dt>
+          <dd></dd>
+        </dlentry>
+      </dl>
+    </section>
+    
   </body>
 </topic>
