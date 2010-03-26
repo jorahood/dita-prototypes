@@ -12,13 +12,13 @@
           <dt>&lt;topic&gt;</dt>
           <dd>The &lt;topic&gt; tag is the top level element for DITA topic documents. The
             &lt;topic&gt; tag has a required <codeph>id</codeph> attribute. See <xref
-              type="external"
+              scope="external"
               href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/topic.html"/></dd>
         </dlentry>
         <dlentry>
           <dt>&lt;title&gt;</dt>
           <dd>The &lt;title&gt; tag contains the title of a document and must appear as the first
-            element. See <xref type="external"
+            element. See <xref scope="external"
               href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/title.html"/> You can
             create alternate titles for a document by adding them to the <xref
               href="alt-qlines.dita">alt qlines</xref> document. For instructions on working with
@@ -27,14 +27,24 @@
         </dlentry>
         <dlentry>
           <dt>&lt;body&gt;</dt>
-          <dd/>
+          <dd>The &lt;body&gt; tag contains the viewable contents of the DITA document. See <xref
+            scope="external"
+            href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/body.html"/> The
+            &lt;body&gt; element is only required insofar as if your document has any text nodes,
+            they have to be enclosed in a &lt;body&gt; element. The alt qline documents don't have
+            any text other than the titles so they don't need &lt;body&gt; tags.</dd>
         </dlentry>
-        <dlentry>
-          <dt/>
-          <dd/>
-        </dlentry>
-      </dl>
+    </dl>
     </section>
+<section><title>Special purpose DITA tags</title>
+<p>These tags serve special purposes in DITA, usually related to reuse.</p>
+<dl>
+  <dlentry>
+    <dt></dt>
+    <dd></dd>
+  </dlentry>
+</dl>
+</section>
 
   </body>
 </topic>
