@@ -2,23 +2,44 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="apjr-dmm2">
   <title>DITA guide for KB editors</title>
+  <prolog>
+    <author>jorahood</author>
+    <critdates>
+      <created date="2010-3-25"/>
+      <revised modified="2010-03-29"/>
+      <revised modified="2333-23-32"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>dita guide</indexterm>
+        <indexterm>kbml</indexterm>
+      </keywords>
+    </metadata>
+    <data name="docid" value="apjr"/>
+    <data name="approveddate" value="2010-03-29"/>
+    <data name="owner" value="sckb"/>
+    <data name="importance" value="standard"/>
+    <data name="visibility" value="visible"/>
+    <data name="volatility" value="stable"/>
+    <data name="status" value="approved"/>
+    <data name="domain" value="kbstaff"/>
+  </prolog>
   <body>
     <p>On this page:</p>
     <section id="Required">
       <title>Required KBML tags</title>
-      <p> These tags are required in a correctly formatted DITA topic document: </p>
+      <p> These DITA tags are required in a KMS document: </p>
       <dl>
         <dlentry>
           <dt>&lt;topic&gt;</dt>
-          <dd>The &lt;topic&gt; tag is the top level element for DITA topic documents. The
-            &lt;topic&gt; tag has a required <codeph>id</codeph> attribute. See <xref
-              scope="external"
+          <dd>The top level element for DITA topic documents. The &lt;topic&gt; tag has a required
+              <codeph>id</codeph> attribute. See <xref scope="external"
               href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/topic.html"/></dd>
         </dlentry>
         <dlentry>
           <dt>&lt;title&gt;</dt>
-          <dd>The &lt;title&gt; tag contains the title of a document and must appear as the first
-            element. See <xref scope="external"
+          <dd>The title of a document and must appear as the first element. See <xref
+              scope="external"
               href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/title.html"/> You can
             create alternate titles for a document by adding them to the <xref
               href="alt-qlines.dita">alt qlines</xref> document. For instructions on working with
@@ -26,38 +47,113 @@
               q-lines</xref>. </dd>
         </dlentry>
         <dlentry>
+          <dt>&lt;prolog&gt;</dt>
+          <dd>The container for elements that contain information about the topic; i.e., metadata.
+            See <xref scope="external"
+              href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/prolog.html"/> Some of
+            the elements in the prolog will be controlled by the KMS system. For example, the
+            &lt;created&gt; element within the &lt;critdates&gt; element will contain the date that
+            the topic was introduced into the system. If an editor changes that date while editing
+            the topic, the system will revert to the previous value. However, elements such as
+            &lt;data&gt; will retain the values entered by the editor. <dl>
+              <dlentry>
+                <dt>&lt;author&gt;</dt>
+                <dd>The name of the person who originally provided the content of the topic.</dd>
+              </dlentry>
+              <dlentry>
+                <dt>&lt;critdates&gt;</dt>
+                <dd>A container element for elements containing date information about the topic.
+                  See <xref scope="external"
+                    href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/critdates.html"/>
+                  <dl>
+                    <dlentry>
+                      <dt>&lt;created&gt;</dt>
+                      <dd>Required to be the first element inside &lt;critdates&gt;. It can have
+                        three attributes that contain date information: <dl>
+                          <dlentry>
+                            <dt>date</dt>
+                            <dd>the date of introduction of a topic into the system</dd>
+                          </dlentry>
+                          <dlentry>
+                            <dt>golive</dt>
+                            <dd>the date on which the topic was first made visible to end users</dd>
+                          </dlentry>
+                          <dlentry>
+                            <dt>expiry</dt>
+                            <dd>the date on which the topic should be reviewed. The &lt;revised&gt;
+                              element can also have an expiry attribute, and unlike the golive
+                              attribute which is also shared, I can't think of what an expiry on the
+                              &lt;created&gt; element would mean as opposed to an expiry on the
+                              &lt;revised&gt; element. </dd>
+                          </dlentry>
+                        </dl>
+                        <p>See <xref scope="external"
+                            href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/created.html"
+                          /></p>
+                      </dd>
+                    </dlentry>
+                    <dlentry>
+                      <dt>&lt;revised&gt;</dt>
+                      <dd>Records lifecycle dates for the topic. It can have three kinds of date
+                        attributes: <dl>
+                          <dlentry>
+                            <dt><codeph>modified</codeph></dt>
+                            <dd>A required attribute; the date on which the topic was last
+                              changed</dd>
+                          </dlentry>
+                          <dlentry>
+                            <dt><codeph>golive</codeph></dt>
+                            <dd>the date on which that revision of the topic was put into
+                              production</dd>
+                          </dlentry>
+                          <dlentry>
+                            <dt><codeph>expiry</codeph></dt>
+                            <dd>the date on which that revision of the topic needs to be checked for
+                              accuracy</dd>
+                          </dlentry>
+                        </dl>
+                        <p>See <xref scope="external"
+                            href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/revised.html"
+                          /></p></dd>
+                    </dlentry>
+                  </dl>
+                </dd>
+              </dlentry>
+            </dl>
+          </dd>
+        </dlentry>
+        <dlentry>
           <dt>&lt;body&gt;</dt>
-          <dd>The &lt;body&gt; tag contains the viewable contents of the DITA document. See <xref
-              scope="external"
+          <dd>The viewable contents of the DITA document. See <xref scope="external"
               href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/body.html"/> The
             &lt;body&gt; element is only required insofar as it is a required container of any text
             nodes. The alt qline documents don't have any text other than the titles so they don't
             need &lt;body&gt; tags.</dd>
         </dlentry>
-    </dl>
+      </dl>
     </section>
-<section><title>Special purpose DITA tags</title>
-<p>These tags serve special purposes in DITA beyond semantic tagging of content.</p>
-<dl>
-  <dlentry>
-    <dt>&lt;xref&gt;</dt>
-          <dd><p>The &lt;xref&gt; element is DITA's general purpose tag for creating cross-referencing
-              links. See <xref scope="external"
+    <section><title>Special purpose DITA tags</title>
+      <p>These tags serve special purposes in DITA beyond providing semantic tagging of content.</p>
+      <dl>
+        <dlentry>
+          <dt>&lt;xref&gt;</dt>
+          <dd><p>DITA's general purpose tag for creating cross-referencing links. See <xref
+                scope="external"
                 href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/xref.html"/>. The
               DITA standard recommends using higher-level linking structures built into ditamaps
-              over using &lt;xref&gt; elements to hardcode links at the topic level.
-              For the KB, the &lt;xref&gt; element will take the place of the &lt;kba&gt; KBML
-              element, as well as the regular HTML &lt;a&gt; element.</p> 
-            <p>The &lt;xref&gt; element transcludes the text
-              of the title of the link target similarly to the way the &lt;kba&gt; tag does. The
-              &lt;xref&gt; element works differently in how to override the default title text:
-              the &lt;xref&gt; element has no way of selecting an alternate qline as you can do with
-              the <codeph>qline</codeph> attribute of the &lt;xref&gt; element. Instead, you can
-              specify alternate text for the link by enclosing it within the &lt;xref&gt; element,
-              as you would do with an HTML &lt;a&gt; element.</p></dd>
-  </dlentry>
-</dl>
-</section>
+              over using &lt;xref&gt; elements to hardcode links at the topic level. For the KB, the
+              &lt;xref&gt; element will take the place of the &lt;kba&gt; KBML element, as well as
+              the regular HTML &lt;a&gt; element.</p>
+            <p>The &lt;xref&gt; element transcludes the text of the title of the link target
+              similarly to the way the &lt;kba&gt; tag does. The &lt;xref&gt; element works
+              differently in how to override the default title text: the &lt;xref&gt; element has no
+              way of selecting an alternate qline as you can do with the <codeph>qline</codeph>
+              attribute of the &lt;xref&gt; element. Instead, you can specify alternate text for the
+              link by enclosing it within the &lt;xref&gt; element, as you would do with an HTML
+              &lt;a&gt; element.</p></dd>
+        </dlentry>
+      </dl>
+    </section>
 
   </body>
 </topic>
