@@ -165,7 +165,20 @@
         </dlentry>
       </dl>
     </section>
-    <section><title>Special purpose DITA tags</title>
+    <section>
+      <title>Semantic DITA tags</title>
+    <p>DITA provides an incredibly rich set of semantic tags that provides a superset of the
+      semantics that we had with KBML. We'll be able to express nuances of meaning that we couldnt
+      before. I indicate what KBML elements the dita element replaces.</p>
+      <dl>
+        <dlentry>
+          <dt>&lt;codeblock&gt;</dt>
+          <dd>What we would have used &lt;example&gt; elements for in KBML. </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section>
+      <title>Special purpose DITA tags</title>
       <p>These tags serve special purposes in DITA beyond providing semantic tagging of content.</p>
       <dl>
         <dlentry>
