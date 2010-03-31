@@ -10,9 +10,11 @@
       <revised modified="2333-23-32"/>
     </critdates>
     <metadata>
+      <category>specification</category>
+      <category>dita</category>
       <keywords>
-        <indexterm>dita guide</indexterm>
-        <indexterm>kbml</indexterm>
+        <keyword base="9">dita guide</keyword>
+        <keyword base="3">kbml</keyword>
       </keywords>
     </metadata>
     <data name="docid" value="apjr"/>
@@ -27,7 +29,7 @@
   <body>
     <p>On this page:</p>
     <section id="Required">
-      <title>Required KBML tags</title>
+      <title>Required tags</title>
       <p> These DITA tags are required in a KMS document: </p>
       <dl>
         <dlentry>
@@ -97,24 +99,55 @@
                       <dd>Records lifecycle dates for the topic. It can have three kinds of date
                         attributes: <dl>
                           <dlentry>
-                            <dt><codeph>modified</codeph></dt>
+                            <dt>modified</dt>
                             <dd>A required attribute; the date on which the topic was last
                               changed</dd>
                           </dlentry>
                           <dlentry>
-                            <dt><codeph>golive</codeph></dt>
-                            <dd>the date on which that revision of the topic was put into
-                              production</dd>
+                            <dt>golive</dt>
+                            <dd>the date on which the revision was made visible to end users</dd>
                           </dlentry>
                           <dlentry>
-                            <dt><codeph>expiry</codeph></dt>
-                            <dd>the date on which that revision of the topic needs to be checked for
-                              accuracy</dd>
+                            <dt>expiry</dt>
+                            <dd>the date on which the revision should be checked for accuracy</dd>
                           </dlentry>
                         </dl>
                         <p>See <xref scope="external"
                             href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/revised.html"
                           /></p></dd>
+                    </dlentry>
+                  </dl>
+                </dd>
+              </dlentry>
+              <dlentry>
+                <dt>&lt;metadata&gt;</dt>
+                <dd>According to <xref scope="external"
+                    href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/metadata.html"/>,
+                  elements inside the &lt;metadata&gt; element relate to the content of the topic;
+                  e.g., xtras, while elements in &lt;prolog&gt; but outside &lt;metadata&gt; pertain
+                  to the topic as a "content unit (such as the author or copyright), which are
+                  unrelated to the subject" of the topic. <note>One allowed element in the
+                    &lt;metadata&gt; element is &lt;audience&gt;, but we are not going to use it
+                    here, as the KMS will control audience for whole topics by defining a key for
+                    the topic in the dita maps for the domains it belongs in.</note>
+                <dl>
+                    <dlentry>
+                      <dt>&lt;category&gt;</dt>
+                      <dd>Any category that applies to the topic as a whole. You can apply multiple
+                        categories by adding additional &lt;category&gt; elements.</dd>
+                    </dlentry>
+                    <dlentry>
+                      <dt>&lt;keywords&gt;</dt>
+                      <dd>Container element for keywords
+                      <dl>
+                        <dlentry>
+                            <dt>&lt;keyword&gt;</dt>
+                            <dd>Terms that should return this topic when entered in searches; xtras,
+                              in KB parlance. You can put a numeric weighting in a
+                                <codeph>base</codeph> attribute. </dd>
+                        </dlentry>
+                      </dl>
+                      </dd>
                     </dlentry>
                   </dl>
                 </dd>
