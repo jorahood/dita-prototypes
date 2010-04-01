@@ -28,9 +28,9 @@
   </prolog>
   <body>
     <p>On this page:</p>
-    <section id="Required">
-      <title>Required tags</title>
-      <p> These DITA tags are required in a KMS document: </p>
+    <section>
+      <title>Required topic tags</title>
+      <p> These DITA tags are required in a KMS topic: </p>
       <dl>
         <dlentry>
           <dt>&lt;topic&gt;</dt>
@@ -179,17 +179,19 @@
     </section>
     <section>
       <title>Special purpose DITA tags</title>
-      <p>These tags serve special purposes in DITA beyond providing semantic tagging of content.</p>
+      <p>These elements serve special purposes in DITA beyond providing semantic tagging of content.</p>
       <dl>
         <dlentry>
           <dt>&lt;xref&gt;</dt>
-          <dd><p>DITA's general purpose tag for creating cross-referencing links. See <xref
+          <dd><p>DITA's general purpose element for creating cross-referencing links. See <xref
                 scope="external"
                 href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/xref.html"/>. The
               DITA standard recommends using higher-level linking structures built into ditamaps
-              over using &lt;xref&gt; elements to hardcode links at the topic level. For the KB, the
+              over hardcoding links at the topic level with &lt;xref&gt; elements. For the KB, the
               &lt;xref&gt; element will take the place of the &lt;kba&gt; KBML element, as well as
-              the regular HTML &lt;a&gt; element.</p>
+              the regular HTML &lt;a&gt; element. We will not use &lt;xref&gt;s to stand in for
+              &lt;kbh&gt; elements, instead we will maintain these links in the reltable of the base
+              ditamap. See the &lt;reltable&gt; section below for more information.</p>
             <p>The &lt;xref&gt; element transcludes the text of the title of the link target
               similarly to the way the &lt;kba&gt; tag does. The &lt;xref&gt; element works
               differently in how to override the default title text: the &lt;xref&gt; element has no
@@ -200,6 +202,32 @@
         </dlentry>
       </dl>
     </section>
-
+    <section>
+      <title>Ditamap elements</title>
+     <dl>
+       <dlentry>
+         <dt>&lt;topicref&gt;</dt>
+          <dd>We use topicrefs in ditamaps to represent relationships among topics, and to organize
+            topics into domains. We put these topicrefs in two different ditamap structures to
+            accomplish these two goals, and to make the system more modular we put these structures
+            into separate maps and link the maps together: <dl>
+              <dlentry>
+                <dt>in the reltable in <filepath>base.ditamap</filepath></dt>
+                <dd>The base ditamap contains the relationships among all topics in a kb as a whole.
+                  The reltable is structured with one row element, called relrow, per topic. Each
+                  relrow has three cell elements, called relcells. In the three relcells are one or
+                  more topicrefs. All the topicrefs should use keyref attributes containing the
+                  docid of the topic to allow DITA to resolve what topics are accessible. <ol>
+                    <li>a topicref element for the source topic</li>
+                    <li>one topicref for each KB Ref</li>
+                    <li>one topicref for each hotitem</li>
+                  </ol>
+                </dd>
+              </dlentry>
+            </dl>
+          </dd>
+       </dlentry>
+     </dl>
+    </section>
   </body>
 </topic>
