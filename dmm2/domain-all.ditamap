@@ -7,13 +7,14 @@
   <!-- docids available in this domain -->
   <topicref keys="abxl" href="abxl.dita#abxl-dmm2"/>
   <topicref keys="abxq" href="abxq.dita#abxq-dmm2"/>
+  <topicref keys="aeru" href="aeru.dita#aeru-dmm2"/>
   <topicref keys="agcz" href="agcz.dita#agcz-dmm2"/>
   <topicref keys="ajpt" href="ajpt.dita#ajpt-dmm2"/>
   <topicref keys="akui" href="akui.dita#akui-dmm2"/>
   <topicref keys="alfm" href="alfm.dita#alfm-dmm2"/>
   <topicref keys="alqk" href="alqk.dita#alqk-dmm2"/>
   <topicref keys="alqt" href="alqt.dita#alqt-dmm2"/>
-  <!-- alwe is in sc.ditamap -->
+  <topicref keys="alyb" href="alyb.dita#alyb-dmm2"/>
   <topicref keys="anaz" href="anaz.dita#anaz-dmm2"/>
   <topicref keys="angn" href="angn.dita#angn-dmm2"/>
   <topicref keys="apjr" href="apjr.dita#apjr-dmm2"/>

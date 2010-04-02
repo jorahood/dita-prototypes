@@ -40,13 +40,13 @@
         </dlentry>
         <dlentry>
           <dt>&lt;title&gt;</dt>
-          <dd>The title of a document and must appear as the first element. See <xref
+          <dd>The title of a document must appear as the first element. See <xref
               scope="external"
               href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/title.html"/> You can
             create alternate titles for a document by adding them to the <xref
               href="alt-qlines.dita">alt qlines</xref> document. For instructions on working with
-            alternate a-lines, see <xref href="adding-alt-qlines.dita">Adding alternate
-              q-lines</xref>. </dd>
+            alternate q-lines, see <xref href="adding-alt-qlines.dita"/>. You can also use titles on
+            sections of topics to create subheadings.</dd>
         </dlentry>
         <dlentry>
           <dt>&lt;prolog&gt;</dt>
@@ -167,15 +167,49 @@
     </section>
     <section>
       <title>Semantic DITA tags</title>
-    <p>DITA provides an incredibly rich set of semantic tags that provides a superset of the
+    <p>DITA provides a rich set of semantic tags that provides a superset of the
       semantics that we had with KBML. We'll be able to express nuances of meaning that we couldnt
-      before. I indicate what KBML elements the dita element replaces.</p>
-      <dl>
-        <dlentry>
-          <dt>&lt;codeblock&gt;</dt>
-          <dd>What we would have used &lt;example&gt; elements for in KBML. </dd>
-        </dlentry>
-      </dl>
+      before. I describe them in terms of what KBML elements they replace.</p>
+      <table>
+        <tgroup cols="2">
+          <thead>
+            <row>
+              <entry>DITA</entry>
+              <entry>KBML</entry>
+            </row>
+          </thead>     
+          <tbody>
+            <row>
+              <entry>&lt;codeblock&gt;</entry>
+              <entry>&lt;example&gt;</entry>
+            </row>
+            <row>
+              <entry>&lt;note&gt;</entry>
+            <entry>&lt;strong&gt;Note:&lt;/strong&gt;</entry>
+            </row>
+            <row>
+              <entry>&lt;section&gt;</entry>
+              <entry>&lt;h3&gt;</entry>
+            </row>
+            <row>
+              <entry>&lt;systemoutput&gt;</entry>
+              <entry>&lt;code&gt;, for text output by the computer</entry>
+            </row>
+            <row>
+              <entry>&lt;userinput&gt;</entry>
+              <entry>&lt;code&gt;, for text input by the user</entry>
+            </row>
+            <row>
+              <entry>&lt;table&gt;</entry>
+              <entry>&lt;kbtable&gt;. See <xref keyref="aeru"></xref></entry>
+            </row>
+            <row>
+              <entry>&lt;uicontrol&gt;</entry>
+              <entry>&lt;mi&gt;</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
     </section>
     <section>
       <title>Special purpose DITA tags</title>
@@ -198,10 +232,19 @@
               way of selecting an alternate qline as you can do with the <codeph>qline</codeph>
               attribute of the &lt;xref&gt; element. Instead, you can specify alternate text for the
               link by enclosing it within the &lt;xref&gt; element, as you would do with an HTML
-              &lt;a&gt; element.</p></dd>
+              &lt;a&gt; element.</p>
+          <p>When creating &lt;kba&gt; style cross-referencing links to other KMS topics you should
+            use the "keyref" attribute, which will allow us to use DITA keys to control access to
+            documents. The href attribute can be used to create a fallback link in the case where
+            the document is not available.</p></dd>
         </dlentry>
       </dl>
     </section>
+    <section>
+      <title>The audience attribute</title>
+    <p>The audience attribute serves the same purpose as the "who" attribute in KBML: filtering out
+      the content within the tag having the "audience" attribute. The "audience" attribute can be
+      placed in almost all DITA elements.</p></section>
     <section>
       <title>Ditamap elements</title>
      <dl>
@@ -217,12 +260,27 @@
                   The reltable is structured with one row element, called relrow, per topic. Each
                   relrow has three cell elements, called relcells. In the three relcells are one or
                   more topicrefs. All the topicrefs should use keyref attributes containing the
-                  docid of the topic to allow DITA to resolve what topics are accessible. <ol>
-                    <li>a topicref element for the source topic</li>
-                    <li>one topicref for each KB Ref</li>
-                    <li>one topicref for each hotitem</li>
+                  docid of the topic to allow DITA to resolve what topics are accessible. The
+                  three relcells contain, from left to right: 
+                  <ol>
+                    <li>a topicref element for the source topic from which we're creating links</li>
+                    <li>one topicref for each KB Ref of the source topic</li>
+                    <li>one topicref for each hotitem of the source topic</li>
                   </ol>
                 </dd>
+              </dlentry>
+              <dlentry>
+                <dt>in the ditamap file for the domain in which the topic belongs</dt>
+                <dd>Each kb domain is represented by a ditmap that contains &lt;topicref&gt;
+                  elements for all the topics in that domain. Each topicref defines the dita key by
+                  which the topic will be referred to anywhere it is linked to. To render a certain
+                  domain you need to transform its corresponding ditamap with the DITA OT. The DOT
+                  will resolve the keys defined in the ditamap and maps linked to by that ditamap.
+                  By linking domains together with &lt;mapref&gt; elements in a tree structure we
+                  represent the KB domain hierarchy. For example, to add document anar to the all
+                  domain, you would add this line to <filepath>domain-all.ditamap</filepath>:
+                  <userinput>&lt;topicref keys="anaz"
+                  href="anaz.dita#anaz-dmm2"/&gt;</userinput></dd>
               </dlentry>
             </dl>
           </dd>
