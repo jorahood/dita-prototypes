@@ -5,7 +5,7 @@
   <mapref href="base.ditamap"/>
 
   <!-- docids available in this domain -->
-  <topicref keys="abxl" href="abxl.dita#abxl-dmm2"/>
+  <topicref keys="abxl" href="abxl.dita"/>
   <topicref keys="abxq" href="abxq.dita#abxq-dmm2"/>
   <topicref keys="aeru" href="aeru.dita#aeru-dmm2"/>
   <topicref keys="agcz" href="agcz.dita#agcz-dmm2"/>

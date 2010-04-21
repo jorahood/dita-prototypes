@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="topic"/>
+<meta name="DC.Title" content="DITA guide for KB editors"/>
+<meta name="DC.Coverage" content="specification"/>
+<meta name="DC.Coverage" content="dita"/>
+<meta name="DC.subject" content="dita guide, kbml"/>
+<meta name="keywords" content="dita guide, kbml"/>
+<meta name="DC.Creator" content="jorahood"/>
+<meta name="DC.Date.Created" content="2010-3-25"/>
+<meta name="DC.Date.Modified" content="2010-03-29"/>
+<meta name="DC.Date.Modified" content="2333-23-32"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="apjr-dmm2"/>
+<link rel="stylesheet" type="text/css" href="css/commonltr.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<title>DITA guide for KB editors</title>
+</head>
+<body id="apjr-dmm2"><a name="apjr-dmm2"><!-- --></a>
+
+
+  <h1 class="topictitle1">DITA guide for KB editors</h1>
+
+  
+  <div>
+    <p>On this page:</p>
+
+    <div class="section"><h2 class="sectiontitle">Required topic tags</h2>
+      
+      <p> These DITA tags are required in a KMS topic: </p>
+
+      <dl>
+        
+          <dt class="dlterm">&lt;topic&gt;</dt>
+
+          <dd>The top level element for DITA topic documents. The &lt;topic&gt; tag has a required
+              <samp class="codeph">id</samp> attribute. See <a href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/topic.html" target="_blank">http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/topic.html</a></dd>
+
+        
+        
+          <dt class="dlterm">&lt;title&gt;</dt>
+
+          <dd>The title of a document must appear as the first element. See <a href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/title.html" target="_blank">http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/title.html</a> You can
+            create alternate titles for a document by adding them to the <a href="alt-qlines.html">alt qlines</a> document. For instructions on working with
+            alternate q-lines, see <a href="adding-alt-qlines.html">adding-alt-qlines.html</a>. You can also use titles on
+            sections of topics to create subheadings.</dd>
+
+        
+        
+          <dt class="dlterm">&lt;prolog&gt;</dt>
+
+          <dd>The container for elements that contain information about the topic; i.e., metadata.
+            See <a href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/prolog.html" target="_blank">http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/prolog.html</a> Some of
+            the elements in the prolog will be controlled by the KMS system. For example, the
+            &lt;created&gt; element within the &lt;critdates&gt; element will contain the date that
+            the topic was introduced into the system. If an editor changes that date while editing
+            the topic, the system will revert to the previous value. However, elements such as
+            &lt;data&gt; will retain the values entered by the editor. <dl>
+              
+                <dt class="dlterm">&lt;author&gt;</dt>
+
+                <dd>The name of the person who originally provided the content of the topic.</dd>
+
+              
+              
+                <dt class="dlterm">&lt;critdates&gt;</dt>
+
+                <dd>A container element for elements containing date information about the topic.
+                  See <a href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/critdates.html" target="_blank">http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/critdates.html</a>
+                  <dl>
+                    
+                      <dt class="dlterm">&lt;created&gt;</dt>
+
+                      <dd>Required to be the first element inside &lt;critdates&gt;. It can have
+                        three attributes that contain date information: <dl>
+                          
+                            <dt class="dlterm">date</dt>
+
+                            <dd>the date of introduction of a topic into the system</dd>
+
+                          
+                          
+                            <dt class="dlterm">golive</dt>
+
+                            <dd>the date on which the topic was first made visible to end users</dd>
+
+                          
+                          
+                            <dt class="dlterm">expiry</dt>
+
+                            <dd>the date on which the topic should be reviewed. The &lt;revised&gt;
+                              element can also have an expiry attribute, and unlike the golive
+                              attribute which is also shared, I can't think of what an expiry on the
+                              &lt;created&gt; element would mean as opposed to an expiry on the
+                              &lt;revised&gt; element. </dd>
+
+                          
+                        </dl>
+
+                        <p>See <a href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/created.html" target="_blank">http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/created.html</a></p>
+
+                      </dd>
+
+                    
+                    
+                      <dt class="dlterm">&lt;revised&gt;</dt>
+
+                      <dd>Records lifecycle dates for the topic. It can have three kinds of date
+                        attributes: <dl>
+                          
+                            <dt class="dlterm">modified</dt>
+
+                            <dd>A required attribute; the date on which the topic was last
+                              changed</dd>
+
+                          
+                          
+                            <dt class="dlterm">golive</dt>
+
+                            <dd>the date on which the revision was made visible to end users</dd>
+
+                          
+                          
+                            <dt class="dlterm">expiry</dt>
+
+                            <dd>the date on which the revision should be checked for accuracy</dd>
+
+                          
+                        </dl>
+
+                        <p>See <a href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/revised.html" target="_blank">http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/revised.html</a></p>
+</dd>
+
+                    
+                  </dl>
+
+                </dd>
+
+              
+              
+                <dt class="dlterm">&lt;metadata&gt;</dt>
+
+                <dd>According to <a href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/metadata.html" target="_blank">http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/metadata.html</a>,
+                  elements inside the &lt;metadata&gt; element relate to the content of the topic;
+                  e.g., xtras, while elements in &lt;prolog&gt; but outside &lt;metadata&gt; pertain
+                  to the topic as a "content unit (such as the author or copyright), which are
+                  unrelated to the subject" of the topic. <div class="note"><span class="notetitle">Note:</span> One allowed element in the
+                    &lt;metadata&gt; element is &lt;audience&gt;, but we are not going to use it
+                    here, as the KMS will control audience for whole topics by defining a key for
+                    the topic in the dita maps for the domains it belongs in.</div>
+
+                <dl>
+                    
+                      <dt class="dlterm">&lt;category&gt;</dt>
+
+                      <dd>Any category that applies to the topic as a whole. You can apply multiple
+                        categories by adding additional &lt;category&gt; elements.</dd>
+
+                    
+                    
+                      <dt class="dlterm">&lt;keywords&gt;</dt>
+
+                      <dd>Container element for keywords
+                      <dl>
+                        
+                            <dt class="dlterm">&lt;keyword&gt;</dt>
+
+                            <dd>Terms that should return this topic when entered in searches; xtras,
+                              in KB parlance. You can put a numeric weighting in a
+                                <samp class="codeph">base</samp> attribute. </dd>
+
+                        
+                      </dl>
+
+                      </dd>
+
+                    
+                  </dl>
+
+                </dd>
+
+              
+            </dl>
+
+          </dd>
+
+        
+        
+          <dt class="dlterm">&lt;body&gt;</dt>
+
+          <dd>The viewable contents of the DITA document. See <a href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/body.html" target="_blank">http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/body.html</a> The
+            &lt;body&gt; element is only required insofar as it is a required container of any text
+            nodes. The alt qline documents don't have any text other than the titles so they don't
+            need &lt;body&gt; tags.</dd>
+
+        
+      </dl>
+
+    </div>
+
+    <div class="section"><h2 class="sectiontitle">Semantic DITA tags</h2>
+      
+    <p>DITA provides a rich set of semantic tags that provides a superset of the
+      semantics that we had with KBML. We'll be able to express nuances of meaning that we couldnt
+      before. I describe them in terms of what KBML elements they replace.</p>
+
+      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" frame="border" border="1" rules="all">
+          <thead align="left">
+            <tr>
+              <th class="cellrowborder" valign="top" id="d1204e320">DITA</th>
+
+              <th class="cellrowborder" valign="top" id="d1204e323">KBML</th>
+
+            </tr>
+
+          </thead>
+     
+          <tbody>
+            <tr>
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;codeblock&gt;</td>
+
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;example&gt;</td>
+
+            </tr>
+
+            <tr>
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;note&gt;</td>
+
+            <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;strong&gt;Note:&lt;/strong&gt;</td>
+
+            </tr>
+
+            <tr>
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;section&gt;</td>
+
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;h3&gt;</td>
+
+            </tr>
+
+            <tr>
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;systemoutput&gt;</td>
+
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;code&gt;, for text output by the computer</td>
+
+            </tr>
+
+            <tr>
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;userinput&gt;</td>
+
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;code&gt;, for text input by the user</td>
+
+            </tr>
+
+            <tr>
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;table&gt;</td>
+
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;kbtable&gt;. See <a href="aeru.html#aeru-dmm2">Guide to DITA tables</a></td>
+
+            </tr>
+
+            <tr>
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;uicontrol&gt;</td>
+
+              <td class="cellrowborder" valign="top" headers="d1204e320 d1204e323 ">&lt;mi&gt;</td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+</div>
+
+    </div>
+
+    <div class="section"><h2 class="sectiontitle">Special purpose DITA tags</h2>
+      
+      <p>These elements serve special purposes in DITA beyond providing semantic tagging of content.</p>
+
+      <dl>
+        
+          <dt class="dlterm">&lt;xref&gt;</dt>
+
+          <dd><p>DITA's general purpose element for creating cross-referencing links. See <a href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/xref.html" target="_blank">http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/xref.html</a>. The
+              DITA standard recommends using higher-level linking structures built into ditamaps
+              over hardcoding links at the topic level with &lt;xref&gt; elements. For the KB, the
+              &lt;xref&gt; element will take the place of the &lt;kba&gt; KBML element, as well as
+              the regular HTML &lt;a&gt; element. We will not use &lt;xref&gt;s to stand in for
+              &lt;kbh&gt; elements, instead we will maintain these links in the reltable of the base
+              ditamap. See the &lt;reltable&gt; section below for more information.</p>
+
+            <p>The &lt;xref&gt; element transcludes the text of the title of the link target
+              similarly to the way the &lt;kba&gt; tag does. The &lt;xref&gt; element works
+              differently in how to override the default title text: the &lt;xref&gt; element has no
+              way of selecting an alternate qline as you can do with the <samp class="codeph">qline</samp>
+              attribute of the &lt;xref&gt; element. Instead, you can specify alternate text for the
+              link by enclosing it within the &lt;xref&gt; element, as you would do with an HTML
+              &lt;a&gt; element.</p>
+
+          <p>When creating &lt;kba&gt; style cross-referencing links to other KMS topics you should
+            use the "keyref" attribute, which will allow us to use DITA keys to control access to
+            documents. The href attribute can be used to create a fallback link in the case where
+            the document is not available.</p>
+</dd>
+
+        
+      </dl>
+
+    </div>
+
+    <div class="section"><h2 class="sectiontitle">The audience attribute</h2>
+      
+    <p>The audience attribute serves the same purpose as the "who" attribute in KBML: filtering out
+      the content within the tag having the "audience" attribute. The "audience" attribute can be
+      placed in almost all DITA elements.</p>
+</div>
+
+    <div class="section"><h2 class="sectiontitle">Ditamap elements</h2>
+      
+     <dl>
+       
+         <dt class="dlterm">&lt;topicref&gt;</dt>
+
+          <dd>We use topicrefs in ditamaps to represent relationships among topics, and to organize
+            topics into domains. We put these topicrefs in two different ditamap structures to
+            accomplish these two goals, and to make the system more modular we put these structures
+            into separate maps and link the maps together: <dl>
+              
+                <dt class="dlterm">in the reltable in <span class="filepath">base.ditamap</span></dt>
+
+                <dd>The base ditamap contains the relationships among all topics in a kb as a whole.
+                  The reltable is structured with one row element, called relrow, per topic. Each
+                  relrow has three cell elements, called relcells. In the three relcells are one or
+                  more topicrefs. All the topicrefs should use keyref attributes containing the
+                  docid of the topic to allow DITA to resolve what topics are accessible. The
+                  three relcells contain, from left to right: 
+                  <ol>
+                    <li>a topicref element for the source topic from which we're creating links</li>
+
+                    <li>one topicref for each KB Ref of the source topic</li>
+
+                    <li>one topicref for each hotitem of the source topic</li>
+
+                  </ol>
+
+                </dd>
+
+              
+              
+                <dt class="dlterm">in the ditamap file for the domain in which the topic belongs</dt>
+
+                <dd>Each kb domain is represented by a ditmap that contains &lt;topicref&gt;
+                  elements for all the topics in that domain. Each topicref defines the dita key by
+                  which the topic will be referred to anywhere it is linked to. To render a certain
+                  domain you need to transform its corresponding ditamap with the DITA OT. The DOT
+                  will resolve the keys defined in the ditamap and maps linked to by that ditamap.
+                  By linking domains together with &lt;mapref&gt; elements in a tree structure we
+                  represent the KB domain hierarchy. For example, to add document anar to the all
+                  domain, you would add this line to <span class="filepath">domain-all.ditamap</span>:
+                  <kbd class="userinput">&lt;topicref keys="anaz"
+                  href="anaz.dita#anaz-dmm2"/&gt;</kbd></dd>
+
+              
+            </dl>
+
+          </dd>
+
+       
+     </dl>
+
+    </div>
+
+  </div>
+
+
+</body>
+</html>
