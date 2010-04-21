@@ -167,9 +167,9 @@
     </section>
     <section>
       <title>Semantic DITA tags</title>
-    <p>DITA provides a rich set of semantic tags that provides a superset of the
-      semantics that we had with KBML. We'll be able to express nuances of meaning that we couldnt
-      before. I describe them in terms of what KBML elements they replace.</p>
+    <p>DITA provides a richer set of semantic tags compared to KBML. KB Editors will be able to
+      express more nuances of meaning than were possible with KBML. The table below presents the
+      DITA elements in terms of what KBML elements they supercede:</p>
       <table>
         <tgroup cols="2">
           <thead>
@@ -213,7 +213,7 @@
     </section>
     <section>
       <title>Special purpose DITA tags</title>
-      <p>These elements serve special purposes in DITA beyond providing semantic tagging of content.</p>
+      <p>These elements serve special purposes in DITA beyond semantic tagging of content.</p>
       <dl>
         <dlentry>
           <dt>&lt;xref&gt;</dt>
