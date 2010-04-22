@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="add-new">
+  <title>How do I link a new document into the KMS?</title>
+  <shortdesc>Creating topicref links for a new document in the KMS DITA Maps</shortdesc>
+  <taskbody>
+    <prereq>You must have created a new document in the KMS. (Add topicref to add-new in
+      domain-all.ditamap)</prereq>
+    <steps>
+      <stepsection>You first need to create a <codeph>topicref</codeph> to define a
+        <apiname>key</apiname> for the document. This key controls what domains the document will
+        be accessible from.  
+      </stepsection>
+      <step>
+        <cmd>In the KMS Oxygen project, open the ditamap corresponding to the domain that the
+          document belongs in.</cmd>
+        <stepxmp>E.g., <filepath>domain-all.ditamap</filepath></stepxmp>
+      </step>
+      <step>
+        <cmd>Inside the <codeph>map</codeph>, insert a <codeph>topicref</codeph> element with <codeph>keys</codeph> and
+          <codeph>href</codeph> attributes. Make the <codeph>keys</codeph> attribute the
+          docid and the <codeph>href</codeph> attribute the filename, then a pound sign, then the
+          topic id. 
+        </cmd><stepxmp> E.g., for document ddud, <codeph>&lt;topicref keys="ddud" href="ddud.dita#ddud-dmm2"&gt;</codeph> 
+        </stepxmp>
+      </step>
+      <step>
+        <cmd>Save the ditamap file.</cmd>
+      </step>
+      
+      <step>
+        <cmd>Open the <filepath>base.ditamap</filepath> file.</cmd>
+      </step>
+      <step>
+        <cmd>Inside the <codeph>reltable</codeph>, insert a <codeph>relrow</codeph>. Inside the
+          <codeph>relrow</codeph>, insert three <codeph>relcell</codeph> elements with the following
+          contents, in this order:</cmd><stepxmp><dl>
+            <dlentry>
+              <dt>The origin document</dt>
+              <dd>A <codeph>topicref</codeph> with a <codeph>keyref</codeph> attribute equal to the
+                  <codeph>keys</codeph> attribute in the <codeph>topicref</codeph> you created in
+                the domain ditamap</dd>
+            </dlentry>
+            <dlentry>
+              <dt>Refs</dt>
+              <dd> A <codeph>topicref</codeph> for each of the KB Refs for the document you are
+                adding, with <codeph>keyref</codeph> attributes equal to the <codeph>keys</codeph>
+                attributes in the <codeph>topicref</codeph> elements for each KB Ref in the domain
+                ditamap</dd>
+            </dlentry>
+            <dlentry>
+              <dt>Hotitems</dt>
+              <dd>A <codeph>topicref</codeph> for each of the Hotitems for the document you are
+                adding, with <codeph>keyref</codeph> attributes equal to the <codeph>keys</codeph>
+                attributes in the <codeph>topicref</codeph> elements for each of the Hotitems in the
+                domain ditamap</dd>
+            </dlentry>
+          </dl>
+            <p>E.g., for document ataj, which has no refs and one hotitem, alqt:</p>
+            <codeblock>
+&lt;relrow&gt;
+  &lt;relcell&gt;&lt;topicref keyref="ataj"/&gt;&lt;/relcell&gt;
+    &lt;relcell/&gt;
+    &lt;relcell&gt;&lt;topicref keyref="alqt"/&gt;&lt;/relcell&gt;
+&lt;/relrow&gt;
+            </codeblock>
+          </stepxmp>
+      </step>
+      <step>
+        <cmd>Save the <filepath>base.ditamap</filepath> file.</cmd>
+      </step>
+      <step>
+        <cmd>Run the DITA Open Toolkit on the domain map you added the topic to by following the
+          link that executes it; e.g., </cmd><stepxmp>http://cowhorn.uits.indiana.edu:8080/sage-stg/dita.cat</stepxmp>
+      </step>
+      
+    </steps>
+    <result>The document will appear on the index page generated from the domain ditamap; e.g.,
+        <xref
+        href="http://cowhorn.uits.indiana.edu:8080/sage-stg/static/domain-all/client-all-title-default/index.html"
+        />, with a "Related information" section containing the links to Refs and Hotitems.</result>
+  </taskbody>
+</task>
