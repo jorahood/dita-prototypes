@@ -18,10 +18,9 @@
       </step>
       <step>
         <cmd>Inside the <codeph>map</codeph>, insert a <codeph>topicref</codeph> element with <codeph>keys</codeph> and
-          <codeph>href</codeph> attributes. Make the <codeph>keys</codeph> attribute the
-          docid and the <codeph>href</codeph> attribute the filename, then a pound sign, then the
-          topic id. 
-        </cmd><stepxmp> E.g., for document ddud, <codeph>&lt;topicref keys="ddud" href="ddud.dita#ddud-dmm2"&gt;</codeph> 
+          <codeph>href</codeph> attributes, where the <codeph>keys</codeph> attribute equals the
+          docid and the <codeph>href</codeph> attribute equals the filename of the referenced topic. 
+        </cmd><stepxmp> E.g., for document ddud, <codeph>&lt;topicref keys="ddud" href="ddud.dita"&gt;</codeph> 
         </stepxmp>
       </step>
       <step>
@@ -33,38 +32,47 @@
       </step>
       <step>
         <cmd>Inside the <codeph>reltable</codeph>, insert a <codeph>relrow</codeph>. Inside the
-          <codeph>relrow</codeph>, insert three <codeph>relcell</codeph> elements with the following
-          contents, in this order:</cmd><stepxmp><dl>
-            <dlentry>
-              <dt>The origin document</dt>
-              <dd>A <codeph>topicref</codeph> with a <codeph>keyref</codeph> attribute equal to the
-                  <codeph>keys</codeph> attribute in the <codeph>topicref</codeph> you created in
-                the domain ditamap</dd>
-            </dlentry>
-            <dlentry>
-              <dt>Refs</dt>
-              <dd> A <codeph>topicref</codeph> for each of the KB Refs for the document you are
-                adding, with <codeph>keyref</codeph> attributes equal to the <codeph>keys</codeph>
-                attributes in the <codeph>topicref</codeph> elements for each KB Ref in the domain
-                ditamap</dd>
-            </dlentry>
-            <dlentry>
-              <dt>Hotitems</dt>
-              <dd>A <codeph>topicref</codeph> for each of the Hotitems for the document you are
-                adding, with <codeph>keyref</codeph> attributes equal to the <codeph>keys</codeph>
-                attributes in the <codeph>topicref</codeph> elements for each of the Hotitems in the
-                domain ditamap</dd>
-            </dlentry>
-          </dl>
-            <p>E.g., for document ataj, which has no refs and one hotitem, alqt:</p>
-            <codeblock>
+            <codeph>relrow</codeph>, insert three <codeph>relcell</codeph> elements:</cmd>
+        <substeps>
+          <substep>
+            <note>The first <codeph>relcell</codeph> contains the "origin document"; i.e., the
+              document from which the links originate. </note>
+            <cmd>Insert a <codeph>topicref</codeph> with a <codeph>keyref</codeph> attribute equal
+              to the <codeph>keys</codeph> attribute of the <codeph>topicref</codeph> you created in
+              the domain ditamap in Step 2 above.</cmd>
+          </substep>
+          <substep>
+            <note>The second <codeph>relcell</codeph> contains links to Refs.</note>
+            <cmd>Insert a <codeph>topicref</codeph> for each Ref of the origin document. In each
+                <codeph>topicref</codeph>, insert a <codeph>keyref</codeph> attribute equal to the
+                <codeph>keys</codeph> attribute of the <codeph>topicref</codeph> element for each
+              Ref. If the origin document has no Refs, insert an empty <codeph>topicref</codeph>
+              element as a placeholder.</cmd>
+          </substep>
+          <substep>
+            <note>The third <codeph>relcell</codeph> contains links to Hotitems.</note>
+            <cmd>Insert a <codeph>topicref</codeph> for each referenced Hotitem in the origin
+              document. In each <codeph>topicref</codeph>, insert a <codeph>keyref</codeph>
+              attribute equal to the <codeph>keys</codeph> attribute of the
+              <codeph>topicref</codeph> element for each Hotitem. If the origin document has no
+              Hotitems, insert an empty <codeph>topicref</codeph>
+              element as a placeholder.</cmd>
+          </substep>
+        </substeps>
+        <stepxmp> E.g., for document aaaa, which has refs bbbb and cccc and no hotitems:
+          <codeblock>
 &lt;relrow&gt;
-  &lt;relcell&gt;&lt;topicref keyref="ataj"/&gt;&lt;/relcell&gt;
+  &lt;relcell&gt;
+    &lt;topicref keyref="aaaa"/&gt;
+  &lt;/relcell&gt;
+    &lt;relcell&gt;
+      &lt;topicref keyref="bbbb"/&gt;
+      &lt;topicref keyref="cccc"/&gt;
+    &lt;/relcell&gt;
     &lt;relcell/&gt;
-    &lt;relcell&gt;&lt;topicref keyref="alqt"/&gt;&lt;/relcell&gt;
 &lt;/relrow&gt;
             </codeblock>
-          </stepxmp>
+        </stepxmp>
       </step>
       <step>
         <cmd>Save the <filepath>base.ditamap</filepath> file.</cmd>

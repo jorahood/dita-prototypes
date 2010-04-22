@@ -6,22 +6,22 @@
 
   <!-- docids available in this domain -->
   <topicref keys="abxl" href="abxl.dita"/>
-  <topicref keys="abxq" href="abxq.dita#abxq-dmm2"/>
-  <topicref keys="aeru" href="aeru.dita#aeru-dmm2"/>
-  <topicref keys="agcz" href="agcz.dita#agcz-dmm2"/>
-  <topicref keys="ajpt" href="ajpt.dita#ajpt-dmm2"/>
-  <topicref keys="akui" href="akui.dita#akui-dmm2"/>
-  <topicref keys="alfm" href="alfm.dita#alfm-dmm2"/>
-  <topicref keys="alqk" href="alqk.dita#alqk-dmm2"/>
-  <topicref keys="alqt" href="alqt.dita#alqt-dmm2"/>
-  <topicref keys="alyb" href="alyb.dita#alyb-dmm2"/>
-  <topicref keys="anaz" href="anaz.dita#anaz-dmm2"/>
-  <topicref keys="angn" href="angn.dita#angn-dmm2"/>
-  <topicref keys="apjr" href="apjr.dita#apjr-dmm2"/>
-  <topicref keys="apqd" href="apqd.dita#apqd-dmm2"/>
-  <topicref keys="arms" href="arms.dita#arms-dmm2"/>
-  <topicref keys="ataj" href="ataj.dita#ataj-dmm2"/>
-  <topicref keys="atau" href="atau.dita#atau-dmm2"/>
-  <topicref keys="axvp" href="axvp.dita#axvp-dmm2"/>
+  <topicref keys="abxq" href="abxq.dita"/>
+  <topicref keys="aeru" href="aeru.dita"/>
+  <topicref keys="agcz" href="agcz.dita"/>
+  <topicref keys="ajpt" href="ajpt.dita"/>
+  <topicref keys="akui" href="akui.dita"/>
+  <topicref keys="alfm" href="alfm.dita"/>
+  <topicref keys="alqk" href="alqk.dita"/>
+  <topicref keys="alqt" href="alqt.dita"/>
+  <topicref keys="alyb" href="alyb.dita"/>
+  <topicref keys="anaz" href="anaz.dita"/>
+  <topicref keys="angn" href="angn.dita"/>
+  <topicref keys="apjr" href="apjr.dita"/>
+  <topicref keys="apqd" href="apqd.dita"/>
+  <topicref keys="arms" href="arms.dita"/>
+  <topicref keys="ataj" href="ataj.dita"/>
+  <topicref keys="atau" href="atau.dita"/>
+  <topicref keys="axvp" href="axvp.dita"/>
 
 </map>
