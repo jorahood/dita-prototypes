@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="task"/>
+<meta name="DC.Title" content="In Oxygen XML Editor, how do I add a new document to Kuali KMS?"/>
+<meta name="abstract" content="Adding a new document to Kuali KMS using Oxygen"/>
+<meta name="description" content="Adding a new document to Kuali KMS using Oxygen"/>
+<meta name="DC.Relation" scheme="URI" content="linking-new.html"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="add-new"/>
+<link rel="stylesheet" type="text/css" href="css/commonltr.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<title>In Oxygen XML Editor, how do I add a new document to Kuali KMS?</title>
+</head>
+<body id="add-new"><a name="add-new"><!-- --></a>
+
+
+  <h1 class="topictitle1">In Oxygen XML Editor, how do I add a new document to Kuali KMS?</h1>
+
+  
+  <div><p>Adding a new document to Kuali KMS using Oxygen</p>
+
+    <div class="p">You must have configured an Oxygen XML Editor project. For details, see <a href="oxygen.html#oxygen" title="Connecting Oxygen XML Editor to Kuali KMS through WebDAV">How do I connect Oxygen XML Editor to Kuali KMS?</a></div>
+
+    <ol><li class="stepexpand">
+        <span>In Oxygen XML Editor, select <span class="menucascade">
+            <span class="uicontrol">File</span>
+             &gt; <span class="uicontrol">New...</span>
+          </span>.</span>
+      </li>
+<li class="stepexpand">
+
+        <span>Under the <span class="uicontrol">From templates</span> tab, choose the appropriate DITA
+          template.</span>
+      </li>
+<li class="stepexpand">
+        <span>Edit the document.</span>
+      </li>
+<li class="stepexpand">
+        <span>Select <span class="menucascade">
+            <span class="uicontrol">File</span>
+             &gt; <span class="uicontrol">Save to URL...</span>
+          </span>
+        </span>
+      </li>
+<li class="stepexpand">
+        <span>Make sure the connection is configured using the same settings as initially configuring
+          WebDAV.</span>
+      </li>
+<li class="stepexpand">
+        <span>Next to <span class="uicontrol">File URL:</span>, change the default name
+            <samp class="codeph">Untitled.xml</samp> to a new filename with the file extension
+            <samp class="codeph">dita</samp>. Leave the rest of the path unchanged.</span>
+         <div class="note"><span class="notetitle">Note:</span> If you are importing an existing KB document, use the docid as the name of the
+            file; e.g., <span class="filepath">ddud.dita</span>.</div>
+
+      </li>
+<li class="stepexpand">
+        <span>Click OK.</span>
+         <div class="note"><span class="notetitle">Note:</span> After saving once to the KMS, when you choose <span class="menucascade">
+              <span class="uicontrol">File</span>
+               &gt; <span class="uicontrol">Save</span>
+            </span>, your changes will be saved to the remote repository. You do not have to
+            choose <span class="uicontrol">Save to URL...</span> again. </div>
+
+      </li>
+</ol><p>Now that you have saved the new file to the server, you need to add the new file
+        to the Oxygen project file to make the new file appear in the Oxygen
+          <span class="wintitle">Project</span> view.</p><ol start="8"><li class="stepexpand">
+        <span>Above the main editing view, click the tab for the new file to select it.</span>
+      </li>
+<li class="stepexpand">
+        <span>In the <span class="wintitle">Project</span> view, right-click the
+            <span class="uicontrol">default</span> folder and, from the context menu, select <span class="uicontrol">Add
+            Edited File</span>. </span>
+      </li>
+<li class="stepexpand">
+        <span>Verify that the new file appears in the <span class="uicontrol">default</span> folder.</span>
+      </li>
+<li class="stepexpand">
+        <span>Edit the <samp class="codeph">id</samp> attribute of the <samp class="codeph">topic</samp> element and change
+          it to the docid of the KB document you are importing with <kbd class="userinput">-dmm2</kbd>
+          appended; e.g., <kbd class="userinput">ddud-dmm2</kbd></span>
+      </li>
+</ol>
+    <div class="section">The new file is now saved on the server and added to the Oxygen project file.</div>
+
+  </div>
+
+<div><div class="relinfo"><strong>Related information</strong><br/>
+<div><a href="linking-new.html" title="Creating topicref links for a new document in the KMS">How do I link a new document into the KMS?</a></div>
+</div>
+</div>
+
+</body>
+</html>

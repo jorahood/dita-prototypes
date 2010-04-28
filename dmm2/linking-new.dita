@@ -4,8 +4,9 @@
   <title>How do I link a new document into the KMS?</title>
   <shortdesc>Creating topicref links for a new document in the KMS</shortdesc>
   <taskbody>
-    <prereq>You must have created a new document in the KMS. (Add topicref to add-new in
-      domain-all.ditamap)</prereq>
+    <prereq>After creating a new document in the KMS, you need to create a topicref to it in the
+      domain ditamap it belongs in, and you also need to create all the inter-kb links in the base
+      ditamap.</prereq>
     <steps>
       <stepsection>You first need to create a <codeph>topicref</codeph> to define a
         <apiname>key</apiname> for the document. This key controls what domains the document will
@@ -84,8 +85,6 @@
       
     </steps>
     <result>The document will appear on the index page generated from the domain ditamap; e.g.,
-        <xref
-        href="http://cowhorn.uits.indiana.edu:8080/sage-stg/static/domain-all/client-all-title-default/index.html"
-        />, with a "Related information" section containing the links to Refs and Hotitems.</result>
+        http://cowhorn.uits.indiana.edu:8080/sage-stg/static/domain-all/client-all-title-default/index.html, with a "Related information" section containing the links to Refs and Hotitems.</result>
   </taskbody>
 </task>

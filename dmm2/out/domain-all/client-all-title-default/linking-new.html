@@ -8,24 +8,26 @@
 <meta name="DC.rights.owner" content="(C) Copyright 2005"/>
 <meta name="DC.Type" content="task"/>
 <meta name="DC.Title" content="How do I link a new document into the KMS?"/>
-<meta name="abstract" content="Creating topicref links for a new document in the KMS DITA Maps"/>
-<meta name="description" content="Creating topicref links for a new document in the KMS DITA Maps"/>
+<meta name="abstract" content="Creating topicref links for a new document in the KMS"/>
+<meta name="description" content="Creating topicref links for a new document in the KMS"/>
+<meta name="DC.Relation" scheme="URI" content="add-new.html"/>
 <meta name="DC.Format" content="XHTML"/>
-<meta name="DC.Identifier" content="linking-new"/>
+<meta name="DC.Identifier" content="topicid"/>
 <link rel="stylesheet" type="text/css" href="css/commonltr.css"/>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <title>How do I link a new document into the KMS?</title>
 </head>
-<body id="linking-new"><a name="linking-new"><!-- --></a>
+<body id="topicid"><a name="topicid"><!-- --></a>
 
 
   <h1 class="topictitle1">How do I link a new document into the KMS?</h1>
 
   
-  <div><p>Creating topicref links for a new document in the KMS DITA Maps</p>
+  <div><p>Creating topicref links for a new document in the KMS</p>
 
-    <div class="p">You must have created a new document in the KMS. (Add topicref to add-new in
-      domain-all.ditamap)</div>
+    <div class="p">After creating a new document in the KMS, you need to create a topicref to it in the
+      domain ditamap it belongs in, and you also need to create all the inter-kb links in the base
+      ditamap.</div>
 
     <p>You first need to create a <samp class="codeph">topicref</samp> to define a
         <span class="apiname">key</span> for the document. This key controls what domains the document will
@@ -110,10 +112,14 @@
 </ol>
 
     <div class="section">The document will appear on the index page generated from the domain ditamap; e.g.,
-        <a href="http://cowhorn.uits.indiana.edu:8080/sage-stg/static/domain-all/client-all-title-default/index.html">http://cowhorn.uits.indiana.edu:8080/sage-stg/static/domain-all/client-all-title-default/index.html</a>, with a "Related information" section containing the links to Refs and Hotitems.</div>
+        http://cowhorn.uits.indiana.edu:8080/sage-stg/static/domain-all/client-all-title-default/index.html, with a "Related information" section containing the links to Refs and Hotitems.</div>
 
   </div>
 
+<div><div class="relinfo"><strong>Related information</strong><br/>
+<div><a href="add-new.html" title="Adding a new document to Kuali KMS using Oxygen">In Oxygen XML Editor, how do I add a new document to Kuali KMS?</a></div>
+</div>
+</div>
 
 </body>
 </html>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="task"/>
+<meta name="DC.Title" content="How do I connect Oxygen XML Editor to Kuali KMS?"/>
+<meta name="abstract" content="Connecting Oxygen XML Editor to Kuali KMS through WebDAV"/>
+<meta name="description" content="Connecting Oxygen XML Editor to Kuali KMS through WebDAV"/>
+<meta name="DC.Creator" content="afoltzer"/>
+<meta name="DC.Date.Created" content="2010-03-11"/>
+<meta name="DC.Date.Modified" content="2010-04-01"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="oxygen"/>
+<link rel="stylesheet" type="text/css" href="css/commonltr.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<title>How do I connect Oxygen XML Editor to Kuali KMS?</title>
+</head>
+<body id="oxygen"><a name="oxygen"><!-- --></a>
+
+
+  <h1 class="topictitle1">How do I connect Oxygen XML Editor to Kuali KMS?</h1>
+
+  
+  
+  <div><p>Connecting Oxygen XML Editor to Kuali KMS through WebDAV</p>
+
+    <div class="p"> You must have Oxygen XML Editor 11 (<a href="http://iuware.iu.edu/title.aspx?id=1204">Windows</a>, <a href="http://iuware.iu.edu/title.aspx?id=1207">Mac</a>) installed on your
+      computer.</div>
+
+    <div class="section"> Oxygen XML Editor can connect to Kuali KMS using <dfn class="term">WebDAV</dfn>. This allows you
+      to load content from the KMS into Oxygen, perform authoring tasks, and then save your changes
+      directly to the KMS. </div>
+
+    <ol><li class="stepexpand">
+        <span>Open <span class="cmdname">Oxygen XML Editor</span>.</span>
+      </li>
+<li class="stepexpand">
+        <span>Select <span class="menucascade">
+            <span class="uicontrol">Project</span>
+             &gt; <span class="uicontrol">New Project</span>
+          </span>. </span>
+         In the <span class="wintitle">Project</span> view, <span class="uicontrol">newProject.xpr</span>
+          appears.
+      </li>
+<li class="stepexpand">
+        <span>Right-click <span class="uicontrol">newProject.xpr</span>, and then choose <span class="uicontrol">Import
+            Remote Folders</span>. </span>
+      </li>
+<li class="stepexpand">
+        <span>In <span class="wintitle">Open using FTP/SFTP/WebDAV</span>:</span>
+        <ol type="a">
+          <li class="substepexpand">
+            <span>In <span class="wintitle">Identification</span>, enter any username and password. Neither
+              field can be empty. Check <span class="uicontrol">Save</span>.</span>
+             
+              <div class="note"><span class="notetitle">Note:</span>  Do not use your IU Network ID passphrase. </div>
+
+            
+          </li>
+
+          <li class="substepexpand">
+            <span>Next to <span class="wintitle">Server URL:</span>, enter
+                <samp class="codeph">http://cowhorn.uits.indiana.edu:8080/sage-stg/repository/default/</samp>
+              and check <span class="uicontrol">Autoconnect</span>.</span>
+          </li>
+
+        </ol>
+
+         <img src="images/oxygen-import.png"/>
+      </li>
+<li class="stepexpand">
+        <span> Click <span class="uicontrol">Browse</span>. </span>
+      </li>
+<li class="stepexpand">
+        <span> In the file list, click <span class="uicontrol">default</span>, and then click
+            <span class="uicontrol">OK</span>. </span>
+      </li>
+<li class="stepexpand">
+        <span>In the <span class="wintitle">Project</span> view, double-click
+            <span class="uicontrol">newProject.xpr</span> to reveal the files from the KMS.</span>
+         You can now open, edit, and save files on the KMS through the
+            <span class="wintitle">Project</span> view.
+      </li>
+</ol>
+
+    <div class="section"> Choose <span class="menucascade">
+        <span class="uicontrol">Project</span>
+         &gt; <span class="uicontrol">Save Project</span>
+      </span> to save the project on your computer. <div class="note"><span class="notetitle">Note:</span> The project file on your computer
+        contains the KMS connection information, so you will not have to repeat these steps if you
+        save the project.</div>
+
+    </div>
+
+  </div>
+
+
+</body>
+</html>
