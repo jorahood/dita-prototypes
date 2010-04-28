@@ -11,6 +11,15 @@
        <relcolspec type="topic" linking="targetonly"/>
      </relheader>
     <relrow>
+      <relcell>
+        <topicref keyref="add-new"/>
+      </relcell>
+      <relcell>
+        <topicref keyref="linking-new"/>
+      </relcell>
+      <relcell/>
+    </relrow>
+    <relrow>
        <relcell>
         <topicref keyref="atau"/>
       </relcell>
@@ -49,6 +58,15 @@
       <relcell>
         <topicref keyref="alqt"/>
       </relcell>
+    </relrow>
+    <relrow>
+      <relcell>
+        <topicref keyref="linking-new"/>
+      </relcell>
+      <relcell>
+        <topicref keyref="add-new"/>
+      </relcell>
+      <relcell/>
     </relrow>
   </reltable>
 </map>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
-<task id="add-new">
+<task id="topicid">
   <title>How do I link a new document into the KMS?</title>
-  <shortdesc>Creating topicref links for a new document in the KMS DITA Maps</shortdesc>
+  <shortdesc>Creating topicref links for a new document in the KMS</shortdesc>
   <taskbody>
     <prereq>You must have created a new document in the KMS. (Add topicref to add-new in
       domain-all.ditamap)</prereq>

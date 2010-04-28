@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="task"/>
+<meta name="DC.Title" content="How do I link a new document into the KMS?"/>
+<meta name="abstract" content="Creating topicref links for a new document in the KMS DITA Maps"/>
+<meta name="description" content="Creating topicref links for a new document in the KMS DITA Maps"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="linking-new"/>
+<link rel="stylesheet" type="text/css" href="css/commonltr.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<title>How do I link a new document into the KMS?</title>
+</head>
+<body id="linking-new"><a name="linking-new"><!-- --></a>
+
+
+  <h1 class="topictitle1">How do I link a new document into the KMS?</h1>
+
+  
+  <div><p>Creating topicref links for a new document in the KMS DITA Maps</p>
+
+    <div class="p">You must have created a new document in the KMS. (Add topicref to add-new in
+      domain-all.ditamap)</div>
+
+    <p>You first need to create a <samp class="codeph">topicref</samp> to define a
+        <span class="apiname">key</span> for the document. This key controls what domains the document will
+        be accessible from.  
+      </p><ol><li class="stepexpand">
+        <span>In the KMS Oxygen project, open the ditamap corresponding to the domain that the
+          document belongs in.</span>
+         E.g., <span class="filepath">domain-all.ditamap</span>
+      </li>
+<li class="stepexpand">
+        <span>Inside the <samp class="codeph">map</samp>, insert a <samp class="codeph">topicref</samp> element with <samp class="codeph">keys</samp> and
+          <samp class="codeph">href</samp> attributes, where the <samp class="codeph">keys</samp> attribute equals the
+          docid and the <samp class="codeph">href</samp> attribute equals the filename of the referenced topic. 
+        </span>  E.g., for document ddud, <samp class="codeph">&lt;topicref keys="ddud" href="ddud.dita"&gt;</samp> 
+        
+      </li>
+<li class="stepexpand">
+        <span>Save the ditamap file.</span>
+      </li>
+<li class="stepexpand">
+        <span>Open the <span class="filepath">base.ditamap</span> file.</span>
+      </li>
+<li class="stepexpand">
+        <span>Inside the <samp class="codeph">reltable</samp>, insert a <samp class="codeph">relrow</samp>. Inside the
+            <samp class="codeph">relrow</samp>, insert three <samp class="codeph">relcell</samp> elements:</span>
+        <ol type="a">
+          <li>
+            <div class="note"><span class="notetitle">Note:</span> The first <samp class="codeph">relcell</samp> contains the "origin document"; i.e., the
+              document from which the links originate. </div>
+
+            <span>Insert a <samp class="codeph">topicref</samp> with a <samp class="codeph">keyref</samp> attribute equal
+              to the <samp class="codeph">keys</samp> attribute of the <samp class="codeph">topicref</samp> you created in
+              the domain ditamap in Step 2 above.</span>
+          </li>
+
+          <li>
+            <div class="note"><span class="notetitle">Note:</span> The second <samp class="codeph">relcell</samp> contains links to Refs.</div>
+
+            <span>Insert a <samp class="codeph">topicref</samp> for each Ref of the origin document. In each
+                <samp class="codeph">topicref</samp>, insert a <samp class="codeph">keyref</samp> attribute equal to the
+                <samp class="codeph">keys</samp> attribute of the <samp class="codeph">topicref</samp> element for each
+              Ref. If the origin document has no Refs, insert an empty <samp class="codeph">topicref</samp>
+              element as a placeholder.</span>
+          </li>
+
+          <li>
+            <div class="note"><span class="notetitle">Note:</span> The third <samp class="codeph">relcell</samp> contains links to Hotitems.</div>
+
+            <span>Insert a <samp class="codeph">topicref</samp> for each referenced Hotitem in the origin
+              document. In each <samp class="codeph">topicref</samp>, insert a <samp class="codeph">keyref</samp>
+              attribute equal to the <samp class="codeph">keys</samp> attribute of the
+              <samp class="codeph">topicref</samp> element for each Hotitem. If the origin document has no
+              Hotitems, insert an empty <samp class="codeph">topicref</samp>
+              element as a placeholder.</span>
+          </li>
+
+        </ol>
+
+          E.g., for document aaaa, which has refs bbbb and cccc and no hotitems:
+          <pre class="codeblock">
+&lt;relrow&gt;
+  &lt;relcell&gt;
+    &lt;topicref keyref="aaaa"/&gt;
+  &lt;/relcell&gt;
+    &lt;relcell&gt;
+      &lt;topicref keyref="bbbb"/&gt;
+      &lt;topicref keyref="cccc"/&gt;
+    &lt;/relcell&gt;
+    &lt;relcell/&gt;
+&lt;/relrow&gt;
+            </pre>
+
+        
+      </li>
+<li class="stepexpand">
+        <span>Save the <span class="filepath">base.ditamap</span> file.</span>
+      </li>
+<li class="stepexpand">
+        <span>Run the DITA Open Toolkit on the domain map you added the topic to by following the
+          link that executes it; e.g., </span> http://cowhorn.uits.indiana.edu:8080/sage-stg/dita.cat
+      </li>
+</ol>
+
+    <div class="section">The document will appear on the index page generated from the domain ditamap; e.g.,
+        <a href="http://cowhorn.uits.indiana.edu:8080/sage-stg/static/domain-all/client-all-title-default/index.html">http://cowhorn.uits.indiana.edu:8080/sage-stg/static/domain-all/client-all-title-default/index.html</a>, with a "Related information" section containing the links to Refs and Hotitems.</div>
+
+  </div>
+
+
+</body>
+</html>

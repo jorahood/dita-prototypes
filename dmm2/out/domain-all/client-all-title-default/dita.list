@@ -1,12 +1,12 @@
-#Wed Apr 21 15:39:36 EDT 2010
+#Wed Apr 28 12:07:19 EDT 2010
 copytosourcelist=
-hreftargetslist=agcz.xml,aeru.xml,abxl.xml,boilers.xml,apqd.xml,angn.xml,atau.xml,adding-alt-qlines.xml,arms.xml,akui.xml,abxq.xml,anaz.xml,axvp.xml,alt-qlines.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,apjr.xml,alyb.xml,alfm.xml
+hreftargetslist=agcz.xml,add-new.xml,aeru.xml,abxl.xml,boilers.xml,apqd.xml,angn.xml,atau.xml,adding-alt-qlines.xml,arms.xml,akui.xml,oxygen.xml,abxq.xml,linking-new.xml,anaz.xml,axvp.xml,alt-qlines.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,apjr.xml,alyb.xml,alfm.xml
 fullditatopicfile=fullditatopic.list
 fullditamapandtopicfile=fullditamapandtopic.list
-fullditatopiclist=agcz.xml,aeru.xml,abxl.xml,apqd.xml,atau.xml,angn.xml,arms.xml,akui.xml,abxq.xml,anaz.xml,axvp.xml,alt-qlines.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,apjr.xml,alyb.xml,alfm.xml
-fullditamapandtopiclist=agcz.xml,aeru.xml,abxl.xml,domain-all.ditamap,apqd.xml,atau.xml,angn.xml,base.ditamap,arms.xml,akui.xml,abxq.xml,anaz.xml,axvp.xml,alt-qlines.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,apjr.xml,alyb.xml,alfm.xml
+fullditatopiclist=agcz.xml,aeru.xml,add-new.xml,abxl.xml,apqd.xml,atau.xml,angn.xml,arms.xml,akui.xml,oxygen.xml,abxq.xml,linking-new.xml,anaz.xml,axvp.xml,alt-qlines.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,apjr.xml,alyb.xml,alfm.xml
+fullditamapandtopiclist=agcz.xml,aeru.xml,add-new.xml,abxl.xml,domain-all.ditamap,apqd.xml,atau.xml,angn.xml,base.ditamap,arms.xml,akui.xml,oxygen.xml,abxq.xml,linking-new.xml,anaz.xml,axvp.xml,alt-qlines.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,apjr.xml,alyb.xml,alfm.xml
 hrefditatopicfile=hrefditatopic.list
-hrefditatopiclist=abxl.xml,boilers.xml,anaz.xml,axvp.xml,apjr.xml
+hrefditatopiclist=add-new.xml,abxl.xml,boilers.xml,oxygen.xml,linking-new.xml,anaz.xml,axvp.xml,apjr.xml
 user.input.file=domain-all.ditamap
 subtargetsfile=subtargets.list
 fullditamapfile=fullditamap.list
@@ -23,18 +23,18 @@ conreflist=abxl.xml,atau.xml,ataj.xml
 resourceonlyfile=resourceonly.list
 imagefile=image.list
 resourceonlylist=alt-qlines.xml
-imagelist=
+imagelist=images/oxygen-import.png
 htmlfile=html.list
 htmllist=
 canditopicsfile=canditopics.list
-canditopicslist=agcz.xml,aeru.xml,abxl.xml,apqd.xml,angn.xml,atau.xml,adding-alt-qlines.xml,arms.xml,akui.xml,abxq.xml,anaz.xml,axvp.xml,alt-qlines.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,apjr.xml,alyb.xml,alfm.xml
+canditopicslist=agcz.xml,add-new.xml,aeru.xml,abxl.xml,apqd.xml,angn.xml,atau.xml,adding-alt-qlines.xml,arms.xml,akui.xml,oxygen.xml,abxq.xml,linking-new.xml,anaz.xml,axvp.xml,alt-qlines.xml,alqk.xml,alqt.xml,ataj.xml,ajpt.xml,apjr.xml,alyb.xml,alfm.xml
 keyreffile=keyref.list
 subjectschemefile=subjectscheme.list
 keyreflist=base.ditamap,axvp.xml,apjr.xml
 subjectschemelist=
 keyfile=key.list
 codereffile=coderef.list
-keylist=abxq\=abxq.dita\#abxq-dmm2(domain-all.ditamap),abxl\=abxl.dita(domain-all.ditamap),akui\=akui.dita\#akui-dmm2(domain-all.ditamap),atau\=atau.dita\#atau-dmm2(domain-all.ditamap),ataj\=ataj.dita\#ataj-dmm2(domain-all.ditamap),alqk\=alqk.dita\#alqk-dmm2(domain-all.ditamap),apjr\=apjr.dita\#apjr-dmm2(domain-all.ditamap),apqd\=apqd.dita\#apqd-dmm2(domain-all.ditamap),anaz\=anaz.dita\#anaz-dmm2(domain-all.ditamap),agcz\=agcz.dita\#agcz-dmm2(domain-all.ditamap),aeru\=aeru.dita\#aeru-dmm2(domain-all.ditamap),arms\=arms.dita\#arms-dmm2(domain-all.ditamap),axvp\=axvp.dita\#axvp-dmm2(domain-all.ditamap),angn\=angn.dita\#angn-dmm2(domain-all.ditamap),alyb\=alyb.dita\#alyb-dmm2(domain-all.ditamap),ajpt\=ajpt.dita\#ajpt-dmm2(domain-all.ditamap),alfm\=alfm.dita\#alfm-dmm2(domain-all.ditamap),alqt\=alqt.dita\#alqt-dmm2(domain-all.ditamap)
+keylist=agcz\=agcz.dita(domain-all.ditamap),abxl\=abxl.dita(domain-all.ditamap),apqd\=apqd.dita(domain-all.ditamap),ataj\=ataj.dita(domain-all.ditamap),ajpt\=ajpt.dita(domain-all.ditamap),angn\=angn.dita(domain-all.ditamap),arms\=arms.dita(domain-all.ditamap),alqk\=alqk.dita(domain-all.ditamap),anaz\=anaz.dita(domain-all.ditamap),alfm\=alfm.dita(domain-all.ditamap),apjr\=apjr.dita(domain-all.ditamap),aeru\=aeru.dita(domain-all.ditamap),abxq\=abxq.dita(domain-all.ditamap),linking-new\=linking-new.dita(domain-all.ditamap),alyb\=alyb.dita(domain-all.ditamap),axvp\=axvp.dita(domain-all.ditamap),add-new\=add-new.dita(domain-all.ditamap),atau\=atau.dita(domain-all.ditamap),alqt\=alqt.dita(domain-all.ditamap),akui\=akui.dita(domain-all.ditamap)
 codereflist=
 user.input.file.listfile=usr.input.file.list
 user.input.dir=/Users/jorahood/work/git/dita-prototypes/dmm2
