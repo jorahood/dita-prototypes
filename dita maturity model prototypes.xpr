@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="11.1">
+<project version="11.2">
     <meta>
         <filters directoryPatterns="" filePatterns=""
             positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="11.1">
+            <serialized version="11.2">
                 <map>
                     <entry>
                         <String xml:space="preserve">document.type.dtd.support</String>
@@ -10817,7 +10817,10 @@ Only "true" and "false" are valid values. The default is false. </String>
     <projectTree name="dita%20maturity%20model%20prototypes.xpr">
         <folder path="dmm0.5/"/>
         <folder path="dmm1/"/>
-        <folder path="dmm2/"/>
+        <folder
+            path="file:/Users/jorahood/work/git/dita-prototypes/dmm2/">
+            <file name="dmm2/linking-new.dita"/>
+        </folder>
         <folder path="dmm3/"/>
         <folder path="h2d_input/"/>
         <folder path="output_h2d/"/>
