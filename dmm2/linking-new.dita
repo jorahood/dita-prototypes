@@ -19,8 +19,8 @@
       </step>
       <step>
         <cmd>Inside the <codeph>map</codeph>, insert a <codeph>topicref</codeph> element with <codeph>keys</codeph> and
-          <codeph>href</codeph> attributes, where the <codeph>keys</codeph> attribute equals the
-          docid and the <codeph>href</codeph> attribute equals the filename of the referenced topic. 
+          <codeph>href</codeph> attributes, making the <codeph>keys</codeph> attribute equal to the
+          docid and the <codeph>href</codeph> attribute equal to the filename of the referenced topic. 
         </cmd><stepxmp> E.g., for document ddud, <codeph>&lt;topicref keys="ddud" href="ddud.dita"&gt;</codeph> 
         </stepxmp>
       </step>
