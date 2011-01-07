@@ -11,9 +11,9 @@
     </critdates>
   </prolog>
   <taskbody>
-    <prereq> You must have Oxygen XML Editor 11 (<xref
-        href="http://iuware.iu.edu/title.aspx?id=1204" format="html">Windows</xref>, <xref
-        href="http://iuware.iu.edu/title.aspx?id=1207" format="html">Mac</xref>) installed on your
+    <prereq> You must have Oxygen XML Editor 12 (<xref
+        href="http://iuware.iu.edu/title.aspx?id=1413" format="html">Windows</xref>, <xref
+          href="http://iuware.iu.edu/title.aspx?id=1415" format="html">Mac</xref>) installed on your
       computer.</prereq>
     <context> Oxygen XML Editor can connect to Kuali KMS using <term>WebDAV</term>. This allows you
       to load content from the KMS into Oxygen, perform authoring tasks, and then save your changes
