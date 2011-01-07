@@ -27,7 +27,7 @@
     <data name="domain" value="kbstaff"/>
   </prolog>
   <body>
-    <p>On this page:</p>
+    <p>This document is a DITA version of the "KBML Guide" document apjr. </p>
     <section>
       <title>Required topic tags</title>
       <p> These DITA tags are required in a KMS topic: </p>
@@ -35,7 +35,8 @@
         <dlentry>
           <dt>&lt;topic&gt;</dt>
           <dd>The top level element for DITA topic documents. The &lt;topic&gt; tag has a required
-              <codeph>id</codeph> attribute. See <xref scope="external"
+              <codeph>id</codeph> attribute, though if there is only one topic in a file, you can
+            refer to the topic by the filename without needing the id. See <xref scope="external"
               href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/topic.html"/></dd>
         </dlentry>
         <dlentry>
