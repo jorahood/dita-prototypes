@@ -15,14 +15,14 @@
         <indexterm>amsboiler</indexterm>
       </keywords>
     </metadata>
-    <data name="docid" value="atau"/>
-    <data name="approveddate" value="2009-05-05"/>
-    <data name="owner" value="ims"/>
-    <data name="importance" value="standard"/>
-    <data name="visibility" value="visible"/>
-    <data name="volatility" value="stable"/>
-    <data name="status" value="approved"/>
-    <data name="domain" value="all"/>
+    <data name="docid">atau</data>
+    <data name="approveddate">2009-05-05</data>
+    <data name="owner">ims</data>
+    <data name="importance">standard</data>
+    <data name="visibility">visible</data>
+    <data name="volatility">stable</data>
+    <data name="status">approved</data>
+    <data name="domain">all</data>
   </prolog>
   <body>
   <section id="pull-ims-guest-initial-directions"
