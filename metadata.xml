@@ -19,6 +19,7 @@
       >2011-01-02</expires>
     <lastmodified user="jorahood">2011-01-11 12:00-5</lastmodified>
     <owner firstname="" lastname="Identity Management Systems">ims</owner>
+    <redirect date="2011-10-01" note="This doc has been superseded by and incorporated into eeee">eeee</redirect>    
     <refby docid="axvp" access="allowed">
       <title>Why do I need to reset my IU Guest account password?</title>
       <domain>all</domain>
