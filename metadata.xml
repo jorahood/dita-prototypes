@@ -1,0 +1,56 @@
+<document>
+  <kbml version="-//Indiana University//DTD KBML 0.9//EN">
+    <kbq>Managing your IU Guest account</kbq>
+    <body>
+      <h4>Getting your IU Guest account</h4>
+    </body>
+  </kbml>
+  <metadata>
+    <approved user="bmarley">2011-01-11</approved>
+    <author firstname="Michael" lastname="Dalton">madalton</author>
+    <birthdate user="mliggett">2007-04-05 14:30-5</birthdate>
+    <data name="volatility">frozen</data>
+    <data name="flavor">cherry</data>
+    <data name="color">purple</data>
+    <docid>atau</docid>
+    <domain>all</domain>
+    <domain>sakai-all</domain>
+    <expires user="jorahood" note="Should we archive this after Spring semester?"
+      >2011-01-02</expires>
+    <lastmodified user="jorahood">2011-01-11 12:00-5</lastmodified>
+    <owner firstname="" lastname="Identity Management Systems">ims</owner>
+    <refby docid="axvp" access="allowed">
+      <title>Why do I need to reset my IU Guest account password?</title>
+      <domain>all</domain>
+      <visibility>archived</visibility>
+    </refby>
+    <refby docid="akbr" access="allowed">
+      <title>About wireless connections to the Internet at IU</title>
+      <domain>all</domain>
+      <visibility>visible</visibility>
+    </refby>
+    <reference docid="aifj" access="allowed">
+      <title>What is AirPort?</title>
+      <domain>all</domain>
+      <visibility>visible</visibility>
+    </reference>
+    <reference docid="aita" access="allowed">
+      <title>What is the UITS policy on wireless networking?</title>
+      <domain>all</domain>
+      <visibility>visible</visibility>
+    </reference>
+    <resource date="2009-05-07" note="Tony knows the answer">twalker</resource>
+    <resource date="2008-08-09" note="Bob can help with the first section">bdobbs</resource>
+    <review-cycle user="jorahood" date="2011-09-01" note="This information is low-traffic"
+      >P2Y</review-cycle>
+    <status>test</status>
+    <status>approved</status>
+    <version>154</version>
+    <visibility>visible</visibility>
+    <xtra>
+      <term weight="1">ims</term>
+      <term weight="2">ams</term>
+      <term weight="3">amsboiler</term>
+    </xtra>
+  </metadata>
+</document>
