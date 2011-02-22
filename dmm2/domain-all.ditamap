@@ -23,7 +23,7 @@
   <topicref keys="arms" href="arms.dita"/>
   <topicref keys="ataj" href="ataj.dita"/>
   <topicref keys="atau" href="atau.dita"/>
-  <topicref keys="axvp" href="axvp.dita"/>
+  <mapref href="axvp.ditamap"/>
   <topicref keys="linking-new" href="linking-new.dita"/>
 
 </map>

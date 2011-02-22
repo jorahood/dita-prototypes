@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
-
 <topic id="axvp-dmm2">
-  <title>Why do I need to reset my IU Guest account password?</title>
+  <title id="default">Why do I need to reset my IU Guest account password?</title>
   <prolog>
     <author>madalton</author>
     <critdates>

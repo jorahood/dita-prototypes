@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
+<map title="Map for axvp">
+  <!-- alternate q-lines -->
+  <topicref href="axvp-altqs.dita" processing-role="resource-only"/>
+  
+  <!-- define the key for axvp -->
+  <topicref keys="axvp" href="axvp.dita"/>
+  
+  <reltable>
+    <relheader>
+      <relcolspec type="topic" linking="sourceonly"/>
+      <relcolspec type="topic" linking="targetonly"/>
+       <relcolspec type="topic" linking="targetonly"/>
+     </relheader>
+    <relrow>
+      <relcell>
+        <topicref keyref="axvp"/>
+      </relcell>
+      <relcell>
+        <topicref keyref="alwe"/>
+        <topicref keyref="angn"/>
+        <topicref keyref="ataj"/>
+        <topicref keyref="atau"/>
+      </relcell>
+      <relcell>
+        <topicref keyref="alqt"/>
+        <topicref keyref="ajpt"/>
+        <topicref keyref="apqd"/>
+        <topicref keyref="alqk"/>
+        <topicref keyref="akui"/>
+      </relcell>
+    </relrow>
+  </reltable>
+</map>

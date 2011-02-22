@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <val>
-  <!-- set the default action to exclude audience-specific elements -->
+  <!-- set the default action to exclude all audience-specific elements -->
   <prop action="exclude" att="audience"/>
   
   <!-- include conditional elements for this client domain -->

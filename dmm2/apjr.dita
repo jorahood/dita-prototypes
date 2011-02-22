@@ -261,9 +261,8 @@
                   The reltable is structured with one row element, called relrow, per topic. Each
                   relrow has three cell elements, called relcells. In the three relcells are one or
                   more topicrefs. All the topicrefs should use keyref attributes containing the
-                  docid of the topic to allow DITA to resolve what topics are accessible. The
-                  three relcells contain, from left to right: 
-                  <ol>
+                  docid of the topic to allow DITA to resolve what topics are accessible. The three relcells
+                  contain, from left to right: <ol>
                     <li>a topicref element for the source topic from which we're creating links</li>
                     <li>one topicref for each KB Ref of the source topic</li>
                     <li>one topicref for each hotitem of the source topic</li>
