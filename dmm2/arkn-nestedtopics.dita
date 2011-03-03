@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/ditabase.dtd">
+<dita>
+  <topic id="topic-main">
+    <title>Oncourse accessibility information</title>
+    <body>
+      <p>This page is provided for persons using adaptive technology.</p>
+      <!-- TOC goes here -->
+    </body>
+    <topic id="h3-issues">
+      <title>Known accessibility issues</title>
+      <body>
+        <p>Oncourse contains some accessibility issues yet to be resolved, for some 
+          of which there are workarounds:</p>
+        <ul>
+          <li>JavaScript must be enabled for Oncourse to work properly.</li>
+          <li>Tool headings are often redundant due to separate page title and content frames. 
+            This can be confusing to users of adaptive technology, especially users of screen readers.</li>        
+        </ul>
+      </body>
+    </topic>
+    <topic id="h3-tips">
+      <title>General tips and tricks for navigation using adaptive technology</title>
+      <body>
+        <p>Here are some tips for navigating:</p>
+      </body>
+      <topic id="h4-accesskeys">
+        <title>Accesskeys</title>
+        <body>
+          <p>Accesskeys follow the UK e-commerce standards wherever possible, and are mnemonic 
+            otherwise. If an Accesskey is available for a given link or button, the accesskey 
+            will be announced by a screen reader when that link or button receives focus. To 
+            invoke Accesskeys:</p>
+        </body>
+      </topic>
+    </topic>
+    <topic id="h3-settings">
+      <title>Settings for recommended screen readers</title>
+      <body></body>
+      <topic id="h4-screenreader">
+        <title>Recommended screen readers</title>
+        <body>
+          <p>The following versions are highly recommended:</p>
+          <ul>
+            <li>JAWS version 10.0 or later</li>
+            <li>Window-Eyes version 7.0 or later</li>
+          </ul>
+        </body>
+      </topic>
+      <topic id="h4-configure">
+        <title>How to configure JAWS and Window-eyes settings</title>
+        <body>
+          <p/>
+        </body>
+        <task id="h5-confjaws">
+          <title>JAWS</title>
+          <taskbody>
+            <context>
+              <p>
+                You can make temporary changes for most of the recommended settings while in the browser by pressing Insert-v to bring up the Adjust JAWS Options dialog. The dialog will present a tree view of options that can be changed. Use the up and down arrow keys to navigate the list. You can press the letters used as Navigation Quick Keys to jump to relevant settings (such as  f  for forms,  h for headings,  l  for links, and  t  for text), and then using the up arrow or down arrow. 
+              </p>
+              <p>
+                To make permanent changes to the HTML settings, use the JAWS Configuration Manager within JAWS itself (for example, to change default settings for JAWS):
+              </p>
+            </context>
+            <steps>
+              <step>
+                <cmd>Switch to JAWS</cmd>
+              </step>
+              <step>
+                <cmd>Go to <uicontrol>Utilities</uicontrol> by pressing <userinput>Alt-u</userinput>.</cmd>
+              </step>
+              <step>
+                <cmd>Select <uicontrol>JAWS Configuration</uicontrol> by pressing <userinput>c</userinput>.</cmd>
+              </step>
+              <step>
+                <cmd>Select <uicontrol>Set Options</uicontrol> by pressing <userinput>Alt-s</userinput>.</cmd>
+              </step>
+              <step>
+                <cmd>Choose <uicontrol>HTML Options</uicontrol> by pressing <userinput>h</userinput>.</cmd>
+              </step>
+              <step>
+                <cmd>Press <userinput>Ctrl-Tab</userinput> to move between pages in the <wintitle>HTML Options</wintitle> dialog.</cmd>
+              </step>
+              <step>
+                <cmd>Make changes as desired.</cmd>
+              </step>
+              <step>
+                <cmd>Press <userinput>Enter</userinput> to save the changes.</cmd>
+              </step>
+            </steps>
+          </taskbody>
+        </task>
+        <task id="h5-confwe">
+          <title>Window-Eyes</title>
+          <taskbody>
+            <context>
+              <p>To access HTML settings within Window-Eyes:</p>
+            </context>
+            <steps>
+              <step>
+                <cmd>Choose <uicontrol>Control panel</uicontrol> by pressing <userinput>Ctrl-backslash</userinput>.</cmd>
+              </step>
+              <step>
+                <cmd>Select the <uicontrol>Global Menu</uicontrol> by pressing <userinput>Alt-l</userinput>.</cmd>
+              </step>
+              <step>
+                <cmd>Choose the <uicontrol>Verbosity Menu</uicontrol> by pressing <userinput>v</userinput>.</cmd>
+              </step>
+              <step>
+                <cmd>Select <uicontrol>MSAA</uicontrol> by pressing <userinput>m</userinput>.</cmd>
+              </step>
+            </steps>
+          </taskbody>
+        </task>
+      </topic>
+      <topic id="h4-element">
+        <title>Recommended screen reader settings by page element</title>
+        <topic id="h5-headings">
+          <title>Headings</title>
+          <body>
+            <p>It is recommended to have headings announced with the heading's level. You can navigate easily using headings. The major sections of each page such as the worksites list, the tools list, and the content within tools are marked with headings and well structured hierarchically using heading levels (level 1, level 2, level 3, etc.).</p>
+            <p>JAWS and Window-Eyes announce headings with level as the default.</p>
+          </body>
+        </topic>
+        <task id="h5-refresh">
+          <title>Screen refresh</title>
+          <taskbody>
+            <context>
+              <p>Users control page refreshes. To refresh page content, press <userinput>F5</userinput>.</p>
+              <p>To set JAWS to turn off page refresh:</p>
+            </context>
+            <steps>
+              <step>
+                <cmd>While in the web browser, press <userinput>Insert-v</userinput> to go to the <wintitle>Adjust JAWS Options</wintitle> dialog. </cmd>
+              </step>
+              <step>
+                <cmd>Type <userinput>p</userinput> for "page refresh", adjust the setting by pressing the Spacebar as needed to reach "off", and then press<userinput>Alt-e</userinput> to execute.</cmd>
+              </step>
+            </steps>
+          </taskbody>
+        </task>
+      </topic>        
+    </topic>
+  </topic>
+</dita>
