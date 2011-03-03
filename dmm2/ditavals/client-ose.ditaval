@@ -4,5 +4,5 @@
   <prop action="exclude" att="audience"/>
   
   <!-- select conditional body text and customized titles for the "ose" client. -->
-  <prop action="include" att="audience" val="t-ose"/>
+  <prop action="include" att="audience" val="ose"/>
 </val>

@@ -1,1 +1,1 @@
-ant -Dkb.domain=all -Dkb.filters=client-all-title-default -f kb_xhtml.xml
+ant -Dkb.domain='all' -Dkb.filters='client-ose' -Dargs.input='axvp.ditamap' -f kb_xhtml.xml

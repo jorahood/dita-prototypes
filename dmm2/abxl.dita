@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="abxl-dmm2">
-  <title conref="#dummy/ose">How do I contact the Support Center at each IU campus, and what are the
+  <title id="default">How do I contact the Support Center at each IU campus, and what are the
       hours and options for help?</title>
   <body>
     <note audience="kbstaff">KM staff: This doc is now in the oncoursecl and fp domains, as well as
@@ -18,8 +18,4 @@
       have a Guest account, you may use all the other support options below. </note>
   <section conref="boilers.dita#SCBreak"/>
   </body>
-  <topic id="dummy">
-    <title id="ose">Campus Support Centers</title>
-  </topic>
 </topic>
-

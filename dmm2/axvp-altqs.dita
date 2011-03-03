@@ -3,12 +3,17 @@
 <topic id="altqs">
   <title>Alt Q-Lines for axvp</title>
   <topic id="oncoursecl-sakai" audience="oncoursecl sakai">
-    <title conkeyref="axvp/default" conaction="pushreplace">Oncourse CL and Sakai Title</title>
+    <title >Oncourse CL and Sakai Title</title>
+    <prolog>
+      <data>
+        <ph >OSE title</ph>
+      </data>
+    </prolog>
   </topic>
   <topic id="ose">
-    <title conkeyref="axvp/default" conaction="pushreplace">OSE Title</title>
+    <title></title>
   </topic>
   <topic id="tgrid" audience="tgrid">
-    <title conkeyref="axvp/default" conaction="pushreplace">Teragrid Title</title>
+    <title >Teragrid Title</title>
   </topic>
 </topic>
