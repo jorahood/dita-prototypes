@@ -6,12 +6,10 @@
     </body>
   </kbml>
   <metadata>
-    <approved user="bmarley">2011-01-11</approved>
+    <approved user="bmarley">2011-01-11 11:22-5</approved>
     <author firstname="Michael" lastname="Dalton">madalton</author>
     <birthdate user="mliggett">2007-04-05 14:30-5</birthdate>
-    <data name="volatility">frozen</data>
-    <data name="flavor">cherry</data>
-    <data name="color">purple</data>
+    <frozen date="2008-09-02 09:34-5"/>
     <docid>atau</docid>
     <domain>all</domain>
     <domain>sakai-all</domain>
@@ -40,14 +38,14 @@
       <domain>all</domain>
       <visibility>visible</visibility>
     </reference>
-    <resource date="2009-05-07" note="Tony knows the answer">twalker</resource>
-    <resource date="2008-08-09" note="Bob can help with the first section">bdobbs</resource>
+    <resource date="2009-05-07" note="Tony knows the answer" user="twalker"/>
+    <resource date="2008-08-09" note="Bob can help with the first section" user="bdobbs"/>
     <review-cycle user="jorahood" date="2011-09-01" note="This information is low-traffic"
-      >P2Y</review-cycle>
-    <status>test</status>
-    <status>approved</status>
-    <version>154</version>
-    <visibility>visible</visibility>
+      value="P2Y"/>
+    <status value="approved"/>
+    <status value="test"/>
+    <version value="154"/>
+    <visibility value="visible"/>
     <xtra>
       <term weight="1">ims</term>
       <term weight="2">ams</term>
