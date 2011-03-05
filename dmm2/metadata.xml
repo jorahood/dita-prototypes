@@ -15,9 +15,11 @@
     <domain>sakai-all</domain>
     <expires user="jorahood" note="Should we archive this after Spring semester?"
       >2011-01-02</expires>
+    <label>service-outage</label>
     <lastmodified user="jorahood">2011-01-11 12:00-5</lastmodified>
     <owner firstname="" lastname="Identity Management Systems">ims</owner>
-    <redirect date="2011-10-01" note="This doc has been superseded by and incorporated into eeee">eeee</redirect>    
+    <redirect date="2011-10-01" note="This doc has been superseded by and incorporated into eeee"
+      >eeee</redirect>
     <refby docid="axvp" access="allowed">
       <title>Why do I need to reset my IU Guest account password?</title>
       <domain>all</domain>
@@ -44,12 +46,11 @@
       value="P2Y"/>
     <status value="approved"/>
     <status value="test"/>
-    <version value="154"/>
+    <version>154</version>
     <visibility value="visible"/>
-    <xtra>
-      <term weight="1">ims</term>
-      <term weight="2">ams</term>
-      <term weight="3">amsboiler</term>
-    </xtra>
+    <xtra weight="1">ims</xtra>
+    <xtra weight="2">ams</xtra>
+    <xtra weight="3">amsboiler</xtra>
+
   </metadata>
 </document>
