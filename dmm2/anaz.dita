@@ -10,7 +10,7 @@ links to ascz and asdd. When it is made invisible, comment out links in axvr, am
       that aren't in that domain also.</note>
 
     <p> Following is information about support hours during winter break 2009-2010 at Indiana
-      University Bloomington and IUPUI. For normal Support Center hours, see <xref href="abxl.dita"/>
+      University Bloomington and IUPUI. For normal Support Center hours, see <xref keyref="abxl"/>
       <!-- this xref is supposed to use the 'ose' title
 of abxl to make it short. How can we allow arbitrary selection of title from a cross-reference using DITA? -->. </p>
 
@@ -60,11 +60,10 @@ of abxl to make it short. How can we allow arbitrary selection of title from a c
             <ul>
 
               <li>Closed Thursday, December 24, and Friday, December 25</li>
-              <li>Closed from 5pm Thursday, December 31, through Friday, January 1</li>
+              <li>Closed from 5pm Thursday, December 31, through Friday, January 1
 
-              <!-- IUB Support Center info updated for 2009-10 per Drew Hostetler
--jt -->
-
+              <draft-comment author="jthatche">IUB Support Center info updated for 2009-10 per Drew Hostetler</draft-comment>
+              </li>
             </ul></dd>
         </dlentry>
 
