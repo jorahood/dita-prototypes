@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
 <map title="Map for axvp">
-  <!-- alternate q-lines -->
-  <topicref href="axvp-altqs.dita" processing-role="resource-only"/>
-
   <!-- define the key for axvp -->
-  <topicref keys="axvp" href="axvp.dita"/>
-
+  <topicref keys="axvp-concept" href="axvp-concept.dita"/>
   <reltable>
     <relheader>
       <relcolspec type="topic" linking="sourceonly">
@@ -17,9 +13,6 @@
       </relcolspec>
       <relcolspec type="topic" linking="sourceonly">
         <title>RefBy</title>
-      </relcolspec>
-      <relcolspec type="glossentry" linking="targetonly">
-        <title>Hotitem</title>
       </relcolspec>
     </relheader>
     <relrow>
@@ -34,25 +27,6 @@
       </relcell>
       <relcell>
         <topicref keyref="blah"/>
-      </relcell>
-      <relcell>
-        <topicref keyref="alqt"/>        
-        <topicref keyref="ajpt"/>
-        <topicref keyref="apqd">
-          <topicmeta>
-            <navtitle>Oncourse</navtitle>
-          </topicmeta>
-        </topicref>
-        <topicref keyref="alqk" locktitle="yes">
-          <topicmeta>
-            <navtitle>authenticate</navtitle>
-          </topicmeta>
-        </topicref>
-        <topicref keyref="akui" locktitle="yes">
-          <topicmeta>
-            <navtitle>CAS</navtitle>
-          </topicmeta>
-        </topicref>
       </relcell>
     </relrow>
   </reltable>
