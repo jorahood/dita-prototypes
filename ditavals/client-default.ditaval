@@ -4,8 +4,5 @@
   <prop action="exclude" att="audience"/>
   
   <!-- include conditional elements for this client domain -->
-  <prop action="include" att="audience" val="all"/>
-  
-  <!-- select customized titles for this title audience. -->
-  <prop action="include" att="audience" val="t-default"/>
-</val>
+  <prop action="include" att="audience" val="default"/>
+  </val>

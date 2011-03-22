@@ -30,7 +30,7 @@
   <import file="${dita.dir}${file.separator}integrator.xml"/>
   
   <target name="domain-client" depends="integrate">
-    <echo>This creates kb domain "${kb.domain}" with filtering set to "${kb.filters}"</echo>
+    <echo>This "domain-client" ant build target creates kb domain "${kb.domain}"</echo><echo>filtered and titles customized for "${kb.filters}"</echo>
 
     <ant antfile="${dita.dir}${file.separator}build.xml" target="init">
       <!-- please refer to the toolkit's documentation for supported parameters, and 
