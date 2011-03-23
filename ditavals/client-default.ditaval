@@ -3,6 +3,6 @@
   <!-- set the default action to exclude all audience-specific elements -->
   <prop action="exclude" att="audience"/>
   
-  <!-- select conditional body text and customized titles for the "ose" client. -->
-  <prop action="include" att="audience" val="ose"/>
+  <!-- include conditional elements for this client domain -->
+  <prop action="include" att="audience" val="default"/>
 </val>

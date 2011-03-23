@@ -1,0 +1,1 @@
+ant -Dkb.domain='all' -Dkb.filters='client-ose' -Dargs.input='axvp.ditamap' -f 'build-kb.xml' -q

@@ -11,7 +11,7 @@
   | they are relative paths.
   * -->
 <!-- set the project name and the default target task -->
-<project name="kb_xhtml" default="domain-client" basedir=".">
+<project name="build-kb" default="domain-client" basedir=".">
   <!-- Set a property for each environment variable -->
   <property environment="env"/>
   
