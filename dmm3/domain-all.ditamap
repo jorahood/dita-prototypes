@@ -3,32 +3,24 @@
 <map>
   <title>Domain 'all'</title>
   <!-- include reltable of all doc relationships
-    if each topic will have it's own map containing 
+    if each topic will have its own map containing 
     the refs and refbys for that topic then we don't 
     need to keep them all in base.ditamap 
   <mapref href="base.ditamap"/> -->
 
   <!-- docids available in this domain -->
-  <keydef keys="abxl" href="abxl.dita"/>
+  <keydef keys="abxl support-ctr" href="abxl.dita"/>
   <keydef keys="abxq" href="abxq.dita"/>
   <keydef keys="add-new" href="add-new.dita"/>
   <keydef keys="aeru" href="aeru.dita"/>
   <keydef keys="agcz" href="agcz.dita"/>
   <keydef keys="ajpt" href="ajpt.dita"/>
   <keydef keys="akui" href="akui.dita"/>
-  <keydef keys="alfm" href="alfm.dita"/>
+  <keydef keys="alfm AMS" href="alfm.dita"/>
   <keydef keys="alqk" href="alqk.dita"/>
-  <keydef keys="alqt" href="alqt.dita"/>
-  <glossref keys="guest-acct" href="alqt-glossentry.dita">
-     <topicmeta>
-      <navtitle>
-        <ph conkeyref="guest-acct/default" conaction="pushreplace">(Pushed in from
-          domain-all.ditamap) At IU, what is a Guest account?</ph>
-      </navtitle>
-      </topicmeta> 
-  </glossref>
-  <glossref keys="CAS" href="akui.dita"/>
-    <keydef keys="alyb" href="alyb.dita"/>
+  <keydef keys="alqt guest-acct" href="alqt-glossentry.dita"/>  
+  <keydef keys="akui CAS" href="akui-glossentry.dita"/>
+  <keydef keys="alyb" href="alyb.dita"/>
   <keydef keys="anaz" href="anaz.dita"/>
   <keydef keys="angn" href="angn.dita"/>
   <keydef keys="apjr" href="apjr.dita"/>

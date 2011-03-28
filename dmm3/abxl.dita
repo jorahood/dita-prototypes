@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+<topic id="kbdoc">
+  <title id="default">How do I contact the Support Center at each IU campus, and what are the
+      hours and options for help?</title>
+  <body>
+    <note audience="kbstaff">KM staff: This doc is now in the oncoursecl and fp domains, as well as
+      all. If you add any kbas to it at any point in the future, be sure to kbsecure them to all,
+      unless the doc in question is also in those domains. This also applies to any boilers that may
+      appear in the doc.</note>
+
+    <section audience="default oncoursecl" conref="boilers.dita#sc-userhowto"/>
+
+    <note>You can find answers to your computing questions in this Knowledge Base by entering your
+      search terms in the box above. <xref href="https://ithelplive.iu.edu/" format="html">ITHelpLive</xref> (live
+      chat with a consultant) is also available daily 8am-midnight; log in with your Indiana
+      University Network ID. Guest accounts will not allow authentication to ITHelpLive, but if you
+      have a Guest account, you may use all the other support options below. </note>
+  <section conref="boilers.dita#SCBreak"/>
+  </body>
+</topic>

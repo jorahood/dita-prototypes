@@ -8,25 +8,35 @@
       <relcolspec type="topic" linking="sourceonly">
         <title>Source</title>
       </relcolspec>
-      <relcolspec type="topic" linking="targetonly">
-        <title>Ref</title>
+      <relcolspec type="task" linking="targetonly">
+        <title>Refs</title>
       </relcolspec>
-      <relcolspec type="topic" linking="sourceonly">
-        <title>RefBy</title>
+      <relcolspec type="task" linking="sourceonly">
+        <title>RefBys</title>
+      </relcolspec>
+      <relcolspec type="glossentry" linking="targetonly">
+        <title>Hotitems</title>
       </relcolspec>
     </relheader>
     <relrow>
       <relcell>
-        <topicref keyref="axvp"/>
+        <topicref keyref="axvp-concept"/>
       </relcell>
       <relcell>
         <topicref keyref="alwe"/>
         <topicref keyref="angn"/>
         <topicref keyref="ataj"/>
-        <topicref keyref="atau"/>
+        <topicref keyref="atau"/>        
       </relcell>
       <relcell>
         <topicref keyref="blah"/>
+      </relcell>
+      <relcell>
+        <topicref keyref="guest-acct"/>
+        <topicref keyref="ajpt"/>
+        <topicref keyref="apqd"/>
+        <topicref keyref="alqk"/>
+        <topicref keyref="CAS"/>
       </relcell>
     </relrow>
   </reltable>

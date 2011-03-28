@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/glossary.dtd">
+<glossentry id="kbdoc">
+  <glossterm>At IU, what is the Account Management Service?</glossterm>
+  <glossdef>
+    <p>It's the service that lets you manage your account</p>
+  </glossdef>
+  <glossBody>
+    <glossSurfaceForm>Account Management Service (AMS)</glossSurfaceForm>
+    <glossAlt>
+      <glossAbbreviation>AMS</glossAbbreviation>
+    </glossAlt>
+  </glossBody>
+</glossentry>
