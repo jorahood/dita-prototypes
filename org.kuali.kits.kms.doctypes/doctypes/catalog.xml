@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+  <nextCatalog catalog="concept/catalog.xml"/>
+  <nextCatalog catalog="glossentry/catalog.xml"/>
+  <nextCatalog catalog="reference/catalog.xml"/>
+  <nextCatalog catalog="task/catalog.xml"/>
   <nextCatalog catalog="topic/catalog.xml"/>
 </catalog>
