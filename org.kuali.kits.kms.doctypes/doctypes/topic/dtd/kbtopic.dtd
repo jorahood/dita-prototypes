@@ -2,7 +2,7 @@
 <!-- ============================================================= -->
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
-<!--  MODULE:    KMS DITA TopiD                                    -->
+<!--  MODULE:    KMS DITA Topic DTD                                -->
 <!--  VERSION:   1.2                                               -->
 <!--  DATE:      March 2011                                        -->
 <!--                                                               -->
@@ -15,7 +15,7 @@
 <!--  Refer to this file by the following public identifier or an 
       appropriate system identifier 
 PUBLIC "-//OASIS//DTD DITA Topic//EN"
-      Delivered as file "kmstopic.dtd                              -->
+      Delivered as file "kbtopic.dtd                               -->
 
 <!-- The public ID above refers to the latest version of this DTD.
      To refer to this specific version, you may use this value:
@@ -24,21 +24,9 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    DTD to describe KMS DITA Topics                   -->
+<!-- PURPOSE:    DTD to describe KMS DITA Topics. Removes the      -->
+<!--             Hazard Statement and Programming Domain modules   -->
 <!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             March 2001                                        -->
-<!--                                                               -->
-<!--             (C) Copyright OASIS Open 2005, 2009.              -->
-<!--             (C) Copyright IBM Corporation 2001, 2004.         -->
-<!--             All Rights Reserved.                              -->
-<!--                                                               -->
-<!--  UPDATES:                                                     -->
-<!--    2006.06.07 RDA: Added indexing domain                      -->
-<!--    2006.06.21 RDA: Added props attribute extensions           -->
-<!--    2007.12.01 EK:  Reformatted DTD modules for DITA 1.2       -->
-<!--    2008.02.12 RDA: Modify imbeds to use specific 1.2 version  -->
-<!--    2008.04.15 RDA: Added hazard domain                        -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
