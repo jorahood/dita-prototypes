@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<!DOCTYPE task SYSTEM "../org.kuali.kits.kms.doctypes/doctypes/task/dtd/kbtask.dtd">
+<task id="kbdoc">
+  <title>Task title</title> 
+  <taskbody>
+  </taskbody>
+</task>

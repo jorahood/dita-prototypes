@@ -2,7 +2,7 @@
 <!-- ============================================================= -->
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
-<!--  MODULE:    DITA Concept DTD                                  -->
+<!--  MODULE:    DITA Reference DTD                                -->
 <!--  VERSION:   1.2                                               -->
 <!--  DATE:      November 2009                                     -->
 <!--                                                               -->
@@ -14,17 +14,17 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an 
       appropriate system identifier 
-PUBLIC "-//OASIS//DTD DITA Concept//EN"
-      Delivered as file "concept.dtd"                              -->
+PUBLIC "-//OASIS//DTD DITA Reference//EN"
+      Delivered as file "reference.dtd"                            -->
 
 <!-- The public ID above refers to the latest version of this DTD.
      To refer to this specific version, you may use this value:
-PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
+PUBLIC "-//OASIS//DTD DITA 1.2 Reference//EN"                      -->
 
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    DTD to describe DITA Concepts                     -->
+<!-- PURPOSE:    DTD to describe DITA References                   -->
 <!--                                                               -->
 <!-- ORIGINAL CREATION DATE:                                       -->
 <!--             March 2001                                        -->
@@ -36,6 +36,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
 <!--  UPDATES:                                                     -->
 <!--    2006.06.07 RDA: Added indexing domain                      -->
 <!--    2006.06.21 RDA: Added props attribute extensions           -->
+<!--    2008.02.01 RDA: Added reference to reference.ent           -->
 <!--    2008.02.12 RDA: Modify imbeds to use specific 1.2 version  -->
 <!--    2008.04.15 RDA: Added hazard domain                        -->
 <!-- ============================================================= -->
@@ -45,10 +46,10 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
 <!--                    TOPIC ENTITY DECLARATIONS                  -->
 <!-- ============================================================= -->
 
-<!ENTITY % concept-dec     
-  PUBLIC "-//OASIS//ENTITIES DITA 1.2 Concept//EN" 
-         "concept.ent"
->%concept-dec;
+<!ENTITY % reference-dec     
+  PUBLIC "-//OASIS//ENTITIES DITA 1.2 Reference//EN" 
+         "reference.ent"
+>%reference-dec;
 
 <!-- ============================================================= -->
 <!--                    DOMAIN ENTITY DECLARATIONS                 -->
@@ -153,8 +154,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
 
 <!--                    Redefine the infotype entity to exclude 
                         other topic types and disallow nesting     -->
-<!ENTITY % concept-info-types 
-                        "concept"                                    >
+<!ENTITY % reference-info-types 
+                        "reference"                                  >
 
 
 <!-- ============================================================= -->
@@ -164,7 +165,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
                         puts @domains first in order               -->
 
 <!ENTITY included-domains 
-                          "&concept-att;
+                          "&reference-att;
                            &hi-d-att; 
                            &ut-d-att; 
                            &indexing-d-att;
@@ -184,16 +185,15 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
 <!--                    Embed topic to get generic elements        -->
 <!ENTITY % topic-type   PUBLIC 
 "-//OASIS//ELEMENTS DITA 1.2 Topic//EN" 
-"../../base/dtd/topic.mod">
+"../../base/dtd/topic.mod"                                                          >
 %topic-type;
 
-
-<!--                    Embed concept to get specific elements     -->
-<!ENTITY % concept-typemod 
+<!--                     Embed reference to get specific elements  -->
+<!ENTITY % reference-typemod 
                         PUBLIC 
-"-//OASIS//ELEMENTS DITA 1.2 Concept//EN" 
-"concept.mod">
-%concept-typemod;
+"-//OASIS//ELEMENTS DITA 1.2 Reference//EN" 
+"reference.mod"                                                      >
+ %reference-typemod;
 
 
 <!-- ============================================================= -->
@@ -241,4 +241,5 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
          "softwareDomain.mod"
 >%sw-d-def;
 
-<!-- ================== End DITA Concept DTD  ==================== -->
+
+<!-- ================== End DITA Reference DTD  ================== -->

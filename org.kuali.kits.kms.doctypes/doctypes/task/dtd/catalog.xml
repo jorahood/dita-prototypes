@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
-  <public publicId="urn:pubid:kuali.org.kits.kms:doctypes:dita:task" uri="task.dtd"/> 
+  <public publicId="urn:pubid:kuali.org.kits.kms:doctypes:dita:task" uri="kbtask.dtd"/> 
   <system systemId="urn:pubid:kuali.org.kits.kms:doctypes:dita:task.dtd"
-    uri="task.dtd" />
+    uri="kbtask.dtd" />
 </catalog>

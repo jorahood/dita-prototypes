@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<!DOCTYPE glossentry SYSTEM "../org.kuali.kits.kms.doctypes/doctypes/glossentry/dtd/kbglossentry.dtd">
+<glossentry id="kbdoc">
+  <glossterm>Glossentry term</glossterm> 
+  <glossdef>
+    <p>gloss definition</p> 
+  </glossdef>
+</glossentry>

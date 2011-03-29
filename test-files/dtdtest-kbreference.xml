@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<!DOCTYPE reference SYSTEM "../org.kuali.kits.kms.doctypes/doctypes/reference/dtd/kbreference.dtd">
+<reference id="kbdoc">
+  <title>Reference title</title> 
+  <refbody/>
+</reference>

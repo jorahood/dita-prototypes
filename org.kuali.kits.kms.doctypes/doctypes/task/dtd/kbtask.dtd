@@ -2,7 +2,7 @@
 <!-- ============================================================= -->
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
-<!--  MODULE:    DITA Concept DTD                                  -->
+<!--  MODULE:    DITA Task DTD                                     -->
 <!--  VERSION:   1.2                                               -->
 <!--  DATE:      November 2009                                     -->
 <!--                                                               -->
@@ -12,19 +12,19 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                    TYPICAL INVOCATION                         -->
 <!--                                                               -->
-<!--  Refer to this file by the following public identifier or an 
-      appropriate system identifier 
-PUBLIC "-//OASIS//DTD DITA Concept//EN"
-      Delivered as file "concept.dtd"                              -->
+<!--  Refer to this file by the following public identifier or an
+      appropriate system identifier: 
+PUBLIC "-//OASIS//DTD DITA Task//EN"
+      Delivered as file "task.dtd"                                 -->
 
 <!-- The public ID above refers to the latest version of this DTD.
      To refer to this specific version, you may use this value:
-PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
+PUBLIC "-//OASIS//DTD DITA 1.2 Task//EN"                           -->
 
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    DTD to describe DITA Concepts                     -->
+<!-- PURPOSE:    DTD to describe DITA Tasks                        -->
 <!--                                                               -->
 <!-- ORIGINAL CREATION DATE:                                       -->
 <!--             March 2001                                        -->
@@ -36,6 +36,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
 <!--  UPDATES:                                                     -->
 <!--    2006.06.07 RDA: Added indexing domain                      -->
 <!--    2006.06.21 RDA: Added props attribute extensions           -->
+<!--    2008.02.01 RDA: Added reference to task.ent                -->
 <!--    2008.02.12 RDA: Modify imbeds to use specific 1.2 version  -->
 <!--    2008.04.15 RDA: Added hazard domain                        -->
 <!-- ============================================================= -->
@@ -45,15 +46,14 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
 <!--                    TOPIC ENTITY DECLARATIONS                  -->
 <!-- ============================================================= -->
 
-<!ENTITY % concept-dec     
-  PUBLIC "-//OASIS//ENTITIES DITA 1.2 Concept//EN" 
-         "concept.ent"
->%concept-dec;
+<!ENTITY % task-dec     
+  PUBLIC "-//OASIS//ENTITIES DITA 1.2 Task//EN" 
+         "task.ent"
+>%task-dec;
 
 <!-- ============================================================= -->
 <!--                    DOMAIN ENTITY DECLARATIONS                 -->
 <!-- ============================================================= -->
-
 
 <!ENTITY % hi-d-dec     
   PUBLIC "-//OASIS//ENTITIES DITA 1.2 Highlight Domain//EN" 
@@ -117,9 +117,9 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
                          %sw-d-keyword; |
                          %ui-d-keyword;
                         ">
-<!ENTITY % ph           "ph |
-                         %hi-d-ph; |
-                         %pr-d-ph; |
+<!ENTITY % ph           "ph | 
+                         %hi-d-ph; | 
+                         %pr-d-ph; | 
                          %sw-d-ph; | 
                          %ui-d-ph;
                         ">
@@ -153,8 +153,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
 
 <!--                    Redefine the infotype entity to exclude 
                         other topic types and disallow nesting     -->
-<!ENTITY % concept-info-types 
-                        "concept"                                    >
+<!ENTITY % task-info-types 
+                        "task"                                       >
 
 
 <!-- ============================================================= -->
@@ -164,7 +164,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
                         puts @domains first in order               -->
 
 <!ENTITY included-domains 
-                          "&concept-att;
+                          "&task-att;
                            &hi-d-att; 
                            &ut-d-att; 
                            &indexing-d-att;
@@ -172,10 +172,19 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
                            &abbrev-d-att;
                            &pr-d-att; 
                            &sw-d-att;
-                           &ui-d-att; 
+                           &ui-d-att;
+                           &taskbody-constraints; 
   "
 >
 
+<!-- ============================================================= -->
+<!--                    CONTENT CONSTRAINT INTEGRATION             -->
+<!-- ============================================================= -->
+
+<!ENTITY % strictTaskbody-c-def  
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Strict Taskbody Constraint//EN" 
+  "strictTaskbodyConstraint.mod">
+%strictTaskbody-c-def;
 
 <!-- ============================================================= -->
 <!--                    TOPIC ELEMENT INTEGRATION                  -->
@@ -184,16 +193,14 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
 <!--                    Embed topic to get generic elements        -->
 <!ENTITY % topic-type   PUBLIC 
 "-//OASIS//ELEMENTS DITA 1.2 Topic//EN" 
-"../../base/dtd/topic.mod">
+"../../base/dtd/topic.mod"                                                          >
 %topic-type;
-
-
-<!--                    Embed concept to get specific elements     -->
-<!ENTITY % concept-typemod 
-                        PUBLIC 
-"-//OASIS//ELEMENTS DITA 1.2 Concept//EN" 
-"concept.mod">
-%concept-typemod;
+        
+<!--                    Embed task to get specific elements        -->
+<!ENTITY % task-typemod PUBLIC 
+"-//OASIS//ELEMENTS DITA 1.2 Task//EN" 
+"task.mod"                                                           >
+%task-typemod;
 
 
 <!-- ============================================================= -->
@@ -241,4 +248,5 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
          "softwareDomain.mod"
 >%sw-d-def;
 
-<!-- ================== End DITA Concept DTD  ==================== -->
+
+<!-- ================== End DITA Task DTD  ======================= -->

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<!DOCTYPE concept SYSTEM "../org.kuali.kits.kms.doctypes/doctypes/concept/dtd/kbconcept.dtd">
+<concept id="kbdoc">
+  <title>Topic title</title> 
+  <conbody>
+    <p>Topic paragraph</p> 
+  </conbody>
+</concept>
