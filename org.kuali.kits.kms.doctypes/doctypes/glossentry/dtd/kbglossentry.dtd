@@ -75,20 +75,10 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN"                       -->
          "../../base/dtd/indexingDomain.ent"                                                 
 >%indexing-d-dec;
 
-<!ENTITY % hazard-d-dec     
-  PUBLIC "-//OASIS//ENTITIES DITA 1.2 Hazard Statement Domain//EN" 
-         "../../base/dtd/hazardstatementDomain.ent"
->%hazard-d-dec;
-
 <!ENTITY % abbrev-d-dec     
   PUBLIC "-//OASIS//ENTITIES DITA 1.2 Abbreviated Form Domain//EN" 
          "abbreviateDomain.ent"
 >%abbrev-d-dec;
-
-<!ENTITY % pr-d-dec     
-  PUBLIC "-//OASIS//ENTITIES DITA 1.2 Programming Domain//EN" 
-         "programmingDomain.ent"                                              
->%pr-d-dec;
 
 <!ENTITY % sw-d-dec     
   PUBLIC "-//OASIS//ENTITIES DITA 1.2 Software Domain//EN" 
@@ -113,18 +103,15 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN"                       -->
                         extension was declared                     -->
 
 <!ENTITY % pre          "pre |
-                         %pr-d-pre; |
                          %sw-d-pre;|
                          %ui-d-pre;
                         ">
 <!ENTITY % keyword      "keyword |
-                         %pr-d-keyword; | 
                          %sw-d-keyword; |
                          %ui-d-keyword;
                         ">
 <!ENTITY % ph           "ph | 
                          %hi-d-ph; | 
-                         %pr-d-ph; | 
                          %sw-d-ph; | 
                          %ui-d-ph;
                         ">
@@ -132,17 +119,14 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN"                       -->
                          %abbrev-d-term;
                         ">
 <!ENTITY % fig          "fig |
-                         %pr-d-fig; |
                          %ut-d-fig;
                         ">
-<!ENTITY % dl           "dl |
-                         %pr-d-dl;
+<!ENTITY % dl           "dl
                         ">
 <!ENTITY % index-base   "index-base | 
                          %indexing-d-index-base;
                         ">
-<!ENTITY % note         "note | 
-                         %hazard-d-note;
+<!ENTITY % note         "note
                         ">
 
 <!-- ============================================================= -->
@@ -174,9 +158,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN"                       -->
                            &hi-d-att; 
                            &ut-d-att; 
                            &indexing-d-att;
-                           &hazard-d-att;
                            &abbrev-d-att;
-                           &pr-d-att; 
                            &sw-d-att;
                            &ui-d-att; 
   "
@@ -227,11 +209,6 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN"                       -->
          "../../base/dtd/indexingDomain.mod"
 >%indexing-d-def;
 
-<!ENTITY % hazard-d-def     
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Hazard Statement Domain//EN" 
-         "../../base/dtd/hazardstatementDomain.mod"
->%hazard-d-def;
-
 <!ENTITY % abbrev-d-def     
   PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Abbreviated Form Domain//EN" 
          "abbreviateDomain.mod"
@@ -241,11 +218,6 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN"                       -->
   PUBLIC "-//OASIS//ELEMENTS DITA 1.2 User Interface Domain//EN" 
          "uiDomain.mod"
 >%ui-d-def;
-
-<!ENTITY % pr-d-def     
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Programming Domain//EN" 
-         "programmingDomain.mod"
->%pr-d-def;
 
 <!ENTITY % sw-d-def     
   PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Software Domain//EN" 
