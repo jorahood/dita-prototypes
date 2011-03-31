@@ -38,6 +38,10 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
 <!-- ============================================================= -->
 
 
+<!ENTITY % kuali-kms-d-dec
+  SYSTEM "../../kualiKmsDomain/kualiKmsDomain.ent"
+>%kuali-kms-d-dec;
+
 <!ENTITY % hi-d-dec     
   PUBLIC "-//OASIS//ENTITIES DITA 1.2 Highlight Domain//EN" 
          "../../base/dtd/highlightDomain.ent"
@@ -107,6 +111,10 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
 <!ENTITY % note         "note
                         ">
 
+<!ENTITY % data         "data |
+                         %kuali-kms-d-data;
+                        ">
+
 <!-- ============================================================= -->
 <!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
 <!-- ============================================================= -->
@@ -142,7 +150,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
                            &indexing-d-att;
                            &abbrev-d-att;
                            &sw-d-att;
-                           &ui-d-att; 
+                           &ui-d-att;
+                           &kuali-kms-d-att;
   "
 >
 
@@ -192,5 +201,9 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
   PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Software Domain//EN" 
          "softwareDomain.mod"
 >%sw-d-def;
+
+<!ENTITY % kuali-kms-d-def
+  SYSTEM "../../kualiKmsDomain/kualiKmsDomain.mod"
+>%kuali-kms-d-def;
 
 <!-- ================== End DITA Topic DTD  ====================== -->

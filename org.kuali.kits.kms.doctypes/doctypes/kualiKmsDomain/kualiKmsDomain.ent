@@ -1,0 +1,7 @@
+<!ENTITY % kuali-kms-d-data
+  "owner
+  "
+  >
+  
+<!ENTITY	kuali-kms-d-att	"(topic kuali-kms-d)"
+>
