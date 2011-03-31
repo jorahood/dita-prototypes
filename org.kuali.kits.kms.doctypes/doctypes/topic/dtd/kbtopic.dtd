@@ -24,7 +24,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    DTD to describe KMS DITA Topics. Removes the      -->
+<!-- PURPOSE:    Describes KITS KMS DITA Topics. Removes the       -->
 <!--             Hazard Statement and Programming Domain modules   -->
 <!--                                                               -->
 <!-- ============================================================= -->
