@@ -69,8 +69,14 @@
 <!ELEMENT owner    %owner.content;>
 <!ATTLIST owner    %owner.attributes;>
 
+<!ENTITY % default.attributes
+             '%ph.attributes;
+              id
+                        NMTOKEN
+                                  "default"
+              ' >
 <!ELEMENT default %ph.content;>
-<!ATTLIST default %ph.attributes;>
+<!ATTLIST default %default.attributes;>
 
 <!ATTLIST approved	%global-atts; class CDATA "+ topic/revised kuali-kms-d/approved ">
 <!ATTLIST expires	%global-atts; class CDATA "+ topic/revised kuali-kms-d/expires ">
