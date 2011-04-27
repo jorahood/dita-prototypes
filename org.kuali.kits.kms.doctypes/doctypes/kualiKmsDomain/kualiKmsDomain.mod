@@ -1,16 +1,30 @@
 <!-- 
  Elements for the Kuali KITS KMS
 -->
-<!ENTITY % owner	"owner" >
-<!ENTITY % audience	"audience" >
-<!ENTITY % created	"created" >
-<!ENTITY % lastModified	"lastModified" >
+<!-- Metadata elements -->
+
 <!ENTITY % approved	"approved" >
+<!ENTITY % audience	"audience" >
 <!ENTITY % expires	"expires" >
+<!ENTITY % owner	"owner" >
 <!ENTITY % reviewCycle	"reviewCycle" >
 <!ENTITY % tag	"tag" >
 
-<!--                    LONG NAME: Owner element                    -->
+<!-- LONG NAME: approved date: metadata, specialization of <revised> -->
+
+<!ENTITY % approved.content
+                       "EMPTY"
+>
+<!ENTITY % approved.attributes
+             "modified
+                        %date-format;
+                                  #REQUIRED
+              %univ-atts;"
+>
+<!ELEMENT approved    %approved.content;>
+<!ATTLIST approved    %approved.attributes;>
+
+<!-- LONG NAME: owner: metadata, specialization of <data> -->
 <!ENTITY % owner.content
                        "EMPTY
 ">
@@ -49,4 +63,5 @@
 <!ELEMENT owner    %owner.content;>
 <!ATTLIST owner    %owner.attributes;>
 
+<!ATTLIST approved	%global-atts; class CDATA "+ topic/revised kuali-kms-d/approved ">
 <!ATTLIST owner	%global-atts; class CDATA "+ topic/data kuali-kms-d/owner ">

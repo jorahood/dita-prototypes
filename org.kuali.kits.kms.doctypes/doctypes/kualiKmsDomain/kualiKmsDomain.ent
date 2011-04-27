@@ -3,5 +3,10 @@
   "
   >
   
+<!ENTITY % kuali-kms-d-revised
+  "approved
+  "
+  >
+
 <!ENTITY	kuali-kms-d-att	"(topic kuali-kms-d)"
 >

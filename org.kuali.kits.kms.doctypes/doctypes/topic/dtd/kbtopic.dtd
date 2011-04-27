@@ -115,6 +115,10 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
                          %kuali-kms-d-data;
                         ">
 
+<!ENTITY % revised      "revised |
+                         %kuali-kms-d-revised;
+                        ">
+
 <!-- ============================================================= -->
 <!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
 <!-- ============================================================= -->

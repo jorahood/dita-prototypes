@@ -2,7 +2,12 @@
 <!DOCTYPE topic SYSTEM "../org.kuali.kits.kms.doctypes/doctypes/topic/dtd/kbtopic.dtd">
 <topic id="kbdoc">
   <title>Topic title</title>
-  <prolog><data/><owner/></prolog>
+  <prolog>
+    <critdates>
+      <approved modified="2011-12-2"/>
+    </critdates>
+    <owner/>
+  </prolog>
   <body>
     <p>Topic paragraph</p> 
   </body>
