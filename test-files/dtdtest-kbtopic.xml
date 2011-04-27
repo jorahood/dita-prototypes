@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?> 
 <!DOCTYPE topic SYSTEM "../org.kuali.kits.kms.doctypes/doctypes/topic/dtd/kbtopic.dtd">
 <topic id="kbdoc">
-  <title>Topic title</title>
+  <title><default>Topic title</default></title>
   <prolog>
     <critdates>
       <created date="today"/>
