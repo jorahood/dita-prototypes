@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
+<map title="DITA Topic Map Demo of KB menu doc abxl">
+  <topicref href="abxl.dita">
+    <topicref href="alfm.dita"/>
+    <topicref href="alqt-glossentry.dita"/>
+    <topicref href="akui-glossentry.dita"/>
+  </topicref>
+</map>

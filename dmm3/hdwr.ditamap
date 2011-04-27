@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "map.dtd">
+<subjectScheme>
+  <title>Demo Subject Scheme Map for doc hdwr</title>
+  <subjectdef keys="hardware" href="hdwr.dita">
+    <subjectdef keys="purchasing" navtitle="Purchasing"/>
+    <subjectdef keys="onCampus" navtitle="Hardware on Campus"/>
+    <subjectdef keys="maintRepair" navtitle="Troubleshooting, Maintenance, and Repair"/>
+  </subjectdef>
+</subjectScheme>
