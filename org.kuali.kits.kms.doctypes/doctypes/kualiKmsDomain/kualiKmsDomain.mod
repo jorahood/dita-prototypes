@@ -10,6 +10,8 @@
 <!ENTITY % reviewCycle	"reviewCycle" >
 <!ENTITY % tag	"tag" >
 
+<!ENTITY % default "default" >
+
 <!ENTITY % kbDate.content
                        "EMPTY"
 >
@@ -67,6 +69,10 @@
 <!ELEMENT owner    %owner.content;>
 <!ATTLIST owner    %owner.attributes;>
 
+<!ELEMENT default %ph.content;>
+<!ATTLIST default %ph.attributes;>
+
 <!ATTLIST approved	%global-atts; class CDATA "+ topic/revised kuali-kms-d/approved ">
 <!ATTLIST expires	%global-atts; class CDATA "+ topic/revised kuali-kms-d/expires ">
 <!ATTLIST owner	%global-atts; class CDATA "+ topic/data kuali-kms-d/owner ">
+<!ATTLIST default	%global-atts; class CDATA "+ topic/ph kuali-kms-d/default ">

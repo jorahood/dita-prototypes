@@ -96,6 +96,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
                          %hi-d-ph; | 
                          %sw-d-ph; | 
                          %ui-d-ph;
+                         %kuali-kms-d-ph;
                         ">
 <!ENTITY % term         "term | 
                          %abbrev-d-term;

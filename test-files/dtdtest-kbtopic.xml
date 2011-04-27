@@ -9,9 +9,8 @@
       <expires modified="today"/>
       <approved modified="yesterday"/>
     </critdates>
-    <owner/>
   </prolog>
   <body>
-    <p>Topic paragraph</p> 
+    <p>Topic paragraph deferred</p> 
   </body>
 </topic>

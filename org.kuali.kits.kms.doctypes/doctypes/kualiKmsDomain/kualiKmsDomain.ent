@@ -9,5 +9,10 @@
   "
   >
 
+<!ENTITY % kuali-kms-d-ph
+  "default
+  "
+  >
+  
 <!ENTITY	kuali-kms-d-att	"(topic kuali-kms-d)"
 >
