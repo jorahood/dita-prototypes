@@ -4,7 +4,10 @@
   <title>Topic title</title>
   <prolog>
     <critdates>
-      <approved modified="2011-12-2"/>
+      <created date="today"/>
+      <revised modified="today"/>
+      <expires modified="today"/>
+      <approved modified="yesterday"/>
     </critdates>
     <owner/>
   </prolog>

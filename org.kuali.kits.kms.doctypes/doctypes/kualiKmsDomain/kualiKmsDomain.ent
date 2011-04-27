@@ -4,7 +4,8 @@
   >
   
 <!ENTITY % kuali-kms-d-revised
-  "approved
+  "approved |
+  expires
   "
   >
 
