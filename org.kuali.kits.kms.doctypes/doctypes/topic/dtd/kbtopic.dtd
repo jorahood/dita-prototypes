@@ -26,6 +26,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
 <!--                                                               -->
 <!-- PURPOSE:    Describes KITS KMS DITA Topics. Removes the       -->
 <!--             Hazard Statement and Programming Domain modules   -->
+<!--             and adds the Kuali KMS domain specialization      -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -111,11 +112,9 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
                         ">
 <!ENTITY % note         "note
                         ">
-
 <!ENTITY % data         "data |
                          %kuali-kms-d-data;
                         ">
-
 <!ENTITY % revised      "revised |
                          %kuali-kms-d-revised;
                         ">
