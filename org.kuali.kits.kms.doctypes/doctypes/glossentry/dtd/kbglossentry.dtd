@@ -60,6 +60,10 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN"                       -->
 <!-- ============================================================= -->
 
 
+<!ENTITY % kuali-kms-d-dec
+  SYSTEM "../../kualiKmsDomain/kualiKmsDomain.ent"
+>%kuali-kms-d-dec;
+
 <!ENTITY % hi-d-dec     
   PUBLIC "-//OASIS//ENTITIES DITA 1.2 Highlight Domain//EN" 
          "../../base/dtd/highlightDomain.ent"
@@ -113,7 +117,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN"                       -->
 <!ENTITY % ph           "ph | 
                          %hi-d-ph; | 
                          %sw-d-ph; | 
-                         %ui-d-ph;
+                         %ui-d-ph; |
+                         %kuali-kms-d-ph;
                         ">
 <!ENTITY % term         "term | 
                          %abbrev-d-term;
@@ -127,6 +132,12 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN"                       -->
                          %indexing-d-index-base;
                         ">
 <!ENTITY % note         "note
+                        ">
+<!ENTITY % data         "data |
+                         %kuali-kms-d-data;
+                        ">
+<!ENTITY % revised      "revised |
+                         %kuali-kms-d-revised;
                         ">
 
 <!-- ============================================================= -->
@@ -161,6 +172,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN"                       -->
                            &abbrev-d-att;
                            &sw-d-att;
                            &ui-d-att; 
+                           &kuali-kms-d-att;
   "
 >
 
@@ -223,5 +235,9 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN"                       -->
   PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Software Domain//EN" 
          "softwareDomain.mod"
 >%sw-d-def;
+
+<!ENTITY % kuali-kms-d-def
+  SYSTEM "../../kualiKmsDomain/kualiKmsDomain.mod"
+>%kuali-kms-d-def;
 
 <!-- ================== End DITA Glossary DTD  =================== -->
