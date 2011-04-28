@@ -4,7 +4,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    KMS DITA Reference DTD                            -->
 <!--  VERSION:   1.2                                               -->
-<!--  DATE:      November 2009                                     -->
+<!--  DATE:      April 2011                                        -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -24,23 +24,9 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Reference//EN"                      -->
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    DTD to describe DITA References                   -->
-<!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             March 2001                                        -->
-<!--                                                               -->
-<!--             (C) Copyright OASIS Open 2005, 2009.              -->
-<!--             (C) Copyright IBM Corporation 2001, 2004.         -->
-<!--             All Rights Reserved.                              -->
-<!--                                                               -->
-<!--  UPDATES:                                                     -->
-<!--    2006.06.07 RDA: Added indexing domain                      -->
-<!--    2006.06.21 RDA: Added props attribute extensions           -->
-<!--    2008.02.01 RDA: Added reference to reference.ent           -->
-<!--    2008.02.12 RDA: Modify imbeds to use specific 1.2 version  -->
-<!--    2008.04.15 RDA: Added hazard domain                        -->
-<!-- ============================================================= -->
-
+<!-- PURPOSE:    Describes Kuali KITS KMS DITA References. Removes -->
+<!--             Hazard Statement and Programming Domain modules   -->
+<!--             and adds the Kuali KMS domain specialization      -->
 
 <!-- ============================================================= -->
 <!--                    TOPIC ENTITY DECLARATIONS                  -->
@@ -55,6 +41,10 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Reference//EN"                      -->
 <!--                    DOMAIN ENTITY DECLARATIONS                 -->
 <!-- ============================================================= -->
 
+
+<!ENTITY % kuali-kms-d-dec
+  SYSTEM "../../kualiKmsDomain/kualiKmsDomain.ent"
+>%kuali-kms-d-dec;
 
 <!ENTITY % hi-d-dec     
   PUBLIC "-//OASIS//ENTITIES DITA 1.2 Highlight Domain//EN" 
@@ -109,7 +99,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Reference//EN"                      -->
 <!ENTITY % ph           "ph |
                          %hi-d-ph; |
                          %sw-d-ph; | 
-                         %ui-d-ph;
+                         %ui-d-ph; |
+                         %kuali-kms-d-ph;
                         ">
 <!ENTITY % term         "term | 
                          %abbrev-d-term;
@@ -123,6 +114,12 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Reference//EN"                      -->
                          %indexing-d-index-base;
                         ">
 <!ENTITY % note         "note
+                        ">
+<!ENTITY % data         "data |
+                         %kuali-kms-d-data;
+                        ">
+<!ENTITY % revised      "revised |
+                         %kuali-kms-d-revised;
                         ">
 
 <!-- ============================================================= -->
@@ -156,6 +153,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Reference//EN"                      -->
                            &abbrev-d-att;
                            &sw-d-att;
                            &ui-d-att; 
+                           &kuali-kms-d-att;
   "
 >
 
@@ -213,5 +211,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Reference//EN"                      -->
          "softwareDomain.mod"
 >%sw-d-def;
 
+<!ENTITY % kuali-kms-d-def
+  SYSTEM "../../kualiKmsDomain/kualiKmsDomain.mod"
+>%kuali-kms-d-def;
 
 <!-- ================== End DITA Reference DTD  ================== -->
