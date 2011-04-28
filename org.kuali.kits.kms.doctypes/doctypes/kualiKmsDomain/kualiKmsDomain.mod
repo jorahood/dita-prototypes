@@ -70,10 +70,10 @@
 <!ATTLIST owner    %owner.attributes;>
 
 <!ENTITY % default.attributes
-             '%ph.attributes;
-              id
+             'id
                         NMTOKEN
                                   "default"
+              %ph.attributes;
               ' >
 <!ELEMENT default %ph.content;>
 <!ATTLIST default %default.attributes;>
