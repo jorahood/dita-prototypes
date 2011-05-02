@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+  <public publicId="urn:pubid:kuali.org.kits.kms:doctypes:dita:modules:entities:base"
+    uri="kualiKmsDomain.ent"/>
+  <public publicId="urn:pubid:kuali.org.kits.kms:doctypes:dita:modules:base"
+    uri="kualiKmsDomain.mod" />
+</catalog>

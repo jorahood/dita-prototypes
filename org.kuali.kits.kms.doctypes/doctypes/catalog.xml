@@ -5,4 +5,5 @@
   <nextCatalog catalog="reference/catalog.xml"/>
   <nextCatalog catalog="task/catalog.xml"/>
   <nextCatalog catalog="topic/catalog.xml"/>
+  <nextCatalog catalog="kualiKmsDomain/catalog.xml"/>
 </catalog>
