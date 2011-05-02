@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?> 
-<!DOCTYPE task SYSTEM "../org.kuali.kits.kms.doctypes/doctypes/task/dtd/kbtask.dtd">
+<!DOCTYPE task PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:task"
+"http://kits.kuali.org/kms/dita/v1.2/OS/dtd/kbtask.dtd">
 <task id="kbdoc">
   <title>Task title</title> 
   <taskbody>

@@ -2,9 +2,9 @@
 <!-- ============================================================= -->
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
-<!--  MODULE:    KMS DITA Task DTD                                 -->
+<!--  MODULE:    DITA Glossary Entry DTD                           -->
 <!--  VERSION:   1.2                                               -->
-<!--  DATE:      March 2011                                        -->
+<!--  DATE:      November 2009                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -12,22 +12,32 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                    TYPICAL INVOCATION                         -->
 <!--                                                               -->
-<!--  Refer to this file by the following public identifier or an
-      appropriate system identifier: 
-PUBLIC "-//OASIS//DTD DITA Task//EN"
-      Delivered as file "kbtask.dtd"                               -->
+<!--  Refer to this file by the following public identifier or an 
+      appropriate system identifier 
+PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+      Delivered as file "glossentry.dtd"                             -->
 
 <!-- The public ID above refers to the latest version of this DTD.
      To refer to this specific version, you may use this value:
-PUBLIC "-//OASIS//DTD DITA 1.2 Task//EN"                           -->
+PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN"                       -->
 
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    Describes Kuali KITS KMS DITA Tasks. Removes the  -->
-<!--             Hazard Statement and Programming Domain modules   -->
-<!--             and adds the Kuali KMS domain specialization      -->
+<!-- PURPOSE:    DTD to describe DITA Glossary Entry topics        -->
 <!--                                                               -->
+<!-- ORIGINAL CREATION DATE:                                       -->
+<!--             June 2006                                         -->
+<!--                                                               -->
+<!--             (C) Copyright OASIS Open 2006, 2009.              -->
+<!--             All Rights Reserved.                              -->
+<!--                                                               -->
+<!--  UPDATES:                                                     -->
+<!--    2008.02.01 RDA: Added references to concept.ent and        -->
+<!--                    glossary.ent                               -->
+<!--    2008.02.12 RDA: Modify imbeds to use specific 1.2 version  -->
+<!--    2008.04.15 RDA: Added hazard domain                        -->
+<!--    2009.09.21 WEK: Renamed to glossentry.dtd                  -->
 <!-- ============================================================= -->
 
 
@@ -35,17 +45,24 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Task//EN"                           -->
 <!--                    TOPIC ENTITY DECLARATIONS                  -->
 <!-- ============================================================= -->
 
-<!ENTITY % task-dec     
-  PUBLIC "-//OASIS//ENTITIES DITA 1.2 Task//EN" 
-         "task.ent"
->%task-dec;
+<!ENTITY % concept-dec     
+  PUBLIC "-//OASIS//ENTITIES DITA 1.2 Concept//EN" 
+         "concept.ent"
+>%concept-dec;
+
+<!ENTITY % glossentry-dec     
+  PUBLIC "-//OASIS//ENTITIES DITA 1.2 Glossary Entry//EN" 
+         "glossentry.ent"
+>%glossentry-dec;
 
 <!-- ============================================================= -->
 <!--                    DOMAIN ENTITY DECLARATIONS                 -->
 <!-- ============================================================= -->
 
+
 <!ENTITY % kuali-kms-d-dec
-  SYSTEM "../../kualiKmsDomain/kualiKmsDomain.ent"
+  PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:modules:entities:base"
+         "kualiKmsDomain.ent"
 >%kuali-kms-d-dec;
 
 <!ENTITY % hi-d-dec     
@@ -137,8 +154,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Task//EN"                           -->
 
 <!--                    Redefine the infotype entity to exclude 
                         other topic types and disallow nesting     -->
-<!ENTITY % task-info-types 
-                        "task"                                       >
+<!ENTITY % glossentry-info-types 
+                        "no-topic-nesting"                           >
 
 
 <!-- ============================================================= -->
@@ -148,26 +165,18 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Task//EN"                           -->
                         puts @domains first in order               -->
 
 <!ENTITY included-domains 
-                          "&task-att;
+                          "&concept-att;
+                           &glossentry-att;
                            &hi-d-att; 
                            &ut-d-att; 
                            &indexing-d-att;
                            &abbrev-d-att;
                            &sw-d-att;
-                           &ui-d-att;
+                           &ui-d-att; 
                            &kuali-kms-d-att;
-                           &taskbody-constraints; 
   "
 >
 
-<!-- ============================================================= -->
-<!--                    CONTENT CONSTRAINT INTEGRATION             -->
-<!-- ============================================================= -->
-
-<!ENTITY % strictTaskbody-c-def  
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Strict Taskbody Constraint//EN" 
-  "strictTaskbodyConstraint.mod">
-%strictTaskbody-c-def;
 
 <!-- ============================================================= -->
 <!--                    TOPIC ELEMENT INTEGRATION                  -->
@@ -178,12 +187,19 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Task//EN"                           -->
 "-//OASIS//ELEMENTS DITA 1.2 Topic//EN" 
 "../../base/dtd/topic.mod"                                                          >
 %topic-type;
-        
-<!--                    Embed task to get specific elements        -->
-<!ENTITY % task-typemod PUBLIC 
-"-//OASIS//ELEMENTS DITA 1.2 Task//EN" 
-"task.mod"                                                           >
-%task-typemod;
+
+<!ENTITY % concept-typemod 
+                        PUBLIC 
+"-//OASIS//ELEMENTS DITA 1.2 Concept//EN" 
+"concept.mod"                                                        >                                                     
+%concept-typemod;
+
+<!--                    Embed glossary to get specific elements    -->
+<!ENTITY % glossentry-typemod 
+                        PUBLIC 
+"-//OASIS//ELEMENTS DITA 1.2 Glossary Entry//EN" 
+"glossentry.mod"                                                       >                                                     
+%glossentry-typemod;
 
 
 <!-- ============================================================= -->
@@ -222,7 +238,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Task//EN"                           -->
 >%sw-d-def;
 
 <!ENTITY % kuali-kms-d-def
-  SYSTEM "../../kualiKmsDomain/kualiKmsDomain.mod"
+  PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:modules:base"
+         "kualiKmsDomain.mod"
 >%kuali-kms-d-def;
 
-<!-- ================== End DITA Task DTD  ======================= -->
+<!-- ================== End DITA Glossary DTD  =================== -->

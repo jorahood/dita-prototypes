@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?> 
-<!DOCTYPE topic SYSTEM "../org.kuali.kits.kms.doctypes/doctypes/topic/dtd/kbtopic.dtd">
+<!DOCTYPE topic PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic"
+"http://kits.kuali.org/kms/dita/v1.2/OS/dtd/kbtopic.dtd">
 <topic id="kbdoc">
   <title><default>Topic title</default></title>
   <prolog>

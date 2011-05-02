@@ -2,9 +2,9 @@
 <!-- ============================================================= -->
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
-<!--  MODULE:    KMS DITA Topic DTD                                -->
+<!--  MODULE:    Kuali KMS DITA Concept DTD                        -->
 <!--  VERSION:   1.2                                               -->
-<!--  DATE:      March 2011                                        -->
+<!--  DATE:      April 2011                                        -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -14,25 +14,30 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an 
       appropriate system identifier 
-PUBLIC "-//OASIS//DTD DITA Topic//EN"
-      Delivered as file "kbtopic.dtd                               -->
+PUBLIC "-//OASIS//DTD DITA Concept//EN"
+      Delivered as file "concept.dtd"                              -->
 
 <!-- The public ID above refers to the latest version of this DTD.
      To refer to this specific version, you may use this value:
-PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
+PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
 
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    Describes KITS KMS DITA Topics. Removes the       -->
+<!-- PURPOSE:    Describes Kuali KITS KMS DITA Concepts. Removes   -->
 <!--             Hazard Statement and Programming Domain modules   -->
 <!--             and adds the Kuali KMS domain specialization      -->
-<!--                                                               -->
 <!-- ============================================================= -->
+
 
 <!-- ============================================================= -->
 <!--                    TOPIC ENTITY DECLARATIONS                  -->
 <!-- ============================================================= -->
+
+<!ENTITY % concept-dec     
+  PUBLIC "-//OASIS//ENTITIES DITA 1.2 Concept//EN" 
+         "concept.ent"
+>%concept-dec;
 
 <!-- ============================================================= -->
 <!--                    DOMAIN ENTITY DECLARATIONS                 -->
@@ -40,7 +45,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
 
 
 <!ENTITY % kuali-kms-d-dec
-  SYSTEM "../../kualiKmsDomain/kualiKmsDomain.ent"
+  PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:modules:entities:base"
+  "kualiKmsDomain.ent"
 >%kuali-kms-d-dec;
 
 <!ENTITY % hi-d-dec     
@@ -85,16 +91,16 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
                         the name of the domain(s) in which the
                         extension was declared                     -->
 
-<!ENTITY % pre          "pre | 
-                         %sw-d-pre; | 
+<!ENTITY % pre          "pre |
+                         %sw-d-pre;|
                          %ui-d-pre;
                         ">
-<!ENTITY % keyword      "keyword | 
+<!ENTITY % keyword      "keyword |
                          %sw-d-keyword; |
                          %ui-d-keyword;
                         ">
-<!ENTITY % ph           "ph | 
-                         %hi-d-ph; | 
+<!ENTITY % ph           "ph |
+                         %hi-d-ph; |
                          %sw-d-ph; | 
                          %ui-d-ph; |
                          %kuali-kms-d-ph;
@@ -122,12 +128,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
 <!-- ============================================================= -->
 <!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
 <!-- ============================================================= -->
-<!ENTITY % props-attribute-extensions  
-  ""
->
-<!ENTITY % base-attribute-extensions   
-  ""
->
+<!ENTITY % props-attribute-extensions  ""                            >
+<!ENTITY % base-attribute-extensions   ""                            >
 
 
 <!-- ============================================================= -->
@@ -136,10 +138,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
 
 <!--                    Redefine the infotype entity to exclude 
                         other topic types and disallow nesting     -->
-<!ENTITY % topic-info-types 
-  "topic
-  "
->
+<!ENTITY % concept-info-types 
+                        "concept"                                    >
 
 
 <!-- ============================================================= -->
@@ -149,12 +149,13 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
                         puts @domains first in order               -->
 
 <!ENTITY included-domains 
-                          "&hi-d-att; 
+                          "&concept-att;
+                           &hi-d-att; 
                            &ut-d-att; 
                            &indexing-d-att;
                            &abbrev-d-att;
                            &sw-d-att;
-                           &ui-d-att;
+                           &ui-d-att; 
                            &kuali-kms-d-att;
   "
 >
@@ -165,16 +166,24 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
 <!-- ============================================================= -->
 
 <!--                    Embed topic to get generic elements        -->
-<!ENTITY % topic-type   
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Topic//EN" 
-         "../../base/dtd/topic.mod"
->
+<!ENTITY % topic-type   PUBLIC 
+"-//OASIS//ELEMENTS DITA 1.2 Topic//EN" 
+"../../base/dtd/topic.mod">
 %topic-type;
+
+
+<!--                    Embed concept to get specific elements     -->
+<!ENTITY % concept-typemod 
+                        PUBLIC 
+"-//OASIS//ELEMENTS DITA 1.2 Concept//EN" 
+"concept.mod">
+%concept-typemod;
 
 
 <!-- ============================================================= -->
 <!--                    DOMAIN ELEMENT INTEGRATION                 -->
 <!-- ============================================================= -->
+
 
 <!ENTITY % hi-d-def     
   PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Highlight Domain//EN" 
@@ -210,4 +219,4 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
   SYSTEM "../../kualiKmsDomain/kualiKmsDomain.mod"
 >%kuali-kms-d-def;
 
-<!-- ================== End DITA Topic DTD  ====================== -->
+<!-- ================== End DITA Concept DTD  ==================== -->

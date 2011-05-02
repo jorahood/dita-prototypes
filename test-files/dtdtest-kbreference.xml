@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?> 
-<!DOCTYPE reference SYSTEM "../org.kuali.kits.kms.doctypes/doctypes/reference/dtd/kbreference.dtd">
+<!DOCTYPE reference PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:reference"
+"http://kits.kuali.org/kms/dita/v1.2/OS/dtd/kbreference.dtd">
 <reference id="kbdoc">
   <title>Reference title</title> 
   <refbody/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?> 
-<!DOCTYPE concept SYSTEM "../org.kuali.kits.kms.doctypes/doctypes/concept/dtd/kbconcept.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:concept"
+"bogus">
 <concept id="kbdoc">
   <title>Topic title</title> 
   <conbody>

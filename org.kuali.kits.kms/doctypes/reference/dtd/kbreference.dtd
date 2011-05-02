@@ -43,7 +43,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Reference//EN"                      -->
 
 
 <!ENTITY % kuali-kms-d-dec
-  SYSTEM "../../kualiKmsDomain/kualiKmsDomain.ent"
+  PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:modules:entities:base"          "kualiKmsDomain.ent"
 >%kuali-kms-d-dec;
 
 <!ENTITY % hi-d-dec     

@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?> 
-<!DOCTYPE glossentry SYSTEM "../org.kuali.kits.kms.doctypes/doctypes/glossentry/dtd/kbglossentry.dtd">
+<!DOCTYPE glossentry PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:glossentry"
+"http://kits.kuali.org/kms/dita/v1.2/OS/dtd/kbglossentry.dtd" >
 <glossentry id="kbdoc">
   <glossterm>Glossentry term</glossterm> 
   <glossdef>
