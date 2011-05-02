@@ -1,0 +1,3 @@
+<plugin id="org.kuali.kits.kms"> 
+  <feature extension="dita.specialization.catalog.relative" value="catalog.xml" type="file"/>
+</plugin>
