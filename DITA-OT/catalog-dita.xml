@@ -1459,14 +1459,6 @@
 	
 <system systemId="urn:oasis:names:tc:dita:xsd:xml.xsd:1.1" uri="demo/dita11/schema/xml.xsd"/>
 
-
-  <!-- NOTE: The following catalog entries will be added to the Toolkit's 
-    top-level catalog-dita.xml without modification, so they need to work 
-    as they will be in that catalog, not as they exist within the plug-in's 
-    directory.
-  -->
-  
-<nextCatalog catalog="plugins/org.kuali.kits.kms/doctypes/catalog.xml"></nextCatalog>
 <!-- (c) Copyright IBM Corp. 2004, 2008 All Rights Reserved. -->
     
     <!-- DITA DTDs -->
