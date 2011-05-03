@@ -216,7 +216,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Concept//EN"                        -->
 >%sw-d-def;
 
 <!ENTITY % kuali-kms-d-def
-  SYSTEM "../../kualiKmsDomain/kualiKmsDomain.mod"
+  PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:modules:base"
+         "kualiKmsDomain.mod"
 >%kuali-kms-d-def;
 
 <!-- ================== End DITA Concept DTD  ==================== -->
