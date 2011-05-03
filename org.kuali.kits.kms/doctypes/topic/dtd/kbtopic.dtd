@@ -14,7 +14,7 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an 
       appropriate system identifier 
-PUBLIC "-//OASIS//DTD DITA Topic//EN"
+PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic"
       Delivered as file "kbtopic.dtd                               -->
 
 <!-- The public ID above refers to the latest version of this DTD.
