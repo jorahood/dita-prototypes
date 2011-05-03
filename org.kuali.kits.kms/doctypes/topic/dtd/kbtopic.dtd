@@ -40,7 +40,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
 
 
 <!ENTITY % kuali-kms-d-dec
-  PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:modules:entities:base"          "kualiKmsDomain.ent"
+  PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:modules:entities:base"
+         "kualiKmsDomain.ent"
 >%kuali-kms-d-dec;
 
 <!ENTITY % hi-d-dec     
@@ -207,7 +208,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"                          -->
 >%sw-d-def;
 
 <!ENTITY % kuali-kms-d-def
-  SYSTEM "../../kualiKmsDomain/kualiKmsDomain.mod"
+  PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:modules:base"
+         "kualiKmsDomain.mod"
 >%kuali-kms-d-def;
 
 <!-- ================== End DITA Topic DTD  ====================== -->
