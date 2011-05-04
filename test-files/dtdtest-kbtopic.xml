@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?> 
 <!DOCTYPE topic PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic"
-"https://wiki.kuali.org/download/attachments/309487870/kbtopic.dtd">
+"http://www.indiana.edu/~worklist/dita-prototypes/org.kuali.kits.kms/doctypes/topic/dtd/kbtopic.dtd">
 <topic id="kbdoc">
   <title><default>Topic title</default></title>
   <prolog>
