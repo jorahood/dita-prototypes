@@ -167,8 +167,8 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:kbtopic:1.2.1"  -->
 
 <!--                    Embed topic to get generic elements        -->
 <!ENTITY % topic-type   
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Topic//EN" 
-         "../../base/dtd/topic.mod"
+  PUBLIC "something something"
+         "kbtopic.mod"
 >
 %topic-type;
 
