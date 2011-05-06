@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?> 
-<!DOCTYPE topic PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic"
-"http://www.indiana.edu/~worklist/dita-prototypes/org.kuali.kits.kms/doctypes/topic/dtd/kbtopic.dtd">
-<topic id="kbdoc">
+<!DOCTYPE kbtopic SYSTEM "../org.kuali.kits.kms/doctypes/kbtopic/dtd/kbtopic.dtd">
+<kbtopic id="kbdoc">
   <title><default>Topic title</default></title>
   <prolog>
     <critdates>
@@ -14,4 +13,4 @@
   <body>
     <p>Topic paragraph deferred</p> 
   </body>
-</topic>
+</kbtopic>
