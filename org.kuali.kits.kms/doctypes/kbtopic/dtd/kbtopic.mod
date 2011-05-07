@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ============================================================= -->
-<!--                    HEADER                                     -->
-<!-- ============================================================= -->
-<!--  MODULE:    DITA KBTopic                                      -->
-<!--  VERSION:   1.2.1                                             -->
-<!--  DATE:      May 2011                                          -->
-<!--                                                               -->
-<!-- ============================================================= -->
 
-<!-- ============================================================= -->
-<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
-<!--                    TYPICAL INVOCATION                         -->
-<!--                                                               -->
-<!--  Refer to this file by the following public identifier or an 
-      appropriate system identifier 
-PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:kbtopic"
-      Delivered as file "kbtopic.mod"                              -->
 
-<!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
-<!--                                                               -->
-<!-- PURPOSE:    Declaring the elements and specialization         -->
-<!--             attributes for the base KBTopic type              -->
-<!-- ============================================================= -->
 
 
 <!-- ============================================================= -->
@@ -50,6 +28,9 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:kbtopic"
 <!-- ============================================================= -->
 <!--                   ELEMENT NAME ENTITIES                       -->
 <!-- ============================================================= -->
+
+<!ENTITY % kbtopic 	"kbtopic"
+>
 
 <!--                    Definitions of declared elements           -->
 <!ENTITY % topicDefns 
@@ -269,7 +250,7 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:kbtopic"
 <!-- ============================================================= -->
 
 <!--                    LONG NAME: Topic                           -->
-<!ENTITY % topic.content
+<!ENTITY % kbtopic.content
                        "((%title;), 
                          (%titlealts;)?,
                          (%shortdesc; | 
@@ -279,7 +260,7 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:kbtopic"
                          (%related-links;)?,
                          (%topic-info-types;)*)
 ">
-<!ENTITY % topic.attributes
+<!ENTITY % kbtopic.attributes
              "id 
                         ID
                                   #REQUIRED
@@ -290,9 +271,9 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:kbtopic"
                         CDATA
                                   #IMPLIED"
 >
-<!ELEMENT topic    %topic.content;>
-<!ATTLIST topic
-              %topic.attributes;
+<!ELEMENT kbtopic    %kbtopic.content;>
+<!ATTLIST kbtopic
+              %kbtopic.attributes;
               %arch-atts;
               domains 
                         CDATA
@@ -640,7 +621,7 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:kbtopic"
 <!ATTLIST sectiondiv
                     %global-atts;  class CDATA "- topic/sectiondiv " >
 <!ATTLIST titlealts %global-atts;  class CDATA "- topic/titlealts "  >
-<!ATTLIST topic     %global-atts;  class CDATA "- topic/topic "      >
+<!ATTLIST kbtopic   %global-atts;  class CDATA "- topic/topic kbtopic/kbtopic" >
 
 <!-- Shortdesc in map uses map/shortdesc so this one must be 
      included, even though the element is common. -->
