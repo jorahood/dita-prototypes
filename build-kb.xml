@@ -19,14 +19,19 @@
   <property name="dita.dir" value="${env.DITA_HOME}"/>
   <!-- set default values for these properties -->
   <property name="kb.domain" value="all"/>
-  <property name="kb.filters" value="client-default"/>
-  <property name="kb.output.dir"
-    value="${args.subdir}${file.separator}out/domain-${kb.domain}/${kb.filters}"/>
+  <property name="kb.audience" value="default"/>
+  <property name="dmm" value="dmm3"/>
+
+  <!-- build path to output directory from the dmm subdir name + kb domain name + kb audience name -->
+  <property name="output.dir"
+    value="${args.dmm}${file.separator}out/domain-${kb.domain}/audience-${kb.audience}"/>
 
   <property name="css.source.dir" value="${dita.dir}${file.separator}samples${file.separator}css"/>
-  
-  <property name="args.input" value="dmm2/domain-all.ditamap"/>
-  <property name="output.dir" value="${kb.output.dir}"/>
+
+  <!-- build args.input (the arg that build.xml expects to get the input file in) from file name + dmm subdir name -->
+  <property name="args.input_file" value="domain-all.ditamap"/>
+  <property name="args.input" value="${args.dmm}${file.separator}${args.input_file}"/>
+
   <property name="transtype" value="xhtml"/>
   <property name="dita.input.valfile" value="ditavals/${kb.filters}.ditaval"/>
 
@@ -35,9 +40,10 @@
   <import file="${dita.dir}${file.separator}integrator.xml"/>
   
   <target name="domain-client" depends="integrate">
-    <echo>This "domain-client" ant build target transforms file "${args.input}" with kb domain "${kb.domain}"</echo>
-    <echo>filtered and titles customized for "${kb.filters}"</echo>
-
+    <echo>You are applying the Ant "domain-client" target to input file "${args.input}"</echo>
+    <echo>with kb domain "${kb.domain}"</echo>
+    <echo>filtered and titles customized for "${kb.audience}"</echo>
+    <echo>output to dir "${output.dir}"</echo>
     <ant antfile="${dita.dir}${file.separator}build.xml" target="init">
 
       <!-- args.css = the name of the CSS file -->
