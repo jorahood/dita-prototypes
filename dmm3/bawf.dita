@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="kbdoc">
-  <title>How do I connect Oxygen XML Editor to Kuali KMS?</title>
+  <title>How do I connect Oxygen XML Editor to the DITA repository on Webserve?</title>
   <shortdesc>Connecting Oxygen XML Editor to Kuali KMS through WebDAV</shortdesc>
   <prolog>
     <author>afoltzer</author>
@@ -12,27 +12,27 @@
   </prolog>
   <taskbody>
     <prereq> You must have Oxygen XML Editor 12 (<xref
-        href="http://iuware.iu.edu/title.aspx?id=1413" format="html">Windows</xref>, <xref
-          href="http://iuware.iu.edu/title.aspx?id=1415" format="html">Mac</xref>) installed on your
+      href="http://iuware.iu.edu/title.aspx?id=1413" format="html">Windows</xref>, <xref
+        href="http://iuware.iu.edu/title.aspx?id=1415" format="html">Mac</xref>) installed on your
       computer.</prereq>
-    <context> Oxygen XML Editor can connect to Kuali KMS using <term>WebDAV</term>. This allows you
-      to load content from the KMS into Oxygen, perform authoring tasks, and then save your changes
-      directly to the KMS. </context>
+    <context> Oxygen XML Editor can connect to the repository on Webserve using <term>WebDAV</term>.
+      This allows you to work on files in the repository in Oxygen, perform authoring tasks, and
+      then save your changes directly to the repository. </context>
     <steps>
       <step>
         <cmd>Open <cmdname>Oxygen XML Editor</cmdname>.</cmd>
       </step>
       <step>
         <cmd>Select <menucascade>
-            <uicontrol>Project</uicontrol>
-            <uicontrol>New Project</uicontrol>
-          </menucascade>. </cmd>
+          <uicontrol>Project</uicontrol>
+          <uicontrol>New Project</uicontrol>
+        </menucascade>. </cmd>
         <stepresult>In the <wintitle>Project</wintitle> view, <uicontrol>newProject.xpr</uicontrol>
           appears.</stepresult>
       </step>
       <step>
         <cmd>Right-click <uicontrol>newProject.xpr</uicontrol>, and then choose <uicontrol>Import
-            Remote Folders</uicontrol>. </cmd>
+          Remote Folders</uicontrol>. </cmd>
       </step>
       <step>
         <cmd>In <wintitle>Open using FTP/SFTP/WebDAV</wintitle>:</cmd>
@@ -46,7 +46,7 @@
           </substep>
           <substep>
             <cmd>Next to <wintitle>Server URL:</wintitle>, enter
-                <codeph>http://cowhorn.uits.indiana.edu:8080/sage-stg/repository/default/</codeph>
+              <codeph>http://cowhorn.uits.indiana.edu:8080/sage-stg/repository/default/</codeph>
               and check <uicontrol>Autoconnect</uicontrol>.</cmd>
           </substep>
         </substeps>
@@ -57,21 +57,21 @@
       </step>
       <step>
         <cmd> In the file list, click <uicontrol>default</uicontrol>, and then click
-            <uicontrol>OK</uicontrol>. </cmd>
+          <uicontrol>OK</uicontrol>. </cmd>
       </step>
       <step>
         <cmd>In the <wintitle>Project</wintitle> view, double-click
-            <uicontrol>newProject.xpr</uicontrol> to reveal the files from the KMS.</cmd>
+          <uicontrol>newProject.xpr</uicontrol> to reveal the files from the KMS.</cmd>
         <stepresult>You can now open, edit, and save files on the KMS through the
-            <wintitle>Project</wintitle> view.</stepresult>
+          <wintitle>Project</wintitle> view.</stepresult>
       </step>
     </steps>
     <postreq> Choose <menucascade>
-        <uicontrol>Project</uicontrol>
-        <uicontrol>Save Project</uicontrol>
-      </menucascade> to save the project on your computer. <note>The project file on your computer
-        contains the KMS connection information, so you will not have to repeat these steps if you
-        save the project.</note>
+      <uicontrol>Project</uicontrol>
+      <uicontrol>Save Project</uicontrol>
+    </menucascade> to save the project on your computer. <note>The project file on your computer
+      contains the KMS connection information, so you will not have to repeat these steps if you
+      save the project.</note>
     </postreq>
   </taskbody>
 </task>
