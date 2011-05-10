@@ -4,4 +4,4 @@
 #    exit
 #fi
 
-ant -Dkb.domain=all -Dkb.audience=default  -Dargs.dmm=dmm3 -Dargs.input_file=axvp.ditamap -f 'build-kb.xml' #-q
+ant -Dkb.domain=all -Dkb.audience=default  -Dargs.dmm=dmm3 -Dargs.input_file=domain-all.ditamap -f 'build-kb.xml' #-q
