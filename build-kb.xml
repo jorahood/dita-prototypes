@@ -34,7 +34,7 @@
 
   <property name="output.dir" value="${kb.output.dir}"/>
   <property name="transtype" value="xhtml"/>
-  <property name="dita.input.valfile" value="ditavals/${kb.audience}.ditaval"/>
+  <property name="dita.input.valfile" value="ditavals/audience-${kb.audience}.ditaval"/>
 
   <!-- if file is a relative file name, the file name will be resolved 
        relative to the importing file -->
@@ -42,7 +42,7 @@
   
   <target name="domain-client" depends="integrate">
     <echo>You are applying the Ant "domain-client" target to input file "${args.input}"</echo>
-    <echo>with kb domain "${kb.domain}", filtered and titles customized for "${kb.audience}"</echo>
+    <echo>with kb domain "${kb.domain}", filtered and titles customized for audience "${kb.audience}"</echo>
     <echo>output to dir "${output.dir}"</echo>
     <ant antfile="${dita.dir}${file.separator}build.xml" target="init">
 
