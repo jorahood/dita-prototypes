@@ -7,169 +7,12 @@
             <serialized version="12.1">
                 <map>
                     <entry>
-                        <String xml:space="preserve">document.type.dtd.support.v12.1</String>
+                        <String xml:space="preserve">document.type.only.local.dtds</String>
                         <Boolean xml:space="preserve">false</Boolean>
                     </entry>
                     <entry>
                         <String xml:space="preserve">document.types</String>
-                        <documentTypeDescriptor-array>
-                            <documentTypeDescriptor>
-                                <field name="name">
-                                    <String xml:space="preserve">KB DITA 1.2</String>
-                                </field>
-                                <field name="schemaDescriptor">
-                                    <null/>
-                                </field>
-                                <field name="classpath">
-                                    <String-array/>
-                                </field>
-                                <field name="authorExtensionDescriptor">
-                                    <authorExtension>
-                                    <field name="cssDescriptors">
-                                    <cssFile-array/>
-                                    </field>
-                                    <field name="mergeCSSsFromDocument">
-                                    <Boolean xml:space="preserve">false</Boolean>
-                                    </field>
-                                    <field name="actionDescriptors">
-                                    <action-array/>
-                                    </field>
-                                    <field name="menubarDescriptor">
-                                    <menu>
-                                    <field name="label">
-                                    <String xml:space="preserve">Menu</String>
-                                    </field>
-                                    <field name="accessKey">
-                                    <null/>
-                                    </field>
-                                    <field name="iconPath">
-                                    <null/>
-                                    </field>
-                                    <field
-                                    name="menuEntriesDescriptorList">
-                                    <menuEntry-array/>
-                                    </field>
-                                    </menu>
-                                    </field>
-                                    <field name="popupMenuDescriptor">
-                                    <menu>
-                                    <field name="label">
-                                    <String xml:space="preserve">Contextual menu</String>
-                                    </field>
-                                    <field name="accessKey">
-                                    <null/>
-                                    </field>
-                                    <field name="iconPath">
-                                    <null/>
-                                    </field>
-                                    <field
-                                    name="menuEntriesDescriptorList">
-                                    <menuEntry-array/>
-                                    </field>
-                                    </menu>
-                                    </field>
-                                    <field name="toolbarDescriptor">
-                                    <toolbar>
-                                    <field name="id">
-                                    <String xml:space="preserve">Toolbar</String>
-                                    </field>
-                                    <field name="type">
-                                    <Integer xml:space="preserve">2</Integer>
-                                    </field>
-                                    <field name="largeIconPath">
-                                    <null/>
-                                    </field>
-                                    <field name="smallIconPath">
-                                    <null/>
-                                    </field>
-                                    <field
-                                    name="toolbarEntriesDescriptorList">
-                                    <toolbarEntry-array/>
-                                    </field>
-                                    </toolbar>
-                                    </field>
-                                    <field
-                                    name="additionalToolbarsDescriptors">
-                                    <null/>
-                                    </field>
-                                    <field name="contextualItems">
-                                    <contextProvider>
-                                    <field name="items">
-                                    <contextItem-array/>
-                                    </field>
-                                    <field name="removeItems">
-                                    <null/>
-                                    </field>
-                                    </contextProvider>
-                                    </field>
-                                    <field name="tableSupportClassName">
-                                    <null/>
-                                    </field>
-                                    <field
-                                    name="tableColWidthSupportClassName">
-                                    <null/>
-                                    </field>
-                                    <field
-                                    name="customReferencesResolver">
-                                    <null/>
-                                    </field>
-                                    <field
-                                    name="authorExtensionStateListener">
-                                    <null/>
-                                    </field>
-                                    <field name="attributesRecognizer">
-                                    <null/>
-                                    </field>
-                                    </authorExtension>
-                                </field>
-                                <field name="templatesLocations">
-                                    <String-array/>
-                                </field>
-                                <field name="xmlCatalogs">
-                                    <String-array/>
-                                </field>
-                                <field name="description">
-                                    <String xml:space="preserve">Specialization of DITA 1.2 to customize for the KITS KMS</String>
-                                </field>
-                                <field name="doctypeRules">
-                                    <documentTypeRule-array/>
-                                </field>
-                                <field name="scenarios">
-                                    <scenario-array/>
-                                </field>
-                                <field name="extensionsBundleClassName">
-                                    <null/>
-                                </field>
-                                <field name="useImposedInitialPage">
-                                    <Boolean xml:space="preserve">false</Boolean>
-                                </field>
-                                <field name="imposedInitialPage">
-                                    <String xml:space="preserve">Text</String>
-                                </field>
-                                <field name="elementLocatorExtension">
-                                    <null/>
-                                </field>
-                                <field
-                                    name="schemaManagerFilterExtension">
-                                    <null/>
-                                </field>
-                                <field name="authorSWTDndExtension">
-                                    <null/>
-                                </field>
-                                <field name="textSWTDndExtension">
-                                    <null/>
-                                </field>
-                                <field name="authorSwingDndExtension">
-                                    <null/>
-                                </field>
-                                <field name="cssStylesFilterExtension">
-                                    <null/>
-                                </field>
-                                <field name="attributesValueEditor">
-                                    <null/>
-                                </field>
-                            </documentTypeDescriptor>
-                        </documentTypeDescriptor-array>
+                        <documentTypeDescriptor-array/>
                     </entry>
                     <entry>
                         <String xml:space="preserve">document.types.order</String>
@@ -241,6 +84,14 @@
                             <documentTypeEntry>
                                 <field name="documentTypeID">
                                     <String xml:space="preserve">fo/fo.framework/FO</String>
+                                </field>
+                                <field name="enable">
+                                    <Boolean xml:space="preserve">true</Boolean>
+                                </field>
+                            </documentTypeEntry>
+                            <documentTypeEntry>
+                                <field name="documentTypeID">
+                                    <String xml:space="preserve">kml/kml.framework/KML</String>
                                 </field>
                                 <field name="enable">
                                     <Boolean xml:space="preserve">true</Boolean>
@@ -368,14 +219,6 @@
                             </documentTypeEntry>
                             <documentTypeEntry>
                                 <field name="documentTypeID">
-                                    <String xml:space="preserve">xslt/xslt.framework/XSLT</String>
-                                </field>
-                                <field name="enable">
-                                    <Boolean xml:space="preserve">true</Boolean>
-                                </field>
-                            </documentTypeEntry>
-                            <documentTypeEntry>
-                                <field name="documentTypeID">
                                     <String xml:space="preserve">xproc/xproc.framework/XProc</String>
                                 </field>
                                 <field name="enable">
@@ -384,21 +227,17 @@
                             </documentTypeEntry>
                             <documentTypeEntry>
                                 <field name="documentTypeID">
-                                    <String xml:space="preserve">kml/kml.framework/KML</String>
-                                </field>
-                                <field name="enable">
-                                    <Boolean xml:space="preserve">true</Boolean>
-                                </field>
-                            </documentTypeEntry>
-                            <documentTypeEntry>
-                                <field name="documentTypeID">
-                                    <String xml:space="preserve">internal/KB DITA 1.2</String>
+                                    <String xml:space="preserve">xslt/xslt.framework/XSLT</String>
                                 </field>
                                 <field name="enable">
                                     <Boolean xml:space="preserve">true</Boolean>
                                 </field>
                             </documentTypeEntry>
                         </documentTypeEntry-array>
+                    </entry>
+                    <entry>
+                        <String xml:space="preserve">key.document.templates.option.pane</String>
+                        <Boolean xml:space="preserve">true</Boolean>
                     </entry>
                     <entry>
                         <String xml:space="preserve">key.editor.document.type.association.option.pane</String>
@@ -3822,6 +3661,12 @@ Only "true" and "false" are valid values. The default is false. </String>
                         <Boolean xml:space="preserve">true</Boolean>
                     </entry>
                     <entry>
+                        <String xml:space="preserve">user.custom.templates.directories</String>
+                        <String-array>
+                            <String xml:space="preserve">${pd}/oxy-templates</String>
+                        </String-array>
+                    </entry>
+                    <entry>
                         <String xml:space="preserve">validation.scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
@@ -3884,6 +3729,7 @@ Only "true" and "false" are valid values. The default is false. </String>
         <folder path="h2d_input/"/>
         <folder path="org.kuali.kits.kms/"/>
         <folder path="output_h2d/"/>
+        <folder path="oxy-templates/"/>
         <folder path="test-files/"/>
         <file name="atau.xkbml"/>
         <file name="build-kb.xml"/>
