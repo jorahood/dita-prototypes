@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic"
+"http://www.indiana.edu/~worklist/dita-prototypes/org.kuali.kits.kms/doctypes/topic/dtd/kbtopic.dtd">
+<topic id="kbdoc">
+  <title id="default">Default title</title>
+  <prolog>
+    <author></author>
+    <critdates>
+      <created date=""/>
+      <revised modified=""/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <keyword></keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>Topic paragraph</p>
+  </body>
+</topic>
