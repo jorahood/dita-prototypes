@@ -2,7 +2,7 @@
 <!DOCTYPE topic PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic"
 "http://www.indiana.edu/~worklist/dita-prototypes/org.kuali.kits.kms/doctypes/topic/dtd/kbtopic.dtd">
 <topic id="kbdoc">
-  <defaultTitle>Topic title</defaultTitle>
+  <title id="default">Topic title</title>
   <prolog>
     <critdates>
       <created date="today"/>
@@ -10,6 +10,7 @@
       <expires modified="today"/>
       <approved modified="yesterday"/>
     </critdates>
+    <owner name="scfl"/>
     <data>
       <data audience="ose">
         <title conref="#kbdoc/default" conaction="pushreplace">OSE title</title>
