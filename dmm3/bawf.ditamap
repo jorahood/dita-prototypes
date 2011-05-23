@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
+<map title="Map for axvp">
+  <!-- define the key for axvp -->
+  <topicref keys="bawf" href="bawf.dita"/>
+  <reltable>
+    <relheader>
+      <relcolspec type="topic" linking="sourceonly">
+        <title>Source</title>
+      </relcolspec>
+      <relcolspec type="task" linking="targetonly">
+        <title>Refs</title>
+      </relcolspec>
+      <relcolspec type="glossentry" linking="targetonly">
+        <title>Hotitems</title>
+      </relcolspec>
+    </relheader>
+    <relrow>
+      <relcell>
+        <topicref keyref="bawf"/>
+      </relcell>
+      <relcell>
+        <topicref keyref="alwe"/>
+        <topicref keyref="angn"/>
+        <topicref keyref="ataj"/>
+        <topicref keyref="atau"/>        
+      </relcell>
+      <relcell>
+        <topicref keyref="guest-acct"/>
+        <topicref keyref="ajpt"/>
+        <topicref keyref="apqd"/>
+        <topicref keyref="alqk"/>
+        <topicref keyref="CAS"/>
+      </relcell>
+    </relrow>
+  </reltable>
+</map>
