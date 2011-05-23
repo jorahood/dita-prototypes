@@ -46,7 +46,7 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:task:1.2.1"     -->
 
 <!ENTITY % kuali-kms-d-dec
   PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:modules:entities:base"
-         "https://wiki.kuali.org/download/attachments/309487870/kualiKmsDomain.ent"
+         "../../kualiKmsDomain/kualiKmsDomain.ent"
 >%kuali-kms-d-dec;
 
 <!ENTITY % hi-d-dec     
@@ -68,6 +68,11 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:task:1.2.1"     -->
   PUBLIC "-//OASIS//ENTITIES DITA 1.2 Abbreviated Form Domain//EN" 
          "abbreviateDomain.ent"
 >%abbrev-d-dec;
+
+<!ENTITY % pr-d-dec     
+  PUBLIC "-//OASIS//ENTITIES DITA 1.2 Programming Domain//EN" 
+         "programmingDomain.ent"                                              
+>%pr-d-dec;
 
 <!ENTITY % sw-d-dec     
   PUBLIC "-//OASIS//ENTITIES DITA 1.2 Software Domain//EN" 
@@ -92,26 +97,30 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:task:1.2.1"     -->
                         extension was declared                     -->
 
 <!ENTITY % pre          "pre |
+                         %pr-d-pre; |
                          %sw-d-pre;|
                          %ui-d-pre;
                         ">
 <!ENTITY % keyword      "keyword |
+                         %pr-d-keyword; | 
                          %sw-d-keyword; |
                          %ui-d-keyword;
                         ">
 <!ENTITY % ph           "ph | 
                          %hi-d-ph; | 
+                         %pr-d-ph; | 
                          %sw-d-ph; | 
-                         %ui-d-ph; |
-                         %kuali-kms-d-ph;
+                         %ui-d-ph;
                         ">
 <!ENTITY % term         "term | 
                          %abbrev-d-term;
                         ">
 <!ENTITY % fig          "fig |
+                         %pr-d-fig; |
                          %ut-d-fig;
                         ">
-<!ENTITY % dl           "dl
+<!ENTITY % dl           "dl |
+                         %pr-d-dl;
                         ">
 <!ENTITY % index-base   "index-base | 
                          %indexing-d-index-base;
@@ -124,7 +133,9 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:task:1.2.1"     -->
 <!ENTITY % revised      "revised |
                          %kuali-kms-d-revised;
                         ">
-
+<!ENTITY % title        "title |
+                         %kuali-kms-d-title;
+                        ">
 <!-- ============================================================= -->
 <!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
 <!-- ============================================================= -->
@@ -154,6 +165,7 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:task:1.2.1"     -->
                            &ut-d-att; 
                            &indexing-d-att;
                            &abbrev-d-att;
+                           &pr-d-att; 
                            &sw-d-att;
                            &ui-d-att;
                            &kuali-kms-d-att;
@@ -217,6 +229,11 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:task:1.2.1"     -->
          "uiDomain.mod"
 >%ui-d-def;
 
+<!ENTITY % pr-d-def     
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Programming Domain//EN" 
+         "programmingDomain.mod"
+>%pr-d-def;
+
 <!ENTITY % sw-d-def     
   PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Software Domain//EN" 
          "softwareDomain.mod"
@@ -224,7 +241,7 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:task:1.2.1"     -->
 
 <!ENTITY % kuali-kms-d-def
   PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:modules:base"
-         "https://wiki.kuali.org/download/attachments/309487870/kualiKmsDomain.mod"
+         "../../kualiKmsDomain/kualiKmsDomain.mod"
 >%kuali-kms-d-def;
 
 <!-- ================== End DITA Task DTD  ======================= -->
