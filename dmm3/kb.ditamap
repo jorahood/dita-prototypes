@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
-<map>
-  <title>Domain 'all'</title>
-  <!-- include reltable of all doc relationships
-    if each topic will have its own map containing 
-    the refs for that topic then we don't 
-    need to keep them all in base.ditamap 
-  <mapref href="base.ditamap"/> -->
-  <!-- docids available in this domain -->
-    <keydef keys="abxl" href="abxl.dita"/>
+<map title="kb">
+  <!-- Alternative to a system of maps corresponding to domain is to use audiences on the topicref
+    elements for each topic to control key creation. See the doc maps ref'd below -->
+
+  <keydef keys="abxl" href="abxl.dita"/>
   <keydef keys="abxq" href="abxq.dita"/>
   <keydef keys="aeru" href="aeru.dita"/>
   <keydef keys="agcz" href="agcz.dita"/>
@@ -25,18 +21,11 @@
   <keydef keys="arms" href="arms.dita"/>
   <keydef keys="ataj" href="ataj.dita"/>
   <keydef keys="atau" href="atau.dita"/>
-  <keydef keys="axvp" href="axvp.dita">
-    <mapref href="axvp.ditamap"/>
-  </keydef>
-  <keydef keys="bawf" href="bawf.dita">
-    <mapref href="bawf.ditamap"/>
-  </keydef>
-  <keydef audience="ose" keys="bawq" href="bawq.dita">
-    <mapref href="bawq.ditamap"/>
-  </keydef>
-  <topicref keys="bawt" href="bawt.dita">
-    <mapref href="bawt.ditamap"/>
-  </topicref>
+  <mapref href="axvp.ditamap"/>
+  <mapref href="bawf.ditamap"/>
+  <mapref href="bawq.ditamap"/>
+  <mapref href="bawt.ditamap"/>
+
   <!-- hotitem definitions -->
   <mapref href="hotitems.ditamap"/>
 </map>

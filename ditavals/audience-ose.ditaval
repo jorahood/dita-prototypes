@@ -3,6 +3,9 @@
   <!-- set the default action to exclude all audience-specific elements -->
   <prop action="exclude" att="audience"/>
   
-  <!-- select conditional body text and customized titles for the "ose" client. -->
-  <prop action="include" att="audience" val="ose"/>
+  <!-- include conditional body text and customized titles for the "sc" audience and child
+    audiences. -->
+  <prop action="include" att="audience" val="sc"/>
+  <prop action="include" att="audience" val="uits"/>
+  <prop action="include" att="audience" val="default"/>
 </val>

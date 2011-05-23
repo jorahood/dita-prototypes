@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
-<map title="Map for axvp">
+<map>
+  <topicref keys="axvp" href="axvp.dita"/>
   <reltable>
     <relheader>
       <relcolspec type="topic" linking="sourceonly">
@@ -21,7 +22,7 @@
         <topicref keyref="alwe"/>
         <topicref keyref="angn"/>
         <topicref keyref="ataj"/>
-        <topicref keyref="atau"/>        
+        <topicref keyref="atau"/>
       </relcell>
       <relcell>
         <topicref keyref="guest-acct"/>

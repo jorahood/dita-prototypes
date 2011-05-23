@@ -17,7 +17,8 @@
     </metadata>
   </prolog>
   <taskbody>
-    <prereq>You must have created a new document in the <filepath>dmm3</filepath> subfolder.</prereq>
+    <prereq>You must have created a new document in the <filepath>dmm3</filepath> subfolder.
+    For instructions, see <xref keyref="bawq"/>.</prereq>
     <steps>
       <stepsection>You first need to create a <term>topicref</term> to define a
         <term>key</term> for the document. This key controls what domains the document will

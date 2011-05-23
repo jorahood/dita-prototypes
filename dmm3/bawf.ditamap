@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" 
 "http://docs.oasis-open.org/dita/v1.2/os/dtd1.2/technicalContent/dtd/map.dtd">
-<map title="Map for bawf">
+<map>
+  <topicref audience="ose" keys="bawf" href="bawf.dita"/>
   <reltable>
     <relheader>
       <relcolspec type="topic" linking="sourceonly">

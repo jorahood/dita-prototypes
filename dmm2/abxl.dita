@@ -9,7 +9,7 @@
       unless the doc in question is also in those domains. This also applies to any boilers that may
       appear in the doc.</note>
 
-    <section audience="default oncoursecl" conref="boilers.dita#sc-userhowto"/>
+    <section audience="default oncoursecl" conkeyref="boilers/sc-userhowto"/>
 
     <note>You can find answers to your computing questions in this Knowledge Base by entering your
       search terms in the box above. <xref href="https://ithelplive.iu.edu/" format="html">ITHelpLive</xref> (live

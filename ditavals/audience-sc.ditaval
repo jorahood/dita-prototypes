@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <!-- set the default action to exclude all audience-specific elements -->
+  <prop action="exclude" att="audience"/>
+  
+  <!-- include conditional body text and customized titles for the "ose" audience. -->
+  <prop action="include" att="audience" val="ose"/>
+</val>
