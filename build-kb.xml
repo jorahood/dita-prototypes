@@ -32,7 +32,6 @@
   <property name="args.input_file" value="domain-all.ditamap"/>
   <property name="args.input" value="${args.dmm}${file.separator}${args.input_file}"/>
 
-  <property name="output.dir" value="${kb.output.dir}"/>
   <property name="transtype" value="xhtml"/>
   <property name="dita.input.valfile" value="ditavals/audience-${kb.audience}.ditaval"/>
 
@@ -64,7 +63,7 @@
     <!-- The toolkit currently does not scan CSS files to retrieve
          related resources. The sample CSS above references two JPG files;
          copy those files to the output CSS directory (output.dir + csspath). -->
-    <copy todir="${kb.output.dir}${file.separator}css">
+    <copy todir="${output.dir}${file.separator}css">
         <fileset dir="${css.source.dir}"
             includes="*.jpg"/>
     </copy>
