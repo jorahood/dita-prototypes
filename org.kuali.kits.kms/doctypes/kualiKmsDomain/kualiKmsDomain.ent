@@ -9,8 +9,8 @@
   "
   >
 
-<!ENTITY % kuali-kms-d-ph
-  "default
+<!ENTITY % kuali-kms-d-title
+  "defaultTitle
   "
   >
   

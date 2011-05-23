@@ -41,7 +41,7 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic:1.2.1"    -->
 
 <!ENTITY % kuali-kms-d-dec
   PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:modules:entities:base"
-         "http://www.indiana.edu/~worklist/dita-prototypes/org.kuali.kits.kms/doctypes/kualiKmsDomain/kualiKmsDomain.ent"
+         "../../kualiKmsDomain/kualiKmsDomain.ent"
 >%kuali-kms-d-dec;
 
 <!ENTITY % hi-d-dec     
@@ -97,8 +97,7 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic:1.2.1"    -->
 <!ENTITY % ph           "ph | 
                          %hi-d-ph; | 
                          %sw-d-ph; | 
-                         %ui-d-ph; |
-                         %kuali-kms-d-ph;
+                         %ui-d-ph;
                         ">
 <!ENTITY % term         "term | 
                          %abbrev-d-term;
@@ -119,7 +118,9 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic:1.2.1"    -->
 <!ENTITY % revised      "revised |
                          %kuali-kms-d-revised;
                         ">
-
+<!ENTITY % title        "title |
+                         %kuali-kms-d-title;
+                        ">
 <!-- ============================================================= -->
 <!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
 <!-- ============================================================= -->
@@ -209,7 +210,7 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic:1.2.1"    -->
 
 <!ENTITY % kuali-kms-d-def
   PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:modules:base"
-         "http://www.indiana.edu/~worklist/dita-prototypes/org.kuali.kits.kms/doctypes/kualiKmsDomain/kualiKmsDomain.mod"
+         "../../kualiKmsDomain/kualiKmsDomain.mod"
 >%kuali-kms-d-def;
 
 <!-- ================== End DITA Topic DTD  ====================== -->

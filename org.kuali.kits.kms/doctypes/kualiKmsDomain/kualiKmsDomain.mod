@@ -19,8 +19,8 @@
              "modified
                         %date-format;
                                   #REQUIRED
-              %univ-atts;"
->
+              %univ-atts;
+              " >
 
 <!-- LONG NAME: expires: metadata, specialization of <revised> -->
 <!ELEMENT expires    %kbDate.content;>
@@ -43,16 +43,16 @@
 <!ELEMENT owner    %owner.content;>
 <!ATTLIST owner    %owner.attributes;>
 
-<!ENTITY % default.attributes
+<!ENTITY % defaultTitle.attributes
              'id
                         NMTOKEN
                                   "default"
-              %ph.attributes;
+              %title.attributes;
               ' >
-<!ELEMENT default %ph.content;>
-<!ATTLIST default %default.attributes;>
+<!ELEMENT defaultTitle %title.content;>
+<!ATTLIST defaultTitle %defaultTitle.attributes;>
 
 <!ATTLIST approved	%global-atts; class CDATA "+ topic/revised kuali-kms-d/approved ">
 <!ATTLIST expires	%global-atts; class CDATA "+ topic/revised kuali-kms-d/expires ">
 <!ATTLIST owner	%global-atts; class CDATA "+ topic/data kuali-kms-d/owner ">
-<!ATTLIST default	%global-atts; class CDATA "+ topic/ph kuali-kms-d/default ">
+<!ATTLIST defaultTitle	%global-atts; class CDATA "+ topic/title kuali-kms-d/defaultTitle ">
