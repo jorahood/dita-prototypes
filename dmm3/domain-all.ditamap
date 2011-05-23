@@ -7,19 +7,17 @@
     the refs and refbys for that topic then we don't 
     need to keep them all in base.ditamap 
   <mapref href="base.ditamap"/> -->
-
   <!-- docids available in this domain -->
   <keydef keys="abxl" href="abxl.dita"/>
   <keydef keys="abxq" href="abxq.dita"/>
-  <keydef keys="add-new" href="add-new.dita"/>
   <keydef keys="aeru" href="aeru.dita"/>
   <keydef keys="agcz" href="agcz.dita"/>
   <keydef keys="ajpt" href="ajpt.dita"/>
   <keydef keys="akui" href="akui.dita"/>
   <keydef keys="alfm" href="alfm.dita"/>
   <keydef keys="alqk" href="alqk.dita"/>
-  <keydef keys="alqt" href="alqt-glossentry.dita"/>
-  <keydef keys="akui" href="akui-glossentry.dita"/>
+  <keydef keys="alqt" href="alqt.dita"/>
+  <keydef keys="akui" href="akui.dita"/>
   <keydef keys="alyb" href="alyb.dita"/>
   <keydef keys="anaz" href="anaz.dita"/>
   <keydef keys="angn" href="angn.dita"/>
@@ -29,8 +27,9 @@
   <keydef keys="ataj" href="ataj.dita"/>
   <keydef keys="atau" href="atau.dita"/>
   <mapref href="axvp.ditamap"/>
+  <mapref href="bawf.ditamap"/>
+  <keydef keys="bawq" href="bawq.dita"/>
   <keydef keys="linking-new" href="linking-new.dita"/>
-
-<!-- hotitem definitions -->
+  <!-- hotitem definitions -->
   <mapref href="hotitems.ditamap"/>
 </map>

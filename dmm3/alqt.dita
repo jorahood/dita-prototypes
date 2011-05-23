@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/glossary.dtd">
+<glossentry id="kbdoc">
+  <glossterm><ph id="default">At IU, what is a Guest account?</ph></glossterm>
+  <glossdef>
+    <p>If you have no formal relationship with Indiana University, you can use the <term
+      keyref="AMS"/> to create a Guest account, which will give you limited access to
+      certain online applications and services of the university. The amount of access is determined
+      by the particular application.</p>
+  </glossdef>
+  <glossBody>
+    <glossSurfaceForm>Guest account</glossSurfaceForm>
+    <glossAlt>
+      <glossShortForm>Guest account</glossShortForm>
+      <glossStatus value="preferred"/>
+    </glossAlt>
+  </glossBody>
+</glossentry>

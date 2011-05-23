@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" 
 "http://docs.oasis-open.org/dita/v1.2/os/dtd1.2/technicalContent/dtd/map.dtd">
-<map title="Map for bawf">
-  <topicref keys="bawf" href="bawf.dita"/>
+<map title="Map for ${cfn}">
+  <topicref keys="${cfn}" href="${cfn}.dita"/>
   <reltable>
     <relheader>
       <relcolspec type="topic" linking="sourceonly">
@@ -17,7 +17,7 @@
     </relheader>
     <relrow>
       <relcell>
-        <topicref keyref="bawf"/>
+        <topicref keyref="${cfn}"/>
       </relcell>
       <relcell>
       </relcell>
