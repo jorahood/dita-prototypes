@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:task"
+"http://www.indiana.edu/~worklist/dita-prototypes/org.kuali.kits.kms/doctypes/task/dtd/kbtask.dtd">
+<task id="kbdoc">
+    <title id="default">Default title</title>
+    <shortdesc/>
+  <prolog>
+    <author></author>
+    <critdates>
+      <created date=""/>
+      <revised modified=""/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <keyword></keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+        <context>
+            <p>Context for the current task</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Task step.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
