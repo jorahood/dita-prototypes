@@ -1,73 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
-<task id="add-new">
+<task id="kbdoc">
   <title>In Oxygen XML Editor, how do I add a new document to the shared DITA repository on
     Webserve?</title>
-  <shortdesc>Adding a new document to Kuali KMS using Oxygen</shortdesc>
+  <shortdesc>Adding a new document to the shared DITA repository using Oxygen</shortdesc>
   <taskbody>
-    <prereq>You must have configured an Oxygen XML Editor project. For details, see <xref
-        format="dita" keyref="bawf"/></prereq>
+    <prereq>You must have mapped a drive to the repository on Webserve, and have the DITA KB Oxygen
+      project open in Oxygen Editor. For instructions, see <xref keyref="bawf"/></prereq>
     <steps>
       <step>
-        <cmd>In Oxygen XML Editor, select <menucascade>
-            <uicontrol>File</uicontrol>
-            <uicontrol>New...</uicontrol>
-          </menucascade>.</cmd>
-      </step>
-      <step>
-
-        <cmd>Under the <uicontrol>From templates</uicontrol> tab, choose the appropriate DITA
-          template.</cmd>
-      </step>
-      <step>
-        <cmd>Edit the document.</cmd>
+        <cmd>In the <wintitle>Project</wintitle> window, open the <uicontrol>dmm3</uicontrol>
+          folder.</cmd>
       </step>
       <step>
         <cmd>Select <menucascade>
             <uicontrol>File</uicontrol>
-            <uicontrol>Save to URL...</uicontrol>
+            <uicontrol>New...</uicontrol>
+        </menucascade> 
+        </cmd>
+      </step>
+      <step>
+        <cmd>In the <wintitle>New</wintitle> window, in the text box that says <systemoutput>Type
+          filter text</systemoutput>, type <uicontrol>kbtopic</uicontrol> and press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Select <menucascade>
+            <uicontrol>File</uicontrol>
+            <uicontrol>Save</uicontrol>
           </menucascade>
         </cmd>
       </step>
       <step>
-        <cmd>Make sure the connection is configured using the same settings as initially configuring
-          WebDAV.</cmd>
+        <cmd>Enter the four-letter docid for the topic.</cmd>
+      </step>
+      
+      <step>
+        <cmd>Verify that the <systemoutput>dmm3</systemoutput> directory is selected to save the
+          file into and click <uicontrol>Save</uicontrol>.</cmd>
       </step>
       <step>
-        <cmd>Next to <uicontrol>File URL:</uicontrol>, change the default name
-            <codeph>Untitled.xml</codeph> to a new filename with the file extension
-            <codeph>dita</codeph>. Leave the rest of the path unchanged.</cmd>
-        <info><note>If you are importing an existing KB document, use the docid as the name of the
-            file; e.g., <filepath>ddud.dita</filepath>.</note></info>
-      </step>
-      <step>
-        <cmd>Click OK.</cmd>
-        <info><note>After saving once to the KMS, when you choose <menucascade>
-              <uicontrol>File</uicontrol>
-              <uicontrol>Save</uicontrol>
-            </menucascade>, your changes will be saved to the remote repository. You do not have to
-            choose <uicontrol>Save to URL...</uicontrol> again. </note></info>
-      </step>
-      <stepsection>Now that you have saved the new file to the server, you need to add the new file
-        to the Oxygen project file to make the new file appear in the Oxygen
-          <wintitle>Project</wintitle> view.</stepsection>
-      <step>
-        <cmd>Above the main editing view, click the tab for the new file to select it.</cmd>
-      </step>
-      <step>
-        <cmd>In the <wintitle>Project</wintitle> view, right-click the
-            <uicontrol>default</uicontrol> folder and, from the context menu, select <uicontrol>Add
-            Edited File</uicontrol>. </cmd>
-      </step>
-      <step>
-        <cmd>Verify that the new file appears in the <uicontrol>default</uicontrol> folder.</cmd>
-      </step>
-      <step>
-        <cmd>Edit the <codeph>id</codeph> attribute of the <codeph>topic</codeph> element and change
-          it to the docid of the KB document you are importing with <userinput>-dmm2</userinput>
-          appended; e.g., <userinput>ddud-dmm2</userinput></cmd>
+        <cmd>In the <wintitle>Project</wintitle> window, verify that the new file appears in the
+            <uicontrol>dmm3</uicontrol> folder. If it doesn't, right-click within the
+            <wintitle>Project</wintitle> window and select <uicontrol>Refresh</uicontrol>, and it
+          should appear. </cmd>
       </step>
     </steps>
-    <result>The new file is now saved on the server and added to the Oxygen project file.</result>
+    <result>The new file is now saved on the server and added to the Oxygen project.</result>
   </taskbody>
 </task>

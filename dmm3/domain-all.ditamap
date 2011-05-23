@@ -33,6 +33,7 @@
   <mapref href="bawq.ditamap"/>
   <keydef keys="bawq" href="bawq.dita"/>
   <keydef keys="linking-new" href="linking-new.dita"/>
+  <mapref/>
   <!-- hotitem definitions -->
   <mapref href="hotitems.ditamap"/>
 </map>
