@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:task"
+"http://www.indiana.edu/~worklist/dita-prototypes/org.kuali.kits.kms/doctypes/task/dtd/kbtask.dtd">
+<task id="kbdoc">
+  <title>How do I link a new document into the shared DITA repository on Webserve?</title>
+  <shortdesc>Creating topicref links for a new document in the shared DITA repository</shortdesc>
+  <prolog>
+    <author></author>
+    <critdates>
+      <created date=""/>
+      <revised modified=""/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <keyword></keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq>You must have created a new document in the <filepath>dmm3</filepath> subfolder.</prereq>
+    <steps>
+      <stepsection>You first need to create a <term>topicref</term> to define a
+        <term>key</term> for the document. This key controls what domains the document will
+        be accessible from.  
+      </stepsection>
+      <step>
+        <cmd>In the Oxygen project, in the <filepath>dmm3</filepath> subfolder, open the ditamap corresponding to the domain that the
+          document belongs in.</cmd>
+        <stepxmp>E.g., <filepath>domain-all.ditamap</filepath></stepxmp>
+      </step>
+      <step>
+        <cmd>Inside the <term>map</term>, insert a <term>topicref</term> element with <term>keys</term> and
+          <term>href</term> attributes, making the <term>keys</term> attribute equal to the
+          docid and the <term>href</term> attribute equal to the filename of the referenced topic. 
+        </cmd><stepxmp> E.g., for document ddud, <term>&lt;topicref keys="ddud" href="ddud.dita"&gt;</term> 
+        </stepxmp>
+      </step>
+      <step>
+        <cmd>Save the ditamap file.</cmd>
+      </step>
+      
+      <step>
+        <cmd>Open the <filepath>base.ditamap</filepath> file.</cmd>
+      </step>
+      <step>
+        <cmd>Inside the <term>reltable</term>, insert a <term>relrow</term>. Inside the
+          <term>relrow</term>, insert three <term>relcell</term> elements:</cmd>
+        <substeps>
+          <substep>
+            <note>The first <term>relcell</term> contains the "origin document"; i.e., the
+              document from which the links originate. </note>
+            <cmd>Insert a <term>topicref</term> with a <term>keyref</term> attribute equal
+              to the <term>keys</term> attribute of the <term>topicref</term> you created in
+              the domain ditamap in Step 2 above.</cmd>
+          </substep>
+          <substep>
+            <note>The second <term>relcell</term> contains links to Refs.</note>
+            <cmd>Insert a <term>topicref</term> for each Ref of the origin document. In each
+              <term>topicref</term>, insert a <term>keyref</term> attribute equal to the
+              <term>keys</term> attribute of the <term>topicref</term> element for each
+              Ref. If the origin document has no Refs, insert an empty <term>topicref</term>
+              element as a placeholder.</cmd>
+          </substep>
+          <substep>
+            <note>The third <term>relcell</term> contains links to Hotitems.</note>
+            <cmd>Insert a <term>topicref</term> for each referenced Hotitem in the origin
+              document. In each <term>topicref</term>, insert a <term>keyref</term>
+              attribute equal to the <term>keys</term> attribute of the
+              <term>topicref</term> element for each Hotitem. If the origin document has no
+              Hotitems, insert an empty <term>topicref</term>
+              element as a placeholder.</cmd>
+          </substep>
+        </substeps>
+        <stepxmp> E.g., for document aaaa, which has refs bbbb and cccc and no hotitems:
+          <lines>
+&lt;relrow&gt;
+  &lt;relcell&gt;
+    &lt;topicref keyref="aaaa"/&gt;
+  &lt;/relcell&gt;
+    &lt;relcell&gt;
+      &lt;topicref keyref="bbbb"/&gt;
+      &lt;topicref keyref="cccc"/&gt;
+    &lt;/relcell&gt;
+    &lt;relcell/&gt;
+&lt;/relrow&gt;
+            </lines>
+        </stepxmp>
+      </step>
+      <step>
+        <cmd>Save the <filepath>base.ditamap</filepath> file.</cmd>
+      </step>
+    </steps>
+    <result>The new document is linked in.</result>
+  </taskbody>
+</task>
