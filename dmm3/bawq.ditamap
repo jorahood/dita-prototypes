@@ -2,7 +2,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" 
 "http://docs.oasis-open.org/dita/v1.2/os/dtd1.2/technicalContent/dtd/map.dtd">
 <map title="Map for bawq">
-  <topicref keys="bawq" href="bawq.dita"/>
   <reltable>
     <relheader>
       <relcolspec type="topic" linking="sourceonly">
