@@ -9,17 +9,17 @@
   <mapref href="base.ditamap"/> -->
 
   <!-- docids available in this domain -->
-  <keydef keys="abxl support-ctr" href="abxl.dita"/>
+  <keydef keys="abxl" href="abxl.dita"/>
   <keydef keys="abxq" href="abxq.dita"/>
   <keydef keys="add-new" href="add-new.dita"/>
   <keydef keys="aeru" href="aeru.dita"/>
   <keydef keys="agcz" href="agcz.dita"/>
   <keydef keys="ajpt" href="ajpt.dita"/>
   <keydef keys="akui" href="akui.dita"/>
-  <keydef keys="alfm AMS" href="alfm.dita"/>
+  <keydef keys="alfm" href="alfm.dita"/>
   <keydef keys="alqk" href="alqk.dita"/>
-  <keydef keys="alqt guest-acct" href="alqt-glossentry.dita"/>  
-  <keydef keys="akui CAS" href="akui-glossentry.dita"/>
+  <keydef keys="alqt" href="alqt-glossentry.dita"/>
+  <keydef keys="akui" href="akui-glossentry.dita"/>
   <keydef keys="alyb" href="alyb.dita"/>
   <keydef keys="anaz" href="anaz.dita"/>
   <keydef keys="angn" href="angn.dita"/>
@@ -31,4 +31,6 @@
   <mapref href="axvp.ditamap"/>
   <keydef keys="linking-new" href="linking-new.dita"/>
 
+<!-- hotitem definitions -->
+  <mapref href="hotitems.ditamap"/>
 </map>

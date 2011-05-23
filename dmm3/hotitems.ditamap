@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
+<map>
+  <title>Hotitems: Documents that define terms</title>
+
+  <keydef keys="AMS" keyref="alfm"/>
+  <keydef keys="CAS" keyref="akui"/>
+  <keydef keys="guest-acct" keyref="alqt"/>  
+  <keydef keys="support-ctr" keyref="abxl"/>
+
+</map>
