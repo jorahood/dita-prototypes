@@ -2,7 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
 <map title="Map for axvp">
   <!-- define the key for axvp -->
-  <topicref keys="axvp-concept" href="axvp.dita"/>
+  <topicref keys="axvp" href="axvp.dita"/>
   <reltable>
     <relheader>
       <relcolspec type="topic" linking="sourceonly">
@@ -11,25 +11,19 @@
       <relcolspec type="task" linking="targetonly">
         <title>Refs</title>
       </relcolspec>
-      <relcolspec type="task" linking="sourceonly">
-        <title>RefBys</title>
-      </relcolspec>
       <relcolspec type="glossentry" linking="targetonly">
         <title>Hotitems</title>
       </relcolspec>
     </relheader>
     <relrow>
       <relcell>
-        <topicref keyref="axvp-concept"/>
+        <topicref keyref="axvp"/>
       </relcell>
       <relcell>
         <topicref keyref="alwe"/>
         <topicref keyref="angn"/>
         <topicref keyref="ataj"/>
         <topicref keyref="atau"/>        
-      </relcell>
-      <relcell>
-        <topicref keyref="blah"/>
       </relcell>
       <relcell>
         <topicref keyref="guest-acct"/>
