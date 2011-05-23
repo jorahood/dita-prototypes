@@ -1,7 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
-<topic id="kbdoc">
-  <title><ph id="default">Why do I need to reset my IU Guest account password?</ph></title>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:concept"
+"http://www.indiana.edu/~worklist/dita-prototypes/org.kuali.kits.kms/doctypes/concept/dtd/kbconcept.dtd">
+<concept id="kbdoc">
+  <title id="default">Why do I need to reset my IU Guest account password?</title>
   <prolog>
     <author>madalton</author>
     <critdates>
@@ -17,11 +18,11 @@
         <keyword>pay</keyword>
       </keywords>
     </metadata>
-    <data>
-      <title>
-        <ph conref="#kbdoc/default" conaction="pushreplace" audience="ose">OSE title</ph>
-        <ph conref="#kbdoc/default" conaction="pushreplace" audience="sakai">Sakai title</ph>
-      </title>
+    <data audience="ose">
+      <title conref="#kbdoc/default" conaction="pushreplace">OSE title</title>
+    </data>
+    <data audience="sakai">
+      <title conref="#kbdoc/default" conaction="pushreplace">Sakai title</title>
     </data>
     <data name="docid" value="axvp"/>
     <data name="approveddate" value="2009-05-05"/>
@@ -31,7 +32,7 @@
     <data name="volatility" value="stable"/>
     <data name="status" value="approved"/>
   </prolog>
-  <body>
+  <conbody>
     <p>If you use a <term keyref="guest-acct"/> to log into IU services (e.g., parents who use
       OneStart to pay bursar bills, non-IU students accessing Oncourse CL sites for audited
       classes), you may receive a message requesting that you reset your Guest password. <b>This is
@@ -39,22 +40,24 @@
       because of improvements made to the internal management of Guest accounts.</p>
 
     <p>You will need to reset your password before you can authenticate to <term keyref="CAS"/>. If
-      you know your old Guest password, you can reset your password at:</p>
-    <p id="target"/>
-    <example><xref href="https://ams.iu.edu/guests/ChangeGuestPassword.aspx" format="html"
-      /></example>
+      you know your old Guest password, you can reset your password at:
+      <lines>
+        <xref href="https://ams.iu.edu/guests/ChangeGuestPassword.aspx" format="html"/>
+      </lines>
+    </p>
 
-    <p>Alternatively, or if you do not know your password, you can use the &quot;Forgot My
-      Password&quot; tool, which will send a one-time PIN to the email address associated with your
-      Guest account. This tool is at:</p>
+    <p>Alternatively, or if you do not know your password, you can use the <wintitle>Forgot My
+      Password</wintitle> tool, which will send a one-time PIN to the email address associated with your
+      Guest account. This tool is at:
+      <lines>
+        <xref href="https://ams.iu.edu/guests/ForgotGuestPassword.aspx" format="html"/>
+      </lines>
+    </p>
 
-    <example><xref href="https://ams.iu.edu/guests/ForgotGuestPassword.aspx" format="html"
-      /></example>
-
-    <p>If you have problems changing or resetting your password, contact your campus <xref
-        keyref="abxl">Support Center</xref>.</p>
+    <p>If you have problems changing or resetting your password, contact your campus <term
+      keyref="support-ctr"/>.</p>
 
     <p><note audience="sc">SC can look up Guest information in AMS Admin. From there, you will be
         able to send or resend the Guest activation PIN.</note></p>
-  </body>
-</topic>
+  </conbody>
+</concept>
