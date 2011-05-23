@@ -22,15 +22,15 @@
               %univ-atts;
               " >
 
-<!-- LONG NAME: expires: metadata, specialization of <revised> -->
+<!-- LONG NAME: expires: date this content needs to be reviewed -->
 <!ELEMENT expires    %kbDate.content;>
 <!ATTLIST expires    %kbDate.attributes;>
 
-<!-- LONG NAME: approved: metadata, specialization of <revised> -->
+<!-- LONG NAME: approved: date the owner last SOAd this content -->
 <!ELEMENT approved    %kbDate.content;>
 <!ATTLIST approved    %kbDate.attributes;>
 
-<!-- LONG NAME: owner: metadata, specialization of <data> -->
+<!-- LONG NAME: owner: group responsible for this content -->
 <!ENTITY % owner.content
                        "EMPTY
 ">
@@ -43,16 +43,20 @@
 <!ELEMENT owner    %owner.content;>
 <!ATTLIST owner    %owner.attributes;>
 
-<!ENTITY % defaultTitle.attributes
-             'id
+<!-- LONG NAME: altq: alternate title for a different audience -->
+<!ENTITY % altq.attributes
+             'conref
                         NMTOKEN
-                                  "default"
+                                  "kbdoc/default"
+              conaction
+                        CDATA
+                                  "pushreplace"
               %title.attributes;
               ' >
-<!ELEMENT defaultTitle %title.content;>
-<!ATTLIST defaultTitle %defaultTitle.attributes;>
+<!ELEMENT altq %title.content;>
+<!ATTLIST altq %altq.attributes;>
 
 <!ATTLIST approved	%global-atts; class CDATA "+ topic/revised kuali-kms-d/approved ">
 <!ATTLIST expires	%global-atts; class CDATA "+ topic/revised kuali-kms-d/expires ">
 <!ATTLIST owner	%global-atts; class CDATA "+ topic/data kuali-kms-d/owner ">
-<!ATTLIST defaultTitle	%global-atts; class CDATA "+ topic/title kuali-kms-d/defaultTitle ">
+<!ATTLIST altq	%global-atts; class CDATA "+ topic/title kuali-kms-d/altq ">

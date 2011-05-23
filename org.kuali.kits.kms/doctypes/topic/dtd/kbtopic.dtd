@@ -118,9 +118,6 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic:1.2.1"    -->
 <!ENTITY % revised      "revised |
                          %kuali-kms-d-revised;
                         ">
-<!ENTITY % title        "title |
-                         %kuali-kms-d-title;
-                        ">
 <!-- ============================================================= -->
 <!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
 <!-- ============================================================= -->
