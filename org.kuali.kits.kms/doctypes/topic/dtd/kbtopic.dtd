@@ -64,6 +64,11 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic:1.2.1"    -->
          "abbreviateDomain.ent"
 >%abbrev-d-dec;
 
+<!ENTITY % pr-d-dec     
+  PUBLIC "-//OASIS//ENTITIES DITA 1.2 Programming Domain//EN" 
+         "programmingDomain.ent"                                              
+>%pr-d-dec;
+
 <!ENTITY % sw-d-dec     
   PUBLIC "-//OASIS//ENTITIES DITA 1.2 Software Domain//EN" 
          "softwareDomain.ent"                                                 
@@ -87,15 +92,18 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic:1.2.1"    -->
                         extension was declared                     -->
 
 <!ENTITY % pre          "pre | 
+                         %pr-d-pre; | 
                          %sw-d-pre; | 
                          %ui-d-pre;
                         ">
 <!ENTITY % keyword      "keyword | 
+                         %pr-d-keyword; | 
                          %sw-d-keyword; |
                          %ui-d-keyword;
                         ">
 <!ENTITY % ph           "ph | 
                          %hi-d-ph; | 
+                         %pr-d-ph; | 
                          %sw-d-ph; | 
                          %ui-d-ph;
                         ">
@@ -103,9 +111,11 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic:1.2.1"    -->
                          %abbrev-d-term;
                         ">
 <!ENTITY % fig          "fig |
+                         %pr-d-fig; |
                          %ut-d-fig;
                         ">
-<!ENTITY % dl           "dl
+<!ENTITY % dl           "dl |
+                         %pr-d-dl;
                         ">
 <!ENTITY % index-base   "index-base | 
                          %indexing-d-index-base;
@@ -155,6 +165,7 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic:1.2.1"    -->
                            &ut-d-att; 
                            &indexing-d-att;
                            &abbrev-d-att;
+                           &pr-d-att; 
                            &sw-d-att;
                            &ui-d-att;
                            &kuali-kms-d-att;
@@ -202,6 +213,11 @@ PUBLIC "urn:pubid:org.kuali.kits.kms:doctypes:dita:topic:1.2.1"    -->
   PUBLIC "-//OASIS//ELEMENTS DITA 1.2 User Interface Domain//EN" 
          "uiDomain.mod"
 >%ui-d-def;
+
+<!ENTITY % pr-d-def     
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Programming Domain//EN" 
+         "programmingDomain.mod"
+>%pr-d-def;
 
 <!ENTITY % sw-d-def     
   PUBLIC "-//OASIS//ELEMENTS DITA 1.2 Software Domain//EN" 
