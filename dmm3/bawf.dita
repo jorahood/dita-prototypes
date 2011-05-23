@@ -30,7 +30,7 @@
     <step>
       <cmd>Follow the instructions on the Webmaster's Siteshare page to map a drive on your
         workstation to the <varname>worklist</varname> Webserve account:
-        <xref href="http://webmaster.iu.edu/tool_guide_info/siteshare/#use"
+        <xref href="http://webmaster.iu.edu/tool_guide_info/siteshare/#use" format="html"
           >http://webmaster.iu.edu/tool_guide_info/siteshare/#use</xref>
       </cmd>
     </step>
