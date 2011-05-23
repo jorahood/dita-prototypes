@@ -47,8 +47,8 @@
           <term>relrow</term>, insert three <term>relcell</term> elements:</cmd>
         <substeps>
           <substep>
-            <note>The first <term>relcell</term> contains the "origin document"; i.e., the
-              document from which the links originate. </note>
+            <note>The first <term>relcell</term> contains the "source document"; i.e., the document
+              from which the links originate. </note>
             <cmd>Insert a <term>topicref</term> with a <term>keyref</term> attribute equal
               to the <term>keys</term> attribute of the <term>topicref</term> you created in
               the domain ditamap in Step 2 above.</cmd>

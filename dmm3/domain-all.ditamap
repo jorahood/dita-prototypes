@@ -26,14 +26,17 @@
   <keydef keys="arms" href="arms.dita"/>
   <keydef keys="ataj" href="ataj.dita"/>
   <keydef keys="atau" href="atau.dita"/>
-  <mapref href="axvp.ditamap"/>
-  <keydef keys="axvp" href="axvp.dita"/>
-  <mapref href="bawf.ditamap"/>
-  <keydef keys="bawf" href="bawf.dita"/>
-  <mapref href="bawq.ditamap"/>
-  <keydef keys="bawq" href="bawq.dita"/>
+  <keydef keys="axvp" href="axvp.dita">
+    <mapref href="axvp.ditamap"/>
+  </keydef>
+  <keydef keys="bawf" href="bawf.dita">
+    <mapref href="bawf.ditamap"/>
+  </keydef>
+  <keydef keys="bawq" href="bawq.dita">
+    <mapref href="bawq.ditamap"/>
+  </keydef>
   <keydef keys="linking-new" href="linking-new.dita"/>
-  <mapref/>
+
   <!-- hotitem definitions -->
   <mapref href="hotitems.ditamap"/>
 </map>
