@@ -46,7 +46,7 @@
 <!-- LONG NAME: altq: alternate title for a different audience -->
 <!ENTITY % altq.attributes
              'conref
-                        NMTOKEN
+                        CDATA
                                   "kbdoc/default"
               conaction
                         CDATA
